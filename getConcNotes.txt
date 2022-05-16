@@ -1,0 +1,258 @@
+## Roo's Brother Marshall has found the url for the concession layer, probably.
+## let's confirm.
+
+https://geovisorm.controlrecursosyenergia.gob.ec/arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/MapServer/0
+
+## the fear is that he has an old layer, leftover from the days when they were using the old 
+## geovisor app:
+https://geo.controlminero.gob.ec:1026/geo_visor/
+
+## but I think he is aware of that old dataset. I guess the only way to check is 
+## build up a json by querying the url he found. 
+
+## one query for 1000 random objects that Marshall generated:
+
+https://geovisorm.controlrecursosyenergia.gob.ec/arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/MapServer/0/query?where=0%3D0&outFields=%2A&f=json
+
+https://geovisorm.controlrecursosyenergia.gob.ec/arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/MapServer/0/query?where=0%3D0&outFields=%2A&f=pjson
+
+
+## to get just ids, would this work?:
+
+python3
+
+import requests, re, json, pprint
+import pandas as pd
+
+concIDs = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+"arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+"MapServer/0/query?where=0%3D0&outFields=%2A&f=json&returnIdsOnly=true")
+
+## how do use these ids to get us the geometric objects?
+## we need to break this up into requests of less than 1000
+
+
+concIDs.text
+
+type(concIDs.text)
+
+aa = concIDs.text.split(',')
+bb = pd.Series(aa)
+
+allIDs = bb.drop([0,1,bb.index[-1]]).reset_index(drop=True)
+
+
+## can we make a request for just the first ten objects?
+
+cc = allIDs.iloc[0:10].to_string(index=False)
+patt = re.compile('\n +')
+dd = patt.sub(',', cc).strip()
+
+
+
+allIDs.iloc[0:10].values
+
+allIDs.iloc[0:10].to_list()
+
+first1 = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=json"
+                       "&objectIds=10915,140010"
+                       "&returnIdsOnly=true"
+                      )
+
+
+## other file formats are mentioned: 
+## https://sampleserver1.arcgisonline.com/ArcGIS/SDK/REST/formattypes.html
+
+ids=allIDs[0:3]
+
+ids=dd
+aa = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=json"
+                       "&geometryType=esriGeometryPolygon"
+                       f"&objectIds={ids}"
+                       "&returnIdsOnly=true"
+                       "&supportsQueryFormats=true"
+                      )
+
+print("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=json"
+                       "&geometryType=esriGeometryPolygon"
+                       f"&objectIds={ids}"
+                       "&returnIdsOnly=true"
+                       "&supportsQueryFormats=true"
+                      )
+
+## try it with kmz:
+ids=dd
+kmzTest = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=KMZ"
+                       f"&objectIds={ids}"
+                       )
+
+with open('test.kmz', 'wb') as kf:
+    kf.write(kmzTest.content)
+
+## that didn't work...the file is essentially empty. 
+
+## they also list something about esri shape file format..
+
+ids=dd
+kmzTest = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=kmz"
+                       "&geometryType=esriGeometryPolygon"
+                       f"&objectIds={ids}"
+                       )
+
+with open('test.kmz', 'wb') as kf:
+    kf.write(kmzTest.content)
+
+mv test.kmz test.gz
+gunzip test.kmz
+## this is mostly empty. Why?
+
+
+ids=dd
+esriTest = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=lyr"
+                       f"&objectIds={ids}"
+                       )
+
+with open('test.lyr', 'wb') as kf:
+    kf.write(esriTest.content)
+## nope, format unsupported, request denied
+
+
+## is the problem simpler when we explicitly request polygons?
+ids=dd
+test = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=json"
+                       "&geometryType=esriGeometryPolygon"
+                       f"&objectIds={ids}"
+                      )
+
+## this is so close to a geojson...frustrating...
+
+## maybe it supports geojson?
+ids=dd
+test = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=geojson"
+                       "&geometryType=esriGeometryPolygon"
+                       f"&objectIds={ids}"
+                      )
+## nope
+
+
+ids=dd
+test = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=pjson"
+                       "&geometryType=esriGeometryPolygon"
+                       f"&objectIds={ids}"
+                      )
+##
+
+test.content
+
+with open('test.json', 'wb') as f:
+    f.write(test.content)
+
+## still looks like our best hope is json
+
+ids=dd
+test = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=json"
+                       "&geometryType=esriGeometryPolygon"
+                       f"&objectIds={ids}"
+                      )
+
+##
+
+with open('test.html', 'wb') as f:
+    f.write(test.content)
+## ## for jsons
+## aa = json.loads(first2.text)
+## pprint.pprint(aa) ## looks okay
+## ## but how to get this to geojson? or anything that our software can use?
+## ## their jsons don't look easilt 
+
+## these strings are 8-bit, for accents etc,
+## to recover them:
+b'PEQUE\xc3\x91A'.decode()
+
+## tonight 
+
+## - break up series into <1000 chunks, 
+## - make requests, merge 
+## - start github repo, post everything
+
+import requests, re, json, pprint
+import pandas as pd
+
+concIDs = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+            "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+            "MapServer/0/query?where=0%3D0&outFields=%2A&f=json&returnIdsOnly=true")
+
+aa = concIDs.text.split(',')
+bb = pd.Series(aa)
+allIDs = bb.drop([0,1,bb.index[-1]]).reset_index(drop=True)
+
+cc = allIDs.iloc[0:10].to_string(index=False)
+
+patt = re.compile('\n +')
+concs2get = patt.sub(',', cc).strip()
+
+test = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=json"
+                       "&geometryType=esriGeometryPolygon"
+                       f"&objectIds={concs2get}"
+                      )
+
+
+## we want to break this up to say 900-member lists
+
+allIDs.iloc[0:900]
+allIDs.iloc[901:1800]
+allIDs.iloc[1801:2700]
+allIDs.iloc[2701:3600]
+allIDs.iloc[3601:4500]
+allIDs.iloc[4501:5400]
+allIDs.iloc[5401:6300]
+allIDs.iloc[6301:7200]
+allIDs.iloc[7201:]
+
+{'0:900':allIDs.iloc[0:900],
+ '901-1800':allIDs.iloc[901:1800],
+ '1801-2700':allIDs.iloc[1801:2700],
+ '2701-3600':allIDs.iloc[2701:3600],
+ '3601-4500':allIDs.iloc[3601:4500],
+ '4501-5400':allIDs.iloc[4501:5400],
+ '5401-6300':allIDs.iloc[5401:6300],
+ '6301-7200':allIDs.iloc[6301:7200],
+ '72010-end':allIDs.iloc[7201:]
+
+cc = allIDs.iloc[0:10].to_string(index=False)
+
+patt = re.compile('\n +')
+concs2get = patt.sub(',', cc).strip()

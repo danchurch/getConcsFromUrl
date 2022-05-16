@@ -1,0 +1,791 @@
+{
+ "displayFieldName": "fcode",
+ "fieldAliases": {
+  "objectid": "OBJECTID",
+  "nam": "Código catastral",
+  "com": "Nombre de la concesión",
+  "ttm": "Titular",
+  "frm": "Fase del recurso mineral",
+  "sol": "Tipo de solicitud",
+  "fen": "Fecha de inscripción",
+  "plz": "Plazo (meses)",
+  "dpa_despro": "Provincia",
+  "dpa_descan": "Cantón",
+  "dpa_despar": "Parroquia",
+  "tmm": "Mineral de interés",
+  "eac": "Estado actual",
+  "ach": "Superficie",
+  "tipo_mineral": "Tipo de mineral",
+  "rgm": "Regimen"
+ },
+ "geometryType": "esriGeometryPolygon",
+ "spatialReference": {
+  "wkid": 24877,
+  "latestWkid": 24877
+ },
+ "fields": [
+  {
+   "name": "objectid",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID"
+  },
+  {
+   "name": "nam",
+   "type": "esriFieldTypeString",
+   "alias": "Código catastral",
+   "length": 15
+  },
+  {
+   "name": "com",
+   "type": "esriFieldTypeString",
+   "alias": "Nombre de la concesión",
+   "length": 80
+  },
+  {
+   "name": "ttm",
+   "type": "esriFieldTypeString",
+   "alias": "Titular",
+   "length": 200
+  },
+  {
+   "name": "frm",
+   "type": "esriFieldTypeString",
+   "alias": "Fase del recurso mineral",
+   "length": 50
+  },
+  {
+   "name": "sol",
+   "type": "esriFieldTypeString",
+   "alias": "Tipo de solicitud",
+   "length": 50
+  },
+  {
+   "name": "fen",
+   "type": "esriFieldTypeDate",
+   "alias": "Fecha de inscripción",
+   "length": 36
+  },
+  {
+   "name": "plz",
+   "type": "esriFieldTypeInteger",
+   "alias": "Plazo (meses)"
+  },
+  {
+   "name": "dpa_despro",
+   "type": "esriFieldTypeString",
+   "alias": "Provincia",
+   "length": 40
+  },
+  {
+   "name": "dpa_descan",
+   "type": "esriFieldTypeString",
+   "alias": "Cantón",
+   "length": 80
+  },
+  {
+   "name": "dpa_despar",
+   "type": "esriFieldTypeString",
+   "alias": "Parroquia",
+   "length": 80
+  },
+  {
+   "name": "tmm",
+   "type": "esriFieldTypeString",
+   "alias": "Mineral de interés",
+   "length": 200
+  },
+  {
+   "name": "eac",
+   "type": "esriFieldTypeString",
+   "alias": "Estado actual",
+   "length": 50
+  },
+  {
+   "name": "ach",
+   "type": "esriFieldTypeDouble",
+   "alias": "Superficie"
+  },
+  {
+   "name": "tipo_mineral",
+   "type": "esriFieldTypeString",
+   "alias": "Tipo de mineral",
+   "length": 100
+  },
+  {
+   "name": "rgm",
+   "type": "esriFieldTypeString",
+   "alias": "Regimen",
+   "length": 50
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "objectid": 131,
+    "nam": "102041",
+    "com": "RANCHO GRANDE",
+    "ttm": "VAZQUEZ GALARZA HUGO ENRIQUE",
+    "frm": "EXPLORACION-EXPLOTACION",
+    "sol": "CONCESION MINERA",
+    "fen": 1277182800000,
+    "plz": 360,
+    "dpa_despro": "AZUAY",
+    "dpa_descan": "GUALACEO",
+    "dpa_despar": "GUALACEO",
+    "tmm": "PIEDRA DE RIO",
+    "eac": "INSCRITA",
+    "ach": 14,
+    "tipo_mineral": "MATERIAL DE CONSTRUCCION",
+    "rgm": "PEQUEÑA MINERIA"
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       745600,
+       9676200
+      ],
+      [
+       745400,
+       9676200
+      ],
+      [
+       745400,
+       9676300
+      ],
+      [
+       745500,
+       9676300
+      ],
+      [
+       745500,
+       9676500
+      ],
+      [
+       745600,
+       9676500
+      ],
+      [
+       745600,
+       9676600
+      ],
+      [
+       745700,
+       9676600
+      ],
+      [
+       745700,
+       9676800
+      ],
+      [
+       745900,
+       9676800
+      ],
+      [
+       745900,
+       9676500
+      ],
+      [
+       745800,
+       9676500
+      ],
+      [
+       745800,
+       9676400
+      ],
+      [
+       745700,
+       9676400
+      ],
+      [
+       745700,
+       9676300
+      ],
+      [
+       745600,
+       9676300
+      ],
+      [
+       745600,
+       9676200
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 169,
+    "nam": "102247",
+    "com": "NUEVO TAMBO BURGAY",
+    "ttm": "CALLE CALLE ARCENIO MARIA",
+    "frm": "EXPLOTACION",
+    "sol": "CONCESION MINERA",
+    "fen": 1273208400000,
+    "plz": 282,
+    "dpa_despro": "CAÑAR",
+    "dpa_descan": "BIBLIAN",
+    "dpa_despar": "JERUSALEN",
+    "tmm": "PIEDRA DE RIO",
+    "eac": "INSCRITA",
+    "ach": 5,
+    "tipo_mineral": "MATERIAL DE CONSTRUCCION",
+    "rgm": "REGIMEN GENERAL"
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       732200,
+       9701500
+      ],
+      [
+       732000,
+       9701500
+      ],
+      [
+       732000,
+       9701700
+      ],
+      [
+       732300,
+       9701700
+      ],
+      [
+       732300,
+       9701600
+      ],
+      [
+       732200,
+       9701600
+      ],
+      [
+       732200,
+       9701500
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 243,
+    "nam": "102527",
+    "com": "LA VICENTINA 1",
+    "ttm": " GOLDEN STAR VICENTINA MINAS CIA. LTDA.",
+    "frm": "EXPLORACION-EXPLOTACION",
+    "sol": "CONCESION MINERA",
+    "fen": 1147582800000,
+    "plz": 300,
+    "dpa_despro": "MORONA SANTIAGO",
+    "dpa_descan": "SANTIAGO",
+    "dpa_despar": "COPAL",
+    "tmm": "ORO",
+    "eac": "INSCRITA",
+    "ach": 126,
+    "tipo_mineral": "METALICO",
+    "rgm": "PEQUEÑA MINERIA"
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       793200,
+       9704700
+      ],
+      [
+       793200,
+       9704000
+      ],
+      [
+       793500,
+       9704000
+      ],
+      [
+       793500,
+       9703000
+      ],
+      [
+       793000,
+       9703000
+      ],
+      [
+       793000,
+       9703300
+      ],
+      [
+       792800,
+       9703300
+      ],
+      [
+       792800,
+       9703600
+      ],
+      [
+       792600,
+       9703600
+      ],
+      [
+       792600,
+       9704300
+      ],
+      [
+       792300,
+       9704300
+      ],
+      [
+       792300,
+       9704700
+      ],
+      [
+       793200,
+       9704700
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 274,
+    "nam": "102645",
+    "com": "AGREGADOS SANTA ISABEL 2",
+    "ttm": "GUAMAN GUEVARA JAIME RODRIGO",
+    "frm": "EXPLORACION-EXPLOTACION",
+    "sol": "CONCESION MINERA",
+    "fen": 1274763600000,
+    "plz": 360,
+    "dpa_despro": "AZUAY",
+    "dpa_descan": "SANTA ISABEL",
+    "dpa_despar": "ABDON CALDERON  (LA UNION)",
+    "tmm": "PIEDRA DE RIO",
+    "eac": "INSCRITA",
+    "ach": 39,
+    "tipo_mineral": "MATERIAL DE CONSTRUCCION",
+    "rgm": "PEQUEÑA MINERIA"
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       693800,
+       9636800
+      ],
+      [
+       693800,
+       9636700
+      ],
+      [
+       693400,
+       9636700
+      ],
+      [
+       693400,
+       9636800
+      ],
+      [
+       693200,
+       9636800
+      ],
+      [
+       693200,
+       9637000
+      ],
+      [
+       693300,
+       9637000
+      ],
+      [
+       693300,
+       9637100
+      ],
+      [
+       693700,
+       9637100
+      ],
+      [
+       693700,
+       9637300
+      ],
+      [
+       693800,
+       9637300
+      ],
+      [
+       693800,
+       9637400
+      ],
+      [
+       693900,
+       9637400
+      ],
+      [
+       693900,
+       9637500
+      ],
+      [
+       694000,
+       9637500
+      ],
+      [
+       694000,
+       9637600
+      ],
+      [
+       694100,
+       9637600
+      ],
+      [
+       694100,
+       9637100
+      ],
+      [
+       694000,
+       9637100
+      ],
+      [
+       694000,
+       9637000
+      ],
+      [
+       693900,
+       9637000
+      ],
+      [
+       693900,
+       9636800
+      ],
+      [
+       693800,
+       9636800
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 292,
+    "nam": "102695",
+    "com": "LA REVESA 2",
+    "ttm": " SOCIEDAD MINERA GUALACEO",
+    "frm": "EXPLOTACION",
+    "sol": "CONCESION MINERA",
+    "fen": 1272258000000,
+    "plz": 300,
+    "dpa_despro": "AZUAY",
+    "dpa_descan": "GUALACEO",
+    "dpa_despar": "SAN JUAN",
+    "tmm": "ARENA",
+    "eac": "INSCRITA",
+    "ach": 5,
+    "tipo_mineral": "MATERIAL DE CONSTRUCCION",
+    "rgm": "REGIMEN GENERAL"
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       744900,
+       9672800
+      ],
+      [
+       744800,
+       9672800
+      ],
+      [
+       744800,
+       9673200
+      ],
+      [
+       745000,
+       9673200
+      ],
+      [
+       745000,
+       9673100
+      ],
+      [
+       744900,
+       9673100
+      ],
+      [
+       744900,
+       9672800
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 477,
+    "nam": "190488",
+    "com": "MINA TAHUAL TASQUI",
+    "ttm": " MINISTERIO DE OBRAS PUBLICAS DEL AZUAY",
+    "frm": "",
+    "sol": "LIBRE APROVECHAMIENTO",
+    "fen": null,
+    "plz": 0,
+    "dpa_despro": "AZUAY",
+    "dpa_descan": "SIGSIG",
+    "dpa_despar": "CUCHIL",
+    "tmm": "PIEDRA DE RIO",
+    "eac": "TRAMITE",
+    "ach": 4,
+    "tipo_mineral": "MATERIAL DE CONSTRUCCION",
+    "rgm": null
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       744700,
+       9661300
+      ],
+      [
+       744500,
+       9661300
+      ],
+      [
+       744500,
+       9661500
+      ],
+      [
+       744700,
+       9661500
+      ],
+      [
+       744700,
+       9661300
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 5007,
+    "nam": "601011",
+    "com": "LUIS 3",
+    "ttm": "TORRES VITERI  LUIS ANTONIO",
+    "frm": "EXPLOTACION",
+    "sol": "CONCESION MINERA",
+    "fen": 1128315600000,
+    "plz": 300,
+    "dpa_despro": "LOJA",
+    "dpa_descan": "CHAGUARPAMBA",
+    "dpa_despar": "EL ROSARIO",
+    "tmm": "PIEDRA DE RIO",
+    "eac": "INSCRITA",
+    "ach": 8,
+    "tipo_mineral": "MATERIAL DE CONSTRUCCION",
+    "rgm": "PEQUEÑA MINERIA"
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       651500,
+       9584000
+      ],
+      [
+       651200,
+       9584000
+      ],
+      [
+       651200,
+       9584200
+      ],
+      [
+       651700,
+       9584200
+      ],
+      [
+       651700,
+       9584100
+      ],
+      [
+       651500,
+       9584100
+      ],
+      [
+       651500,
+       9584000
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 10915,
+    "nam": "105086",
+    "com": "EL RODEO 1",
+    "ttm": " COMPAÑIA MINERA ZAMORA ZAMICOM C.A.",
+    "frm": "EXPLORACION-EXPLOTACION",
+    "sol": "CONCESION MINERA",
+    "fen": 1428382800000,
+    "plz": 300,
+    "dpa_despro": "AZUAY",
+    "dpa_descan": "PAUTE",
+    "dpa_despar": "BULAN (JOSE VICTOR  IZQUIERDO)",
+    "tmm": "FELDESPATO",
+    "eac": "INSCRITA",
+    "ach": 50,
+    "tipo_mineral": "NO METALICO",
+    "rgm": "PEQUEÑA MINERIA"
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       747500,
+       9695800
+      ],
+      [
+       747500,
+       9694800
+      ],
+      [
+       747200,
+       9694800
+      ],
+      [
+       747200,
+       9695400
+      ],
+      [
+       746700,
+       9695400
+      ],
+      [
+       746700,
+       9695800
+      ],
+      [
+       747500,
+       9695800
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 140010,
+    "nam": "50000531",
+    "com": "PACHITOS",
+    "ttm": "TOLEDO JIMENEZ FABIAN MAURICIO ",
+    "frm": "EXPLORACION-EXPLOTACION",
+    "sol": "CONCESION MINERA",
+    "fen": 1497416400000,
+    "plz": 300,
+    "dpa_despro": "ZAMORA CHINCHIPE",
+    "dpa_descan": "NANGARITZA",
+    "dpa_despar": "ZURMI",
+    "tmm": "SILICE",
+    "eac": "INSCRITA",
+    "ach": 88,
+    "tipo_mineral": "NO METALICO",
+    "rgm": "PEQUEÑA MINERIA"
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       762500,
+       9542200
+      ],
+      [
+       762200,
+       9542200
+      ],
+      [
+       762200,
+       9542000
+      ],
+      [
+       762100,
+       9542000
+      ],
+      [
+       762100,
+       9542600
+      ],
+      [
+       762000,
+       9542600
+      ],
+      [
+       762000,
+       9544000
+      ],
+      [
+       762500,
+       9544000
+      ],
+      [
+       762500,
+       9542200
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 287766,
+    "nam": "50001060",
+    "com": "MAYAICU",
+    "ttm": " GAD MUNICIPAL DE PAQUISHA",
+    "frm": "",
+    "sol": "LIBRE APROVECHAMIENTO",
+    "fen": 1518584400000,
+    "plz": 48,
+    "dpa_despro": "ZAMORA CHINCHIPE",
+    "dpa_descan": "PAQUISHA",
+    "dpa_despar": "NUEVO QUITO",
+    "tmm": "ARIDOS Y PETREOS",
+    "eac": "INSCRITA",
+    "ach": 7,
+    "tipo_mineral": "MATERIAL DE CONSTRUCCION",
+    "rgm": null
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       760200,
+       9558700
+      ],
+      [
+       760200,
+       9558500
+      ],
+      [
+       760000,
+       9558500
+      ],
+      [
+       760000,
+       9558800
+      ],
+      [
+       760300,
+       9558800
+      ],
+      [
+       760300,
+       9558700
+      ],
+      [
+       760200,
+       9558700
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}
