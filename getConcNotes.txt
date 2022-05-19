@@ -210,7 +210,7 @@ b'PEQUE\xc3\x91A'.decode()
 ## okay, start over:
 
 
-import requests, re, json, pprint
+import requests, re, json, pprint, geojson
 import pandas as pd
 
 concIDs = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
@@ -406,11 +406,76 @@ with open('pretty0-499_features.txt', 'w') as f:
 ## json or geojson module
 ## for one feature from the original json:
 
-oneFeature=aa['features'][0]
+aa['features'][0]
+
+aa['features'][100]
+
+[ tuple(i) for i in oneEsri['geometry']['rings'][0] ]
 
 ## points for geojson need to be (x,y), sometimes these UTM cses don't 
 ## report that way...
 
-oneFeature['geometry']['rings'][0][0]
+oneEsri=aa['features'][0]
+oneEsri['geometry']['rings'][0][0]
 ## [762500, 9542200] looks right
 
+pprint.pprint(oneEsri)
+
+## so how do we convert this into a dictionary? We need to rename the 
+## "attributes" key to "properties"
+## and change the "rings" key to "coordinates"
+## the first and last coordinates of the geojson must match...check.
+## in geojsons, the first linear ring is the outside of the polygon,
+## and all further rings are holes in the polygon. 
+## not sure what their setup is in the esri json object, but it's
+## a good bet that they are following this protocol, given that 
+## they seem to be generally following all the other norms of 
+## linear-rings/polygons.
+## I'm sure that with 7000+ concessions, we will find both multipolygons
+## and polygons with holes. 
+## but the vast majority should be simple polygons. 
+
+## an explanation of the esri REST api json objects is here:
+https://geovisorm.controlrecursosyenergia.gob.ec/arcgis/sdk/rest/index.html#//02ss0000008m000000
+
+
+## if we assume no holes or extra polygons, how do we convert one esri json feature to one geojson feature?
+
+oneEsri=aa['features'][0]
+anotherEsri=aa['features'][400]
+
+oneEsri
+anotherEsri
+
+oneGJfeature = geojson.Feature()
+
+
+oneGJfeature['geometry'] = {"coordinates": [ tuple(i) for i in oneEsri['geometry']['rings'][0] ] }
+oneGJfeature['properties'] = oneEsri['attributes']
+
+anotherGJfeature = geojson.Feature()
+anotherGJfeature['geometry'] = {"coordinates": [ tuple(i) for i in anotherEsri['geometry']['rings'][0] ] }
+anotherGJfeature['properties'] = anotherEsri['attributes']
+
+FC = geojson.FeatureCollection([oneGJfeature, anotherGJfeature])
+
+pprint.pprint(FC)
+
+## some non-canonical geojsons addd in a note about projections:
+FC["crs"] = { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32717" } }
+
+with open('test.geojson', 'w') as f:
+   geojson.dump(FC, f)
+
+## and can we export this as a geojson?
+
+len(oneEsri['geometry']['rings'])
+
+len(aa['features'])
+
+my_point = geojson.Point((-3.68, 40.41))
+geojson.Feature(geometry=my_point)
+
+geojson.Polygon([[(2.38, 57.322), (-120.43, 19.15), (23.194, -20.28), (2.38, 57.322)]])
+
+## that's not working. maybe if we run the polygons through shapely?
