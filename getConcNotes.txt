@@ -1,3 +1,5 @@
+git remote set-url origin git@github.com:danchurch/getConcsFromUrl.git
+
 ## Roo's Brother Marshall has found the url for the concession layer, probably.
 ## let's confirm.
 
@@ -342,3 +344,73 @@ for i in brokenUpIDs500.keys():
 
 ## that worked better.
 ## now how to convert these to geojsons...
+
+## can we bring in one of these files and parse it?
+
+aa = json.load(open('0-499.json', 'r'))
+
+aa.keys()
+
+aa['displayFieldName'] ## don't need
+aa['fieldAliases'] ## explanation of the field types, don't think we need this?
+aa['geometryType'] ## 'esri geometry polygon', as requested, not needed
+aa['spatialReference'] 
+## {'wkid': 24877, 'latestWkid': 24877}, will need this in the geojson, it's PSAD_1956_UTM_Zone_17S, =  EPSG:24877
+aa['fields'] ## explanation of GIS table variable types
+aa['features'] ## this is the meat of it, the polygons in the form of esri rings, with their associated table data
+
+
+pprint.pprint(aa)
+
+## we can write out the whole thing so:
+with open('pretty0-499.txt', 'w') as f:
+    f.write( pprint.pformat(aa) )
+
+## but we may want to extract just the features
+## keep it pretty for the moment, hope this doesn't cause problems?
+
+pprint.pprint(aa['features'] )
+
+with open('pretty0-499_features.txt', 'w') as f:
+    f.write( pprint.pformat(aa['features'] ) )
+
+
+
+## but for the moment, we probably want to extract the features, and 
+## use the rings as polygons in a geojson.
+## geojson technically won't take this projection, but I think we 
+## can fudge it so qgis and geopandas will accept it. 
+
+## I think we will want to create a feature collection, where each
+## concession is a feature, with a geometry type = polygon (maybe multipolygon?), 
+## coordinates pulled from the rings object of the original json,
+## and the varies table data placed into the properties object
+
+"type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.0, 0.5]
+      },
+      "properties": {
+        "prop0": "value0"
+      }
+
+
+
+
+## I assume we're going to have to build 
+## some dictionaries and write them out with the
+## json or geojson module
+## for one feature from the original json:
+
+oneFeature=aa['features'][0]
+
+## points for geojson need to be (x,y), sometimes these UTM cses don't 
+## report that way...
+
+oneFeature['geometry']['rings'][0][0]
+## [762500, 9542200] looks right
+
