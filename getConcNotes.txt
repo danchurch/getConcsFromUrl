@@ -218,7 +218,7 @@ concIDs = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
 aa = concIDs.text.split(',')
 bb = pd.Series(aa)
 allIDs = bb.drop([0,1,bb.index[-1]]).reset_index(drop=True)
-cc = allIDs.iloc[0:10].to_string(index=False) ## this is a subsetting operation
+cc = allIDs.iloc[0:10].to_string(index=False) 
 patt = re.compile('\n +')
 concs2get = patt.sub(',', cc).strip()
 
@@ -263,29 +263,82 @@ with open('testKMZ.gz', 'wb') as f:
 ## in bash
 gunzip testKMZ.gz
 
+## works, so let's go ahead and grab them all while  
 ## we want to break this up to say 900-member lists
 
-allIDs.iloc[0:900]
-allIDs.iloc[901:1800]
-allIDs.iloc[1801:2700]
-allIDs.iloc[2701:3600]
-allIDs.iloc[3601:4500]
-allIDs.iloc[4501:5400]
-allIDs.iloc[5401:6300]
-allIDs.iloc[6301:7200]
-allIDs.iloc[7201:]
+brokenUpIDs = {'0-899':allIDs.iloc[0:900],
+      '900-1799':allIDs.iloc[900:1800],
+      '1800-2699':allIDs.iloc[1800:2700],
+      '2700-3599':allIDs.iloc[2700:3600],
+      '3600-4499':allIDs.iloc[3600:4500],
+      '4500-5399':allIDs.iloc[4500:5400],
+      '5400-6299':allIDs.iloc[5400:6300],
+      '6300-7199':allIDs.iloc[6300:7200],
+      '7200-end':allIDs.iloc[7200:]}
 
-aa = {'0:900':allIDs.iloc[0:900],
-      '901-1800':allIDs.iloc[901:1800],
-      '1801-2700':allIDs.iloc[1801:2700],
-      '2701-3600':allIDs.iloc[2701:3600],
-      '3601-4500':allIDs.iloc[3601:4500],
-      '4501-5400':allIDs.iloc[4501:5400],
-      '5401-6300':allIDs.iloc[5401:6300],
-      '6301-7200':allIDs.iloc[6301:7200],
-      '72010-end':allIDs.iloc[7201:]}
 
-cc = allIDs.iloc[0:10].to_string(index=False)
 
-patt = re.compile('\n +')
-concs2get = patt.sub(',', cc).strip()
+for i in aa.brokenUpIDs():
+    print(aa[i])
+
+
+
+
+def makeConcList(pieceOfRequest):
+    clean = pieceOfRequest.to_string(index=False)
+    patt = re.compile('\n +')
+    concs2get = patt.sub(',', clean).strip()
+    return(concs2get)
+
+
+
+for i in brokenUpIDs.keys():
+    concs2get = makeConcList(brokenUpIDs[i])
+    print(f'{i}.json')
+    concReq = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                           "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                           "MapServer/0/query?where=0%3D0"
+                           "&outFields=%2A&f=json"
+                           "&geometryType=esriGeometryPolygon"
+                           f"&objectIds={concs2get}"
+                          )
+    with open(f'{i}.json', 'wb') as f:
+        f.write(concReq.content)
+
+## for reason, that still times out...why?
+
+grep -o -w "dpa_despro" 900-1799.json | wc -l ## still only 900 geometries...
+
+
+## start over with 500 geometries per request...
+
+brokenUpIDs500 = {'0-499':allIDs.iloc[0:500],
+      '500-999':allIDs.iloc[500:1000],
+      '1000-1499':allIDs.iloc[1000:1500],
+      '1500-1999':allIDs.iloc[1500:2000],
+      '2000-2499':allIDs.iloc[2000:2500],
+      '2500-2999':allIDs.iloc[2500:3000],
+      '3000-3499':allIDs.iloc[3000:3500],
+      '3500-3999':allIDs.iloc[3500:4000],
+      '4000-4499':allIDs.iloc[4000:4500],
+      '4500-4999':allIDs.iloc[4500:5000],
+      '5500-5999':allIDs.iloc[5500:6000],
+      '6000-6499':allIDs.iloc[6000:6500],
+      '6500-6999':allIDs.iloc[6500:7000],
+      '7000-end':allIDs.iloc[7000:]}
+
+for i in brokenUpIDs500.keys():
+    concs2get = makeConcList(brokenUpIDs500[i])
+    print(f'{i}.json')
+    concReq = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                           "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                           "MapServer/0/query?where=0%3D0"
+                           "&outFields=%2A&f=json"
+                           "&geometryType=esriGeometryPolygon"
+                           f"&objectIds={concs2get}"
+                          )
+    with open(f'{i}.json', 'wb') as f:
+        f.write(concReq.content)
+
+## that worked better.
+## now how to convert these to geojsons...
