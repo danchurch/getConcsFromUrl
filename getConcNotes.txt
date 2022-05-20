@@ -210,11 +210,11 @@ b'PEQUE\xc3\x91A'.decode()
 ## okay, start over:
 
 
-import requests, re, json, pprint, geojson
+import requests, re, json, pprint, geojson, os
 import pandas as pd
 import geopandas as gpd
 import shapely.geometry as sg
-from matplotlib import pyplot as plt
+from matplotlib import pyplot as plt; plt.ion()
 from descartes.patch import PolygonPatch
 
 
@@ -553,3 +553,45 @@ with open('test.geojson', 'w') as f:
    geojson.dump(FC, f)
 
 ## that looks good. how can we loop through all files?
+
+patt = re.compile('[0-9]+-.*\.json')
+esriJsons = [ i for i in os.listdir() if patt.search(i) ]
+allGJFeatures = []
+
+for name in esriJsons:
+    json_i = json.load(open(name, 'r'))['features']
+    for i in json_i:
+        GJfeature_i = geojson.Feature()
+        ext_i = [ tuple(j) for j in i['geometry']['rings'][0] ]
+        polygon_i = sg.Polygon(ext_i, [])
+        GJfeature_i['geometry'] = sg.mapping(polygon_i)
+        GJfeature_i['properties'] = i['attributes']
+        allGJFeatures.append(GJfeature_i)
+
+FC = geojson.FeatureCollection(allGJFeatures)
+FC["crs"] = { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32717" } }
+
+with open('test.geojson', 'w') as f:
+   geojson.dump(FC, f)
+
+
+testGJ = gpd.read_file('test.geojson')
+
+testGJ.plot()
+
+## some of these are missing, right? I only see 6836 concessions, and there should be 7000+.
+
+## for example, codigo 401133 is on the arcom site but missing here. Why?
+
+grep '"nam":"401133"' -r
+
+grep '"nam":"290999"' -r -o
+
+grep '"40000339"' -r -o
+grep '"nam":"40000339"' -r -o
+
+## it looks like at least this concession (401133) was simply left out of the request results.
+
+## these are probably due to complex polygons? 
+
+## well, so much for the slam dunk. Back to this later. 
