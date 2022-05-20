@@ -212,6 +212,11 @@ b'PEQUE\xc3\x91A'.decode()
 
 import requests, re, json, pprint, geojson
 import pandas as pd
+import geopandas as gpd
+import shapely.geometry as sg
+from matplotlib import pyplot as plt
+from descartes.patch import PolygonPatch
+
 
 concIDs = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
             "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
@@ -448,15 +453,12 @@ oneEsri
 anotherEsri
 
 oneGJfeature = geojson.Feature()
-
-
 oneGJfeature['geometry'] = {"coordinates": [ tuple(i) for i in oneEsri['geometry']['rings'][0] ] }
 oneGJfeature['properties'] = oneEsri['attributes']
 
 anotherGJfeature = geojson.Feature()
 anotherGJfeature['geometry'] = {"coordinates": [ tuple(i) for i in anotherEsri['geometry']['rings'][0] ] }
 anotherGJfeature['properties'] = anotherEsri['attributes']
-
 FC = geojson.FeatureCollection([oneGJfeature, anotherGJfeature])
 
 pprint.pprint(FC)
@@ -464,18 +466,90 @@ pprint.pprint(FC)
 ## some non-canonical geojsons addd in a note about projections:
 FC["crs"] = { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32717" } }
 
+## and can we export this as a geojson?
 with open('test.geojson', 'w') as f:
    geojson.dump(FC, f)
 
-## and can we export this as a geojson?
 
-len(oneEsri['geometry']['rings'])
+## and that's not working. maybe if we run the polygons through shapely?
 
-len(aa['features'])
 
-my_point = geojson.Point((-3.68, 40.41))
-geojson.Feature(geometry=my_point)
 
-geojson.Polygon([[(2.38, 57.322), (-120.43, 19.15), (23.194, -20.28), (2.38, 57.322)]])
+##ext = [ tuple(i) for i in oneEsri['geometry']['rings'][0] ]
+## or 
+ext = [ tuple(i) for i in anotherEsri['geometry']['rings'][0] ]
+polygon = sg.Polygon(ext, [])
 
-## that's not working. maybe if we run the polygons through shapely?
+plt.ion()
+fig, ax = plt.subplots()
+patch = PolygonPatch(polygon, facecolor='green')
+ax.add_patch(patch)
+ax.set_xlim(polygon.bounds[0],polygon.bounds[2])
+ax.set_ylim(polygon.bounds[1],polygon.bounds[3])
+
+## looks good. Why does it say it is not closed?
+
+polygon.area
+polygon.is_valid ## true
+polygon.is_closed ## false
+
+## not sure. Plot looks good for both polygons, matches the arcom site, maybe not a problem.
+
+## well, if we assume these are good polygons, how to we make a geojson file out of them?
+
+
+sg.mapping(polygon)
+
+
+
+oneGJfeature = geojson.Feature()
+ext = [ tuple(i) for i in oneEsri['geometry']['rings'][0] ]
+polygon = sg.Polygon(ext, [])
+oneGJfeature['geometry'] = sg.mapping(polygon)
+oneGJfeature['properties'] = oneEsri['attributes']
+
+anotherGJfeature = geojson.Feature()
+ext = [ tuple(i) for i in anotherEsri['geometry']['rings'][0] ]
+polygon = sg.Polygon(ext, [])
+anotherGJfeature['geometry'] = sg.mapping(polygon)
+anotherGJfeature['properties'] = anotherEsri['attributes']
+
+FC = geojson.FeatureCollection([oneGJfeature, anotherGJfeature])
+
+FC["crs"] = { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32717" } }
+
+with open('test.geojson', 'w') as f:
+   geojson.dump(FC, f)
+
+## okay, qgis is accepting that. 
+
+## how about geopandas?
+
+testGJ = gpd.read_file('/home/daniel/Documents/LosCed/getConcessionScripts/test.geojson')
+
+testGJ.plot()
+
+## music to my eyes. 
+
+## so how do we scale up to do the entire esri json file?
+
+## make a loop out of this
+
+allEsriFeatures = json.load(open('0-499.json', 'r'))['features']
+allGJFeatures = []
+
+for i in allEsriFeatures:
+    GJfeature_i = geojson.Feature()
+    ext_i = [ tuple(j) for j in i['geometry']['rings'][0] ]
+    polygon_i = sg.Polygon(ext_i, [])
+    GJfeature_i['geometry'] = sg.mapping(polygon_i)
+    GJfeature_i['properties'] = i['attributes']
+    allGJFeatures.append(GJfeature_i)
+
+FC = geojson.FeatureCollection(allGJFeatures)
+FC["crs"] = { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32717" } }
+
+with open('test.geojson', 'w') as f:
+   geojson.dump(FC, f)
+
+## that looks good. how can we loop through all files?
