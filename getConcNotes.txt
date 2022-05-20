@@ -592,6 +592,19 @@ grep '"nam":"40000339"' -r -o
 
 ## it looks like at least this concession (401133) was simply left out of the request results.
 
-## these are probably due to complex polygons? 
+## are they in the names file for the request?
+
+grep "401133" concIDs.txt ## nope. but maybe that's the wrong key to search 
+
+grep "290999" concIDs.txt ## nope. so the ids that the REST api uses are different, 
+## not the "nam" field, which is the codigo catastral
+
+## however, I still have more id strings in my request than I have concessions in my shapefile.
+
+## so two mysteries to solve. 
+
+grep '"nam":"290999"' -r -o
+
+grep "," concIDs.txt -o | wc -l
 
 ## well, so much for the slam dunk. Back to this later. 
