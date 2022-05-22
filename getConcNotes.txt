@@ -813,25 +813,18 @@ missingObjGJ.shape
 
 ## great, combine them:
 
-aa = pd.concat([testGJ,missingObjGJ])
+draftConcessions = pd.concat([testGJ,missingObjGJ])
 
-ax = aa.boundary.plot()
+ax = draftConcessions.boundary.plot()
 missingObjGJ.plot(color='red', ax=ax)
 
-
-## now we are bigger than the request?
-
-concIDs.text.count(',') ## 7335
-
-aa.shape  ## 7339
-
 ## 4 columns too many. Weird.
-
+## now we are bigger than the request?
+concIDs.text.count(',') ## 7335
+draftConcessions.shape  ## 7339
 ## any duplicates?
 
-
-aa.objectid.duplicated() ## nope, weird
-
+draftConcessions.objectid.duplicated() ## nope, weird
 
 ## meh. not sure. Need a break.
 
@@ -839,4 +832,13 @@ aa.objectid.duplicated() ## nope, weird
 
 import fiona
 fiona.supported_drivers  
+
+draftConcessions.to_file('draftConcessions.05.2022.shp')
+
+draftConcessions.to_file('draftConcessions.05.2022.geojson', driver='GeoJSON')
+
+## for some reason, that is not exporting the attributes, just the 
+## the polygons.
+
+
 
