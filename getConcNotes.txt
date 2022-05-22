@@ -588,6 +588,7 @@ grep '"nam":"401133"' -r
 grep '"nam":"290999"' -r -o
 
 grep '"40000339"' -r -o
+
 grep '"nam":"40000339"' -r -o
 
 ## it looks like at least this concession (401133) was simply left out of the request results.
@@ -608,3 +609,234 @@ grep '"nam":"290999"' -r -o
 grep "," concIDs.txt -o | wc -l
 
 ## well, so much for the slam dunk. Back to this later. 
+
+
+#############################
+
+## start over. Here is our pipeline from restful request to geojson:
+
+import requests, re, json, pprint, geojson, os
+import pandas as pd
+import geopandas as gpd
+import shapely.geometry as sg
+from matplotlib import pyplot as plt; plt.ion()
+from descartes.patch import PolygonPatch
+
+## step one request all ids
+concIDs = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+        "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/MapServer/0/" 
+        "query?where=0%3D0"
+        "&outFields=%2A"
+        "&f=json"
+        "&returnIdsOnly=true"
+        )
+
+## step two reformat these ids and break up into 500-item lists
+aa = concIDs.text.split(',')
+bb = pd.Series(aa)
+allIDs = bb.drop([0,1,bb.index[-1]]).reset_index(drop=True)
+cc = allIDs.to_string(index=False) 
+patt = re.compile('\n +')
+concs2get = patt.sub(',', cc).strip()
+
+## make that into a function:
+def makeConcList(pieceOfRequest):
+    clean = pieceOfRequest.to_string(index=False)
+    patt = re.compile('\n +')
+    concs2get = patt.sub(',', clean).strip()
+    return(concs2get)
+
+brokenUpIDs500 = {'0-499':allIDs.iloc[0:500],
+      '500-999':allIDs.iloc[500:1000],
+      '1000-1499':allIDs.iloc[1000:1500],
+      '1500-1999':allIDs.iloc[1500:2000],
+      '2000-2499':allIDs.iloc[2000:2500],
+      '2500-2999':allIDs.iloc[2500:3000],
+      '3000-3499':allIDs.iloc[3000:3500],
+      '3500-3999':allIDs.iloc[3500:4000],
+      '4000-4499':allIDs.iloc[4000:4500],
+      '4500-4999':allIDs.iloc[4500:5000],
+      '5500-5999':allIDs.iloc[5500:6000],
+      '6000-6499':allIDs.iloc[6000:6500],
+      '6500-6999':allIDs.iloc[6500:7000],
+      '7000-end':allIDs.iloc[7000:]}
+
+## step three request these, 500 at a time:
+
+for i in brokenUpIDs500.keys():
+    concs2get = makeConcList(brokenUpIDs500[i])
+    print(f'{i}.json')
+    concReq = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                           "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                           "MapServer/0/query?where=0%3D0"
+                           "&outFields=%2A&f=json"
+                           "&geometryType=esriGeometryPolygon"
+                           f"&objectIds={concs2get}"
+                          )
+    with open(f'{i}.json', 'wb') as f:
+        f.write(concReq.content)
+
+
+## now we have 14 little json files that should have all of the esri polygons in them
+## loop through these files, convert the concessions to shapely polygons then
+## stick them in one big geojson:
+
+patt = re.compile('[0-9]+-.*\.json')
+esriJsons = [ i for i in os.listdir() if patt.search(i) ]
+allGJFeatures = []
+
+
+for name in esriJsons:
+    json_i = json.load(open(name, 'r'))['features']
+    for i in json_i:
+        GJfeature_i = geojson.Feature()
+        ext_i = [ tuple(j) for j in i['geometry']['rings'][0] ]
+        polygon_i = sg.Polygon(ext_i, [])
+        GJfeature_i['geometry'] = sg.mapping(polygon_i)
+        GJfeature_i['properties'] = i['attributes']
+        allGJFeatures.append(GJfeature_i)
+
+FC = geojson.FeatureCollection(allGJFeatures)
+FC["crs"] = { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32717" } }
+
+with open('test2.geojson', 'w') as f:
+   geojson.dump(FC, f)
+
+############################################
+
+## okay, just curious, do we always get the exact same number of concessions 
+## when we request their names?
+
+concIDs.text.count(',') ## yes, =7335, always
+
+## and does the above process always yield the same polygons?
+## for instance
+
+testGJ1 = gpd.read_file('test.geojson')
+gj1Ax = testGJ1.plot()
+testGJ2 = gpd.read_file('test2.geojson')
+testGJ2.boundary.plot(color='green', ax=gj1Ax)
+
+## it looks like the same polygons are missing in both, roughly
+
+gj2Ax = testGJ2.boundary.plot(color='green')
+
+
+
+testGJ1.shape
+
+testGJ2.shape ## maybe not, there are three fewer in this latest file...hmmm
+
+testGJ1.head()
+
+testGJ1.nam
+testGJ2.nam
+
+
+## in gj1 but not gj2
+aa = testGJ1.objectid.apply(lambda x: x in testGJ2.objectid.values)
+testGJ1.objectid[~aa]
+
+## in gj2 but not gj1
+testGJ2.objectid[550] in testGJ1.objectid.values
+
+## in gj2 but not gj1
+aa = testGJ2.objectid.apply(lambda x: x in testGJ1.objectid.values)
+testGJ2.objectid[~aa]
+
+## so maybe this is stochastic. A few requests are failing here and 
+## there...
+
+## so what's in our objectIDs that's not in our polygons?
+
+## numeric or string?
+1402 in testGJ1.objectid.values
+'1402' in testGJ1.objectid.values
+140289999999999 in testGJ1.objectid.values
+## numeric 
+
+
+testGJ1.objectid.to_list()
+
+'34821' in allIDs.values
+
+34821 in testGJ1.objectid.to_list()
+
+34821 in testGJ1.objectid.to_list()
+
+## staying with our original geojson ("test.geojson")
+
+bb = allIDs.astype('int64').apply(lambda x: x in testGJ1.objectid.to_list())
+missingObjIDs = allIDs[~bb]
+
+## great, what happens if we request these? 
+## run these through the above
+
+concs2get = makeConcList(missingObjIDs)
+
+concReq = requests.get("https://geovisorm.controlrecursosyenergia.gob.ec/"
+                       "arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/"
+                       "MapServer/0/query?where=0%3D0"
+                       "&outFields=%2A&f=json"
+                       "&geometryType=esriGeometryPolygon"
+                       f"&objectIds={concs2get}"
+                      )
+
+
+with open('missingObj.json', 'wb') as f:
+    f.write(concReq.content)
+
+missingJSON = json.load(open('missingObj.json', 'r'))['features']
+
+allGJFeatures = []
+for i in missingJSON:
+    GJfeature_i = geojson.Feature()
+    ext_i = [ tuple(j) for j in i['geometry']['rings'][0] ]
+    polygon_i = sg.Polygon(ext_i, [])
+    GJfeature_i['geometry'] = sg.mapping(polygon_i)
+    GJfeature_i['properties'] = i['attributes']
+    allGJFeatures.append(GJfeature_i)
+
+FC = geojson.FeatureCollection(allGJFeatures)
+FC["crs"] = { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32717" } }
+
+with open('missingObj.geojson', 'w') as f:
+   geojson.dump(FC, f)
+
+testGJ = gpd.read_file('test.geojson')
+gjAx = testGJ.boundary.plot(color='green')
+
+missingObjGJ = gpd.read_file('missingObj.geojson')
+missingObjGJ.plot(color='red', ax=gjAx)
+
+missingObjGJ.shape
+
+## great, combine them:
+
+aa = pd.concat([testGJ,missingObjGJ])
+
+ax = aa.boundary.plot()
+missingObjGJ.plot(color='red', ax=ax)
+
+
+## now we are bigger than the request?
+
+concIDs.text.count(',') ## 7335
+
+aa.shape  ## 7339
+
+## 4 columns too many. Weird.
+
+## any duplicates?
+
+
+aa.objectid.duplicated() ## nope, weird
+
+
+## meh. not sure. Need a break.
+
+## maybe Roo and Mireya would be willing to take a look at it.
+
+import fiona
+fiona.supported_drivers  
+
