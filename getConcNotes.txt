@@ -840,5 +840,130 @@ draftConcessions.to_file('draftConcessions.05.2022.geojson', driver='GeoJSON')
 ## for some reason, that is not exporting the attributes, just the 
 ## the polygons.
 
+## ok, works now. Not sure what happened there..
+
+########## analysis ###########
+
+## the aussies would like kml files for each of their australian companies
+
+import pandas as pd
+import geopandas as gpd
+from matplotlib import pyplot as plt; plt.ion()
+
+draftConcessions = gpd.read_file('draftConcessions/draftConcessions.05.2022.geojson')
+
+draftConcessions.columns
+
+draftConcessions.where(draftConcessions['com'] == 'CERRO QUEBRADO S.A')
+
+sum(draftConcessions['com'] == 'CERRO QUEBRADO S.A') ## nothing...?
+'CERRO QUEBRADO S.A' in  draftConcessions['com'].unique().tolist()
+## can't find this subsidiary
+
+## others:
+
+company = 'ECUADORFORTESCUE S.A.'
+company = 'HANRINE ECUADORIAN EXPLORATION AND MINING S.A'
+company = 'NEWCRESTECUADOR S A'
+company = 'CARNEGIE RIDGE RESOURCES S.A'
+
+company = 'CRUZ DEL SOL CSSA S.A.'
+
+(draftConcessions == company).any() ## not in there??
+
+(draftConcessions == 'PALMA REAL 4').any() ## in 'com'
+
+## so something more like this:
+draftConcessions[draftConcessions.com == 'PALMA REAL 4']
+
+draftConcessions[draftConcessions.com == 'PALMA REAL 2']
+
+draftConcessions[draftConcessions.com == 'BUEY']
+
+draftConcessions[draftConcessions.com == 'BUEY'].iloc[0].loc['ttm']
+
+## looks like we really want ttm for our company names:
+
+
+
+## https://stackoverflow.com/questions/36222857/convert-geodataframe-polygons-to-kml-file
+
+
+(draftConcessions['ttm'] == "CERRO QUEBRADO S.A").any() ## nope?
+
+draftConcessions['ttm'].str.contains( "CERRO QUEBRADO S.A").any() ## ah whitespace issues
+
+
+## we will need to clean this, there could be other problems.
+
+draftConcessions['ttm'].str.contains( "CERRO QUEBRADO S.A").to_list()
+ttmFilter = draftConcessions['ttm'].str.contains("CERRO QUEBRADO S.A").astype('bool')
+
+
+ttmFilter = draftConcessions['ttm'].str.contains("CERRO QUEBRADO").astype('bool')
+
+draftConcessions[ttmFilter]
+
+draftConcessions[ttmFilter].shape
+
+sum(aa) ## only 11, should be more? 
+
+## maybe we should take this apart. The "Concession ID" column in the aussie data 
+## may be what we need, for each 
+
+cerroQs = pd.Series([
+'PALMA REAL 4',
+'PALMA REAL 2',
+'PALMA REAL 5',
+'SABALETA 4',
+'SAN FRANCISCO',
+'SANTA TERESA',
+'PALMA REAL 1',
+'SABALETA 2',
+'PALMA REAL 1',
+'SANTA TERESA 2',
+'SABALETA 3',
+'PALMA REAL 4',
+'BUEY',
+'PALMA REAL 2',
+])
+
+## check all of these 
+
+## all are found somewhere at least once
+
+[ draftConcessions['com'].str.contains(i).any() for i in cerroQs ]
+
+cerroQs.apply(lambda x:  draftConcessions['com'].str.contains(x).any()) 
+
+cerroQs.apply(lambda x:  draftConcessions['ttm'].str.contains(x).any()) ## only one, 4
+cerroQs[4] ## SAN FRANCISCO, could be anything, ignore
+
+## "com" is what we need, using the "Concession ID". Rebuild our groups from this. 
+
+i = 'BUEY'
+filtComp = draftConcessions['com'].str.contains(i).astype('bool')
+iDF = draftConcessions[filtComp]
+
+i = 'BUEY'
+
+def getTTMs(ttm_i):
+    filtComp_i = draftConcessions['com'].str.contains(ttm_i).astype('bool')
+    i_DF = draftConcessions[filtComp_i]
+    return(i_DF)
+
+getTTMs(i)
+
+aa = pd.DataFrame()
+for i in cerroQs:
+    aa = pd.concat([aa, getTTMs(i)])
+
+aa['ttm']
+
+aa[['nam','ttm','com','tipo_mineral']]
+
+aa[['nam','ttm','com','tipo_mineral']].query('ttm', 
+
+## huh, now we have the opposite problem. This is too big. 
 
 
