@@ -962,8 +962,61 @@ aa['ttm']
 
 aa[['nam','ttm','com','tipo_mineral']]
 
-aa[['nam','ttm','com','tipo_mineral']].query('ttm', 
 
 ## huh, now we have the opposite problem. This is too big. 
+## would some of these problems go away if we cleaned up the white space?
+
+draftConcessions['ttm'] = draftConcessions['ttm'].str.strip()
+(draftConcessions['ttm'] == "CERRO QUEBRADO S.A").any() ## now it works
+sum(draftConcessions['ttm'] == "CERRO QUEBRADO S.A") ## still too few
+
+cqFilt = draftConcessions['ttm'] == "CERRO QUEBRADO S.A" 
+onlyCQdf = draftConcessions[cqFilt]
+
+## so what are we missing? 
+
+onlyCQdf['com']
+
+len(onlyCQdf['com'])
+
+len(cerroQs) ## 14
+
+len(cerroQs.unique()) ## 11, looks like repeated names
+
+len(set((cerroQs))) ## indeed, there are some repeats.
+
+cerroQs[cerroQs.duplicated()] ## PALMA REAL 1,2, and 4 are 
+
+## in the data from RIC:
+## PALMA REAL 1 has exactly the same area in both cases, probably a duplicate
+## PALMA REAL 2 also has exactly the same area in both cases, also probably a duplicate
+## PALMA REAL 4 also has exactly the same area in both cases, also probably a duplicate
 
 
+cerroQs.isin(onlyCQdf['com'])
+
+cerroQs
+
+onlyCQdf['com']
+
+## ok, let's check other groups, maybe it is just this one that didn't work out
+
+## the next group is the subsidiary of ECUADORFORTESCUE S.A.
+
+EFttmFilter = draftConcessions['ttm'].str.contains("ECUADORFORTESCUE S.A.").astype('bool')
+
+EFdf = draftConcessions[EFttmFilter]
+
+ecuadorforteConcNames = pd.Series(
+["2C", "7B", "8O", "7H", "7F", "8H", "8K", "8L", "SANTA ANA", "7C", "8E", "7M", "7D", "8G",
+"8J2", "8I", "10A", "7E", "7K", "8M", "8C", "8B", "2D", "7J", "7G", "7A", "8P", "8F", "2A",
+"7I", "8D", "8A", "2B", "8N", "7L"]
+)
+
+ecuadorforteConcNames.isin(EFdf["com"]).all() ## all are represented, and the same length.
+
+"7E" in EFdf["com"].values
+
+"7E".isin(EFdf["com"])
+
+ecuadorforteConcNames.isin
