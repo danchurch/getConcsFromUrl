@@ -846,6 +846,7 @@ draftConcessions.to_file('draftConcessions.05.2022.geojson', driver='GeoJSON')
 
 ## the aussies would like kml files for each of their australian companies
 
+import fiona
 import pandas as pd
 import geopandas as gpd
 from matplotlib import pyplot as plt; plt.ion()
@@ -853,6 +854,8 @@ from matplotlib import pyplot as plt; plt.ion()
 draftConcessions = gpd.read_file('draftConcessions/draftConcessions.05.2022.geojson')
 
 draftConcessions.columns
+
+#### BHP ####
 
 draftConcessions.where(draftConcessions['com'] == 'CERRO QUEBRADO S.A')
 
@@ -883,11 +886,6 @@ draftConcessions[draftConcessions.com == 'BUEY']
 draftConcessions[draftConcessions.com == 'BUEY'].iloc[0].loc['ttm']
 
 ## looks like we really want ttm for our company names:
-
-
-
-## https://stackoverflow.com/questions/36222857/convert-geodataframe-polygons-to-kml-file
-
 
 (draftConcessions['ttm'] == "CERRO QUEBRADO S.A").any() ## nope?
 
@@ -992,19 +990,24 @@ cerroQs[cerroQs.duplicated()] ## PALMA REAL 1,2, and 4 are
 ## PALMA REAL 2 also has exactly the same area in both cases, also probably a duplicate
 ## PALMA REAL 4 also has exactly the same area in both cases, also probably a duplicate
 
+## so we're probably okay. 
 
-cerroQs.isin(onlyCQdf['com'])
+## if we want to make a kml file out of these?
 
-cerroQs
+## there are rumors that fiona can do it. Let's try:
 
-onlyCQdf['com']
+# Enable fiona driver
+fiona.supported_drivers['KML'] = 'rw'
 
-## ok, let's check other groups, maybe it is just this one that didn't work out
+# Write to kml file
+with fiona.Env():
+    onlyCQdf.to_file('kmls/BHP.kml', driver='KML') 
 
-## the next group is the subsidiary of ECUADORFORTESCUE S.A.
+## that seems to work.
+
+#### ECUADORFORTESCUE S.A. ####
 
 EFttmFilter = draftConcessions['ttm'].str.contains("ECUADORFORTESCUE S.A.").astype('bool')
-
 EFdf = draftConcessions[EFttmFilter]
 
 ecuadorforteConcNames = pd.Series(
@@ -1017,6 +1020,27 @@ ecuadorforteConcNames.isin(EFdf["com"]).all() ## all are represented, and the sa
 
 "7E" in EFdf["com"].values
 
-"7E".isin(EFdf["com"])
+EFdf.shape ## 35 rows, matches
 
-ecuadorforteConcNames.isin
+ecuadorforteConcNames.duplicated().any()
+
+ecuadorforteConcNames.isin(EFdf["com"]).all()
+EFdf["com"].isin(ecuadorforteConcNames).all()
+
+EFdf[["com","ttm","ach"]].sort_values(by='com')
+
+## generally, looks right 
+
+## next? the legendary Hancock. 
+
+subsid = "HANRINE ECUADORIAN EXPLORATION AND MINING S.A"
+subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
+df = draftConcessions[subsidFilter]
+df.sort_values(by='com') ## concession names look right
+df.shape  ## nine concessions, right
+
+
+
+
+
+## https://stackoverflow.com/questions/36222857/convert-geodataframe-polygons-to-kml-file

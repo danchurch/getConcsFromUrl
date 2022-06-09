@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="sample_out" id="sample_out">
+	<SimpleField name="objectid" type="string"></SimpleField>
+	<SimpleField name="nam" type="string"></SimpleField>
+	<SimpleField name="com" type="string"></SimpleField>
+	<SimpleField name="ttm" type="string"></SimpleField>
+	<SimpleField name="frm" type="string"></SimpleField>
+	<SimpleField name="sol" type="string"></SimpleField>
+	<SimpleField name="fen" type="float"></SimpleField>
+	<SimpleField name="plz" type="float"></SimpleField>
+	<SimpleField name="dpa_despro" type="string"></SimpleField>
+	<SimpleField name="dpa_descan" type="string"></SimpleField>
+	<SimpleField name="dpa_despar" type="string"></SimpleField>
+	<SimpleField name="tmm" type="string"></SimpleField>
+	<SimpleField name="eac" type="string"></SimpleField>
+	<SimpleField name="ach" type="float"></SimpleField>
+	<SimpleField name="tipo_mineral" type="string"></SimpleField>
+	<SimpleField name="rgm" type="string"></SimpleField>
+</Schema>
+<Folder><name>sample_out</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sample_out">
+		<SimpleData name="objectid">241213</SimpleData>
+		<SimpleData name="nam">40000327</SimpleData>
+		<SimpleData name="com">SANTA TERESA 2</SimpleData>
+		<SimpleData name="ttm">CERRO QUEBRADO S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1503032400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">COTACACHI</SimpleData>
+		<SimpleData name="dpa_despar">APUELA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4940</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.4261178322319,0.361524950251505 -78.4799857558819,0.3615401714906 -78.4799755576847,0.396790326367389 -78.5194802901614,0.396802352979027 -78.5194733641626,0.41939928929563 -78.426100230597,0.419368921060444 -78.4261178322319,0.361524950251505</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sample_out">
+		<SimpleData name="objectid">286156</SimpleData>
+		<SimpleData name="nam">60000526</SimpleData>
+		<SimpleData name="com">SAN FRANCISCO</SimpleData>
+		<SimpleData name="ttm">CERRO QUEBRADO S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1519621200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">QUILANGA</SimpleData>
+		<SimpleData name="dpa_despar">SAN ANTONIO DE LAS ARADAS (CAB. EN ARADAS)</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2465</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">MEDIANA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.3013261109459,-4.37598038520613 -79.3779029284818,-4.37615039690329 -79.3779592129932,-4.34992529502307 -79.3013850495221,-4.34975630594071 -79.3013261109459,-4.37598038520613</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sample_out">
+		<SimpleData name="objectid">311413</SimpleData>
+		<SimpleData name="nam">40000432</SimpleData>
+		<SimpleData name="com">PALMA REAL 1</SimpleData>
+		<SimpleData name="ttm">CERRO QUEBRADO S.A</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">ESMERALDAS</SimpleData>
+		<SimpleData name="dpa_descan">ELOY ALFARO</SimpleData>
+		<SimpleData name="dpa_despar">TELEMBI</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3255</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0052544396852,0.556070193906251 -79.0070507777207,0.556070804894775 -79.0070504741468,0.556974984459833 -79.0079486440412,0.556975290244437 -79.0079483401109,0.557879470302977 -79.0088465106352,0.557879776446173 -79.0088462063489,0.558783956997967 -79.0106425491498,0.558784569862583 -79.0106422446452,0.559688751403167 -79.0115404169216,0.559689058123916 -79.011540112062,0.560593240157075 -79.0133364583662,0.560593854174113 -79.0133361532898,0.561498037194713 -79.0142343273174,0.561498344490331 -79.0142340218872,0.562402528002827 -79.0151321965441,0.562402835654354 -79.0151318907606,0.563307019658518 -79.0169282418245,0.56330763553331 -79.0169279358264,0.564211820523114 -79.0178261122331,0.564212128745709 -79.0178258058828,0.565116314226502 -79.019622160445,0.565116931240746 -79.0196218538817,0.56602111770583 -79.020520032037,0.566021426496808 -79.0205197251225,0.566925613452202 -79.0214179039069,0.566925922596406 -79.0214175966417,0.567830110041882 -79.0232139559579,0.567830728895542 -79.0232136484819,0.568734917323509 -79.0241118290136,0.568735227032294 -79.024111521188,0.569639415949663 -79.0259078839978,0.569640035929803 -79.025907575963,0.570544225828314 -79.0268057582409,0.570544536098997 -79.0268054498576,0.571448726486232 -79.027703632764,0.571449037107458 -79.0277033240327,0.572353227983188 -79.0294996915907,0.572353849784406 -79.0294993826523,0.573258041639478 -79.0303975673037,0.573258352818799 -79.0303972580184,0.574162545161687 -79.0321936290651,0.574163168076412 -79.0321933195744,0.575067361397293 -79.0330915059695,0.575067673132026 -79.0330911961329,0.575971866940043 -79.0339893831562,0.575972179022636 -79.0339890729743,0.576876373317563 -79.0357854487634,0.576876998035028 -79.0357851383783,0.577781193306147 -79.036683327144,0.577781505940349 -79.0366830164146,0.578685701697698 -79.0384793956875,0.578686327515697 -79.0384790847565,0.579590524247889 -79.0393772752635,0.579590837431016 -79.0393769639893,0.580495034648759 -79.0771014067605,0.580508079330442 -79.0770907435478,0.611251473763892 -79.0052350014682,0.611225081195402 -79.0052544396852,0.556070193906251</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sample_out">
+		<SimpleData name="objectid">309018</SimpleData>
+		<SimpleData name="nam">40000423</SimpleData>
+		<SimpleData name="com">PALMA REAL 2</SimpleData>
+		<SimpleData name="ttm">CERRO QUEBRADO S.A</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">ESMERALDAS</SimpleData>
+		<SimpleData name="dpa_descan">QUININDE</SimpleData>
+		<SimpleData name="dpa_despar">MALIMPIA</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3132</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9271076238437,0.578646445322576 -79.0052466953886,0.578674657297821 -79.0052350014682,0.611225081195402 -78.9270954726301,0.611195282185312 -78.9271076238437,0.578646445322576</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sample_out">
+		<SimpleData name="objectid">311412</SimpleData>
+		<SimpleData name="nam">40000431</SimpleData>
+		<SimpleData name="com">PALMA REAL 4</SimpleData>
+		<SimpleData name="ttm">CERRO QUEBRADO S.A</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">ESMERALDAS</SimpleData>
+		<SimpleData name="dpa_descan">ELOY ALFARO</SimpleData>
+		<SimpleData name="dpa_despar">TELEMBI</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3335</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9271203453526,0.54248106635908 -78.9881938639775,0.542501825429171 -78.9881935650045,0.543405994561262 -78.9890917224677,0.5434062957189 -78.9890914231303,0.544310465349231 -78.9899895812247,0.544310766873509 -78.9899892815233,0.545214937001852 -78.9917855994718,0.545215540648088 -78.9917852995407,0.54611971177467 -78.9926834593946,0.546120013895957 -78.9926831591006,0.547024185519872 -78.9944794805669,0.547024790357443 -78.9944791800448,0.547928962978247 -78.995377341657,0.547929265693859 -78.9953770407731,0.548833438811317 -78.9962752030161,0.548833741890888 -78.9962749017708,0.549737915504773 -78.9980712280141,0.549738522255109 -78.9980709265429,0.550642696864081 -78.998969090543,0.550643000534176 -78.9989687887116,0.551547175638896 -78.9998669533421,0.551547479671384 -78.9998666511509,0.552451655271623 -79.001662982168,0.552452263923992 -79.0016626797531,0.55335644051752 -79.0025608461394,0.55335674513673 -79.0025605433658,0.554260922225098 -79.0043568778932,0.554261532048227 -79.0043565748975,0.555165710128534 -79.0052547430384,0.555166015331783 -79.0052466953886,0.578674657297821 -78.9271076238437,0.578646445322576 -78.9271203453526,0.54248106635908</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sample_out">
+		<SimpleData name="objectid">311410</SimpleData>
+		<SimpleData name="nam">40000429</SimpleData>
+		<SimpleData name="com">PALMA REAL 5</SimpleData>
+		<SimpleData name="ttm">CERRO QUEBRADO S.A</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">ESMERALDAS</SimpleData>
+		<SimpleData name="dpa_descan">ELOY ALFARO</SimpleData>
+		<SimpleData name="dpa_despar">TELEMBI</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3217</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9271350929077,0.497274336194268 -78.9828192825122,0.497291709072149 -78.9828165119557,0.506333371539686 -78.9837146611465,0.506333652901997 -78.9837124097556,0.513566986702493 -78.9846105604467,0.513567271957583 -78.9846082781323,0.520800609601581 -78.9855064303376,0.520800898745885 -78.9855038257331,0.528938407902014 -78.9864019795964,0.528938701433756 -78.986399335782,0.537076214878719 -78.987297491321,0.53707651279389 -78.9872957071455,0.542501524638621 -78.9271203453526,0.54248106635908 -78.9271350929077,0.497274336194268</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sample_out">
+		<SimpleData name="objectid">285753</SimpleData>
+		<SimpleData name="nam">60000525</SimpleData>
+		<SimpleData name="com">BUEY</SimpleData>
+		<SimpleData name="ttm">CERRO QUEBRADO S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1519621200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">ESPINDOLA</SimpleData>
+		<SimpleData name="dpa_despar">EL INGENIO</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1652</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">MEDIANA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.3525358879166,-4.44030064923004 -79.3993877674838,-4.44040387151164 -79.3994286138007,-4.42141311342756 -79.3778050839947,-4.42136604495553 -79.377844343661,-4.40327979257393 -79.3526177980909,-4.40322431067558 -79.3525358879166,-4.44030064923004</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sample_out">
+		<SimpleData name="objectid">242007</SimpleData>
+		<SimpleData name="nam">40000329</SimpleData>
+		<SimpleData name="com">SABALETA 2</SimpleData>
+		<SimpleData name="ttm">CERRO QUEBRADO S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1503032400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">COTACACHI</SimpleData>
+		<SimpleData name="dpa_despar">GARCIA MORENO (LLURIMAGUA)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4391</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8669964026597,0.377009766986034 -78.8660983357289,0.377009545366404 -78.8660989939139,0.374297247309591 -78.8634047971204,0.374296586679306 -78.8634050157344,0.373392488918798 -78.8625069512855,0.373392269056179 -78.8625071694623,0.372488171826046 -78.8607110423344,0.372487732889549 -78.8607112601648,0.371583636722834 -78.8589151353371,0.371583198484642 -78.8589155697735,0.369775008277862 -78.8580175083362,0.369774790088075 -78.8580179408342,0.367966600940362 -78.8562218199119,0.367966166422084 -78.8562222506499,0.366157979401786 -78.8553241911645,0.366157763074635 -78.8553248335613,0.363445484131987 -78.8535287167199,0.363445054413321 -78.8535293548731,0.360732778660126 -78.8526312975155,0.360732565270621 -78.8526323509207,0.356212108317582 -78.8535304078386,0.356212319032967 -78.8535308253066,0.354404135168741 -78.8526327685631,0.354403925523003 -78.8526385855209,0.328185274169565 -78.9460390387926,0.328205030128423 -78.9460320672265,0.360754280545054 -78.8867578486412,0.360740611436623 -78.8867531318653,0.380631065109452 -78.8669955180585,0.38062616649281 -78.8669964026597,0.377009766986034</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sample_out">
+		<SimpleData name="objectid">242008</SimpleData>
+		<SimpleData name="nam">40000330</SimpleData>
+		<SimpleData name="com">SABALETA 3</SimpleData>
+		<SimpleData name="ttm">CERRO QUEBRADO S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1503032400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">COTACACHI</SimpleData>
+		<SimpleData name="dpa_despar">GARCIA MORENO (LLURIMAGUA)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4919</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.840071992205,0.298347776771046 -78.8571349254236,0.298351137021501 -78.8571391341781,0.275748782055403 -78.9235964491592,0.27576064350892 -78.9235864953833,0.328200361155773 -78.8400658810017,0.328182547756339 -78.840071992205,0.298347776771046</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sample_out">
+		<SimpleData name="objectid">242009</SimpleData>
+		<SimpleData name="nam">40000331</SimpleData>
+		<SimpleData name="com">SABALETA 4</SimpleData>
+		<SimpleData name="ttm">CERRO QUEBRADO S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1503032400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">COTACACHI</SimpleData>
+		<SimpleData name="dpa_despar">GARCIA MORENO (LLURIMAGUA)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4002</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9235964491592,0.27576064350892 -78.9855659418745,0.275771367447646 -78.9855562846679,0.328213124439841 -78.9235864953833,0.328200361155773 -78.9235964491592,0.27576064350892</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#sample_out">
+		<SimpleData name="objectid">219993</SimpleData>
+		<SimpleData name="nam">40000304</SimpleData>
+		<SimpleData name="com">SANTA TERESA</SimpleData>
+		<SimpleData name="ttm">CERRO QUEBRADO S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1503032400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">COTACACHI</SimpleData>
+		<SimpleData name="dpa_despar">APUELA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4326</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.4916244725759,0.466390975792925 -78.4871352932574,0.466389362795976 -78.4871403454674,0.45192768382617 -78.4736729278767,0.451922978162478 -78.4736750997242,0.445596059294806 -78.4503319294555,0.445587958411645 -78.4503252611512,0.46456836956711 -78.4431428140852,0.464565755221603 -78.4431447531304,0.459142811237297 -78.4260866166958,0.459136645596605 -78.426100230597,0.419368921060444 -78.5194733641626,0.41939928929563 -78.5194627169301,0.451938875057944 -78.5104842001942,0.451935780878711 -78.510477918815,0.470013203385328 -78.4916231869525,0.470006407938495 -78.4916244725759,0.466390975792925</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
