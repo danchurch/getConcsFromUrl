@@ -1034,18 +1034,60 @@ EFdf["com"].isin(ecuadorforteConcNames).all()
 
 EFdf[["com","ttm","ach"]].sort_values(by='com')
 
+EFdf.shape
+
 ## generally, looks right 
 
-## next? the legendary Hancock. 
+with fiona.Env():
+    EFdf.to_file('kmls/ecuadorfortescue.kml', driver='KML') 
+
+#### Hancock ####
 
 subsid = "HANRINE ECUADORIAN EXPLORATION AND MINING S.A"
+filename = "hancock"
+#######
 subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
 df = draftConcessions[subsidFilter]
 df.sort_values(by='com') ## concession names look right
 df.shape  ## nine concessions, right
 
+with fiona.Env():
+    df.to_file(('kmls/' + filename + '.kml'), driver='KML') 
 
-## https://stackoverflow.com/questions/36222857/convert-geodataframe-polygons-to-kml-file
 
 
+#### Newcrest ####
 
+subsid = "NEWCRESTECUADOR S A"
+filename = "newcrest"
+#######
+subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
+df = draftConcessions[subsidFilter]
+df.sort_values(by='com')
+df.shape  
+with fiona.Env():
+    df.to_file(('kmls/' + filename + '.kml'), driver='KML') 
+
+
+#### SolGold ####
+
+## solgold has several subsidiaries
+
+CARNEGIE RIDGE RESOURCES S.A
+CRUZ DEL SOL CSSA S.A.
+EXPLORACIONES NOVOMINING S.A.
+GREEN ROCK RESOURCES GRR SA
+VALLE RICO RESOURCES VRR SA
+
+## should be 103 concessions, I think
+
+subsid = ""
+filename = ""
+#######
+subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
+df = draftConcessions[subsidFilter]
+df.sort_values(by='com')
+df.shape  
+
+with fiona.Env():
+    df.to_file(('kmls/' + filename + '.kml'), driver='KML') 

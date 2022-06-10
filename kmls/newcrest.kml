@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="newcrest" id="newcrest">
+	<SimpleField name="objectid" type="string"></SimpleField>
+	<SimpleField name="nam" type="string"></SimpleField>
+	<SimpleField name="com" type="string"></SimpleField>
+	<SimpleField name="ttm" type="string"></SimpleField>
+	<SimpleField name="frm" type="string"></SimpleField>
+	<SimpleField name="sol" type="string"></SimpleField>
+	<SimpleField name="fen" type="float"></SimpleField>
+	<SimpleField name="plz" type="float"></SimpleField>
+	<SimpleField name="dpa_despro" type="string"></SimpleField>
+	<SimpleField name="dpa_descan" type="string"></SimpleField>
+	<SimpleField name="dpa_despar" type="string"></SimpleField>
+	<SimpleField name="tmm" type="string"></SimpleField>
+	<SimpleField name="eac" type="string"></SimpleField>
+	<SimpleField name="ach" type="float"></SimpleField>
+	<SimpleField name="tipo_mineral" type="string"></SimpleField>
+	<SimpleField name="rgm" type="string"></SimpleField>
+</Schema>
+<Folder><name>newcrest</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#newcrest">
+		<SimpleData name="objectid">313021</SimpleData>
+		<SimpleData name="nam">40000440</SimpleData>
+		<SimpleData name="com">CARCHI 2</SimpleData>
+		<SimpleData name="ttm">NEWCRESTECUADOR S A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1515992400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ESMERALDAS</SimpleData>
+		<SimpleData name="dpa_descan">SAN LORENZO</SimpleData>
+		<SimpleData name="dpa_despar">ALTO TAMBO (CAB. EN GUADAL)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4536</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.557877374706,0.85328497953529 -78.553387622447,0.853282106386092 -78.5533949990961,0.841531418031438 -78.5120901163284,0.841505105526453 -78.5121239231918,0.786368974236961 -78.504940695062,0.786364656101402 -78.5049606543797,0.752017738401547 -78.5139396240553,0.752022898428821 -78.5139370580084,0.756542261063116 -78.518426570551,0.756544849582896 -78.5184229587661,0.762871978748001 -78.5256062211827,0.76287614523208 -78.5256025898243,0.769203308753207 -78.5318879857894,0.769206974701772 -78.5318848572644,0.774630283406124 -78.5381702911035,0.774633965838001 -78.5381666227115,0.780961189215843 -78.5444520957442,0.780964892286165 -78.5444478775151,0.788196038754216 -78.5507333910937,0.788199766585357 -78.5507302100439,0.793623151909458 -78.5570157614653,0.793626895797148 -78.5570120322342,0.799954208330931 -78.5632976228505,0.799957972397533 -78.5632582251108,0.864135289192684 -78.5578704873,0.864131804617258 -78.557877374706,0.85328497953529</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#newcrest">
+		<SimpleData name="objectid">313022</SimpleData>
+		<SimpleData name="nam">40000441</SimpleData>
+		<SimpleData name="com">CARCHI 3</SimpleData>
+		<SimpleData name="ttm">NEWCRESTECUADOR S A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1515992400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ESMERALDAS</SimpleData>
+		<SimpleData name="dpa_descan">SAN LORENZO</SimpleData>
+		<SimpleData name="dpa_despar">ALTO TAMBO (CAB. EN GUADAL)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3674</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.5910701653613,0.903021915942366 -78.5874782260676,0.903019516914397 -78.5874806063301,0.899403829649851 -78.5838886801255,0.899401436677334 -78.5838928287496,0.893074000613995 -78.5767090173636,0.893069237763982 -78.57671491057,0.884030091189909 -78.5695311549967,0.884025362590439 -78.569535840195,0.876794083670351 -78.563250097732,0.876789968635006 -78.5632582251108,0.864135289192684 -78.5632933356309,0.807189220490143 -78.5695789668272,0.807193008825257 -78.56955756917,0.842445504674067 -78.5776392092693,0.842450573168136 -78.5776364091367,0.846970150615222 -78.5884120172037,0.846976918529003 -78.5884080893483,0.853304377329158 -78.5982858216358,0.853310600962265 -78.5982830096574,0.857830247220775 -78.6054668685401,0.857834781385323 -78.6054629186278,0.8641623194011 -78.6108508465535,0.864165736153272 -78.6108457369212,0.872301174006403 -78.6108417296494,0.878628736516215 -78.6162296993748,0.878632202653574 -78.6162268257784,0.883151907850269 -78.6216148232235,0.883155383972518 -78.6216119413907,0.887675106841937 -78.6278979727898,0.88767917310617 -78.6278857407269,0.906662094807129 -78.6108236348711,0.906650796228806 -78.6108176766225,0.915690169328286 -78.5910617716939,0.915676854373375 -78.5910701653613,0.903021915942366</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#newcrest">
+		<SimpleData name="objectid">286158</SimpleData>
+		<SimpleData name="nam">40000384</SimpleData>
+		<SimpleData name="com">CARCHI 1</SimpleData>
+		<SimpleData name="ttm">NEWCRESTECUADOR S A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1515992400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ESMERALDAS</SimpleData>
+		<SimpleData name="dpa_descan">SAN LORENZO</SimpleData>
+		<SimpleData name="dpa_despar">ALTO TAMBO (CAB. EN GUADAL)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4946</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.5183755584621,0.841509137948716 -78.5533949990961,0.841531418031438 -78.553387622447,0.853282106386092 -78.557877374706,0.85328497953529 -78.5578704873,0.864131804617258 -78.5632582251108,0.864135289192684 -78.563250097732,0.876789968635006 -78.569535840195,0.876794083670351 -78.5695311549967,0.884025362590439 -78.57671491057,0.884030091189909 -78.5767090173636,0.893069237763982 -78.5838928287496,0.893074000613995 -78.5838886801255,0.899401436677334 -78.5874806063301,0.899403829649851 -78.5874782260676,0.903019516914397 -78.5910701653613,0.903021915942366 -78.5910617716939,0.915676854373375 -78.5865718334614,0.915673812991648 -78.5865706225791,0.917481655253985 -78.5183253820297,0.917434638015497 -78.5183755584621,0.841509137948716</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#newcrest">
+		<SimpleData name="objectid">302637</SimpleData>
+		<SimpleData name="nam">40000420</SimpleData>
+		<SimpleData name="com">AURORA 3</SimpleData>
+		<SimpleData name="ttm">NEWCRESTECUADOR S A</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">ESMERALDAS</SimpleData>
+		<SimpleData name="dpa_descan">ELOY ALFARO</SimpleData>
+		<SimpleData name="dpa_despar">TELEMBI</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">4100</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0771248601535,0.506362231486624 -79.1220354574977,0.506375489453903 -79.122012551087,0.580523278760998 -79.0771014067605,0.580508079330442 -79.0771248601535,0.506362231486624</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#newcrest">
+		<SimpleData name="objectid">303830</SimpleData>
+		<SimpleData name="nam">40000418</SimpleData>
+		<SimpleData name="com">AURORA 1</SimpleData>
+		<SimpleData name="ttm">NEWCRESTECUADOR S A</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">ESMERALDAS</SimpleData>
+		<SimpleData name="dpa_descan">ELOY ALFARO</SimpleData>
+		<SimpleData name="dpa_despar">TELEMBI</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">1596</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0429823639519,0.542519920178225 -79.0771138192906,0.542530940160137 -79.0771014067605,0.580508079330442 -79.0429697314378,0.580496287901324 -79.0429823639519,0.542519920178225</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

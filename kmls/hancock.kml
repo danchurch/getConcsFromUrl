@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="hancock" id="hancock">
+	<SimpleField name="objectid" type="string"></SimpleField>
+	<SimpleField name="nam" type="string"></SimpleField>
+	<SimpleField name="com" type="string"></SimpleField>
+	<SimpleField name="ttm" type="string"></SimpleField>
+	<SimpleField name="frm" type="string"></SimpleField>
+	<SimpleField name="sol" type="string"></SimpleField>
+	<SimpleField name="fen" type="float"></SimpleField>
+	<SimpleField name="plz" type="float"></SimpleField>
+	<SimpleField name="dpa_despro" type="string"></SimpleField>
+	<SimpleField name="dpa_descan" type="string"></SimpleField>
+	<SimpleField name="dpa_despar" type="string"></SimpleField>
+	<SimpleField name="tmm" type="string"></SimpleField>
+	<SimpleField name="eac" type="string"></SimpleField>
+	<SimpleField name="ach" type="float"></SimpleField>
+	<SimpleField name="tipo_mineral" type="string"></SimpleField>
+	<SimpleField name="rgm" type="string"></SimpleField>
+</Schema>
+<Folder><name>hancock</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hancock">
+		<SimpleData name="objectid">123100</SimpleData>
+		<SimpleData name="nam">40000154</SimpleData>
+		<SimpleData name="com">IMBA02</SimpleData>
+		<SimpleData name="ttm">HANRINE ECUADORIAN EXPLORATION AND MINING S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1515992400000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">SAN MIGUEL DE URCUQUI</SimpleData>
+		<SimpleData name="dpa_despar">LA MERCED DE BUENOS AIRES</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4810</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">MEDIANA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3452137567554,0.629012450744678 -78.4035693698585,0.629042026034799 -78.4035345347956,0.695922861874943 -78.3451781409809,0.695890141806256 -78.3452137567554,0.629012450744678</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hancock">
+		<SimpleData name="objectid">234402</SimpleData>
+		<SimpleData name="nam">40000315</SimpleData>
+		<SimpleData name="com">IMBA05</SimpleData>
+		<SimpleData name="ttm">HANRINE ECUADORIAN EXPLORATION AND MINING S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1515733200000</SimpleData>
+		<SimpleData name="plz">0</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">SAN MIGUEL DE URCUQUI</SimpleData>
+		<SimpleData name="dpa_despar">LA MERCED DE BUENOS AIRES</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4960</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">MEDIANA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.4035693698585,0.629042026034799 -78.4394818691648,0.629059900381411 -78.4394223382159,0.74113366324369 -78.403509006231,0.741112604075485 -78.4035693698585,0.629042026034799</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hancock">
+		<SimpleData name="objectid">347563</SimpleData>
+		<SimpleData name="nam">100000394</SimpleData>
+		<SimpleData name="com">LORENA02</SimpleData>
+		<SimpleData name="ttm">HANRINE ECUADORIAN EXPLORATION AND MINING S.A</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">0</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">QUITO</SimpleData>
+		<SimpleData name="dpa_despar">GUALEA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">4545</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7251506945379,0.140122099025535 -78.725155563253,0.07412911160373 -78.8077704660473,0.074133308696853 -78.8077677764329,0.116624350453296 -78.8041757230232,0.116624068445568 -78.8041752927196,0.122048443549363 -78.8077673468318,0.122048738673766 -78.8077665085126,0.131993450349371 -78.7960923599981,0.131992411134692 -78.796092674096,0.128376180824855 -78.7898066331617,0.128375634359552 -78.7898075256387,0.117526989545474 -78.7718475638344,0.117525552324008 -78.7718482529536,0.108485125464975 -78.7628683574072,0.10848445811395 -78.7628680183807,0.113004643744695 -78.7538881768277,0.113003945797027 -78.7538885172123,0.108483788084254 -78.7359290037642,0.108482439989176 -78.7359286606636,0.113002541531185 -78.7332347525214,0.113002329928734 -78.7332342480553,0.119330460212091 -78.7359281567957,0.119330683664311 -78.7359263079715,0.140123150442562 -78.7251506945379,0.140122099025535</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hancock">
+		<SimpleData name="objectid">347565</SimpleData>
+		<SimpleData name="nam">100000396</SimpleData>
+		<SimpleData name="com">LORENA03</SimpleData>
+		<SimpleData name="ttm">HANRINE ECUADORIAN EXPLORATION AND MINING S.A</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">0</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">QUITO</SimpleData>
+		<SimpleData name="dpa_despar">NANEGAL</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">4730</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7323409629644,0.024408488343484 -78.7323410956526,0.014464289394871 -78.7251573834237,0.014464216982288 -78.7251574326707,0.008136122053815 -78.7844241240542,0.008136454248434 -78.7844223032423,0.074132138267391 -78.725155563253,0.07412911160373 -78.7251572503161,0.024408366147245 -78.7323409629644,0.024408488343484</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hancock">
+		<SimpleData name="objectid">275664</SimpleData>
+		<SimpleData name="nam">40000372</SimpleData>
+		<SimpleData name="com">AMADORES</SimpleData>
+		<SimpleData name="ttm">HANRINE ECUADORIAN EXPLORATION AND MINING S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1519880400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">IBARRA</SimpleData>
+		<SimpleData name="dpa_despar">CAROLINA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3962</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.2418936894667,0.7699318086481 -78.249973081958,0.769937066004093 -78.2499742394868,0.76812970442314 -78.2580536836921,0.768134934096788 -78.2580554098124,0.765423873233571 -78.2616462892956,0.765426184422014 -78.2616508564668,0.758196666768104 -78.2526736930392,0.758190937768562 -78.2526714074272,0.76180566931287 -78.2499782694079,0.761803938755498 -78.2499765463807,0.764514981210009 -78.2418971640362,0.764509760881833 -78.24190969398,0.744628917770094 -78.2463982125861,0.744631744361626 -78.2463998928988,0.741920709852267 -78.2867972987682,0.741945850757904 -78.2868081826296,0.723871673910893 -78.3316956028411,0.723898503772689 -78.3316854400057,0.741069608296374 -78.2957752341167,0.741047671769992 -78.2957469769351,0.786233444032488 -78.2643260970144,0.786212824582864 -78.2643201770835,0.79524974071402 -78.2418771500348,0.795234696167006 -78.2418936894667,0.7699318086481</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hancock">
+		<SimpleData name="objectid">123099</SimpleData>
+		<SimpleData name="nam">40000153</SimpleData>
+		<SimpleData name="com">IMBA01</SimpleData>
+		<SimpleData name="ttm">HANRINE ECUADORIAN EXPLORATION AND MINING S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1515733200000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">SAN MIGUEL DE URCUQUI</SimpleData>
+		<SimpleData name="dpa_despar">LA MERCED DE BUENOS AIRES</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3891</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">MEDIANA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3003051209133,0.669656623226515 -78.3092824694597,0.669661595474413 -78.3092921985411,0.651587076070712 -78.3003148823589,0.651582238037667 -78.3003177587026,0.646159922197544 -78.3030109436943,0.646161363201189 -78.3030263185419,0.616338557292418 -78.3137990572599,0.616344041577305 -78.313792648951,0.628996254107491 -78.331747468633,0.62900553259628 -78.3317538342327,0.616353133416024 -78.3497088752236,0.61636216445576 -78.3497025523364,0.629014749037919 -78.3452137567554,0.629012450744678 -78.3451781409809,0.695890141806256 -78.3002904923228,0.695864479103009 -78.3003051209133,0.669656623226515</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hancock">
+		<SimpleData name="objectid">237992</SimpleData>
+		<SimpleData name="nam">40000316</SimpleData>
+		<SimpleData name="com">IMBA06</SimpleData>
+		<SimpleData name="ttm">HANRINE ECUADORIAN EXPLORATION AND MINING S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1515733200000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">SAN MIGUEL DE URCUQUI</SimpleData>
+		<SimpleData name="dpa_despar">LA MERCED DE BUENOS AIRES</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">594</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">MEDIANA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.2868673907098,0.616330289830914 -78.3030263185419,0.616338557292418 -78.3030109436943,0.646161363201189 -78.2868519240185,0.646152695669787 -78.2868673907098,0.616330289830914</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hancock">
+		<SimpleData name="objectid">332354</SimpleData>
+		<SimpleData name="nam">40000486</SimpleData>
+		<SimpleData name="com">DAYANA</SimpleData>
+		<SimpleData name="ttm">HANRINE ECUADORIAN EXPLORATION AND MINING S.A</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">IBARRA</SimpleData>
+		<SimpleData name="dpa_despar">LITA</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3850</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3586187883337,0.741085868799192 -78.3316854400057,0.741069608296374 -78.3316956028411,0.723898503772689 -78.2868081826296,0.723871673910893 -78.2868193217372,0.704893786493682 -78.3765954449205,0.704945604669931 -78.3765528785854,0.777247624288987 -78.3585968371178,0.777236350942361 -78.3586187883337,0.741085868799192</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#hancock">
+		<SimpleData name="objectid">135158</SimpleData>
+		<SimpleData name="nam">40000182</SimpleData>
+		<SimpleData name="com">IMBA03</SimpleData>
+		<SimpleData name="ttm">HANRINE ECUADORIAN EXPLORATION AND MINING S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1515992400000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">IBARRA</SimpleData>
+		<SimpleData name="dpa_despar">CAROLINA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4965</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">MEDIANA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.2329871549515,0.651545440697582 -78.2868490333706,0.651574950862779 -78.2868519240185,0.646152695669787 -78.3003177587026,0.646159922197544 -78.3003148823589,0.651582238037667 -78.3092921985411,0.651587076070712 -78.3092824694597,0.669661595474413 -78.3003051209133,0.669656623226515 -78.3002904923228,0.695864479103009 -78.2509160082739,0.695835754667583 -78.2508889836373,0.741019839975679 -78.2329349579362,0.741008579366394 -78.2329871549515,0.651545440697582</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

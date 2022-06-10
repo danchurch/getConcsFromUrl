@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ecuadorfortescue" id="ecuadorfortescue">
+	<SimpleField name="objectid" type="string"></SimpleField>
+	<SimpleField name="nam" type="string"></SimpleField>
+	<SimpleField name="com" type="string"></SimpleField>
+	<SimpleField name="ttm" type="string"></SimpleField>
+	<SimpleField name="frm" type="string"></SimpleField>
+	<SimpleField name="sol" type="string"></SimpleField>
+	<SimpleField name="fen" type="float"></SimpleField>
+	<SimpleField name="plz" type="float"></SimpleField>
+	<SimpleField name="dpa_despro" type="string"></SimpleField>
+	<SimpleField name="dpa_descan" type="string"></SimpleField>
+	<SimpleField name="dpa_despar" type="string"></SimpleField>
+	<SimpleField name="tmm" type="string"></SimpleField>
+	<SimpleField name="eac" type="string"></SimpleField>
+	<SimpleField name="ach" type="float"></SimpleField>
+	<SimpleField name="tipo_mineral" type="string"></SimpleField>
+	<SimpleField name="rgm" type="string"></SimpleField>
+</Schema>
+<Folder><name>ecuadorfortescue</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170982</SimpleData>
+		<SimpleData name="nam">100000211</SimpleData>
+		<SimpleData name="com">2A</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1483678800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1992</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.856236520357,-0.300159148116774 -78.8679112642944,-0.300161446713808 -78.867910203866,-0.305586050078965 -78.8562354541328,-0.30558370994028 -78.8562282578919,-0.339939266747357 -78.8831702127818,-0.339945252806425 -78.8831825554857,-0.27756169411112 -78.8562407573961,-0.277556806575717 -78.856236520357,-0.300159148116774</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170985</SimpleData>
+		<SimpleData name="nam">90000344</SimpleData>
+		<SimpleData name="com">8B</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487221200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">GUALAQUIZA</SimpleData>
+		<SimpleData name="dpa_despar">AMAZONAS</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4164</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7945515992297,-3.56465621024758 -78.8323408984533,-3.56474634797902 -78.832477396632,-3.50598341290079 -78.8288786006153,-3.50597503609002 -78.8288973514504,-3.49783864291712 -78.8324961164455,-3.49784700024114 -78.8325499500895,-3.47434179962697 -78.7947642881718,-3.47425395331249 -78.7945515992297,-3.56465621024758</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170989</SimpleData>
+		<SimpleData name="nam">50000629</SimpleData>
+		<SimpleData name="com">8E</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YACUAMBI</SimpleData>
+		<SimpleData name="dpa_despar">28 DE MAYO</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4058</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8825165090089,-3.65617553771814 -78.911312820189,-3.65624328693064 -78.9113420702159,-3.64358603433897 -78.923961153371,-3.63457431177411 -78.9240393598947,-3.6002186090029 -78.9114415808487,-3.60018971100731 -78.9115358191096,-3.55860152644098 -78.8827425768093,-3.55853559104051 -78.8825165090089,-3.65617553771814</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170994</SimpleData>
+		<SimpleData name="nam">50000634</SimpleData>
+		<SimpleData name="com">8K</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YANTZAZA</SimpleData>
+		<SimpleData name="dpa_despar">YANTZAZA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4342</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8379815275549,-3.83597483816593 -78.8820838214566,-3.83608558126728 -78.8822208731046,-3.78003329082445 -78.8660518280608,-3.76733662078343 -78.8661045567898,-3.74563916163313 -78.8382061478298,-3.74557049697694 -78.8379815275549,-3.83597483816593</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170998</SimpleData>
+		<SimpleData name="nam">50000638</SimpleData>
+		<SimpleData name="com">8O</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">CENTINELA DEL CONDOR</SimpleData>
+		<SimpleData name="dpa_despar">PANGUINTZA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3584</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7964311620921,-3.89372586946882 -78.8468359112112,-3.89385663974982 -78.8469818913149,-3.83599762381132 -78.7965805528703,-3.83586880228076 -78.7964311620921,-3.89372586946882</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170999</SimpleData>
+		<SimpleData name="nam">50000639</SimpleData>
+		<SimpleData name="com">8M</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YANTZAZA</SimpleData>
+		<SimpleData name="dpa_despar">YANTZAZA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4692</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7941729102347,-3.72014764322444 -78.8058714996501,-3.72017693662636 -78.8058356361173,-3.73464134061732 -78.7941368558628,-3.73461193301013 -78.7941097226206,-3.74546014699344 -78.8382061478298,-3.74557049697694 -78.8384253737846,-3.65516595591059 -78.7943334116111,-3.65505827641351 -78.7941729102347,-3.72014764322444</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171387</SimpleData>
+		<SimpleData name="nam">50000641</SimpleData>
+		<SimpleData name="com">8P</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1490331600000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YANTZAZA</SimpleData>
+		<SimpleData name="dpa_despar">CHICAÑA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1820</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.686228054291,-3.70540669054437 -78.7492158512344,-3.70556967751965 -78.7492750920495,-3.68206591042914 -78.6862889493931,-3.68190395999752 -78.686228054291,-3.70540669054437</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170984</SimpleData>
+		<SimpleData name="nam">50000628</SimpleData>
+		<SimpleData name="com">8A</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YACUAMBI</SimpleData>
+		<SimpleData name="dpa_despar">LA PAZ</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3826</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.832485721952,-3.50236722968351 -78.8342851163048,-3.50237140856251 -78.834274716928,-3.50689164294362 -78.8324753139513,-3.50688745865832 -78.8323408984533,-3.56474634797902 -78.8827281109164,-3.56486411286485 -78.8828594076856,-3.50700330749004 -78.8387732338132,-3.50690208848218 -78.8388476535022,-3.47435629335722 -78.8325499500895,-3.47434179962697 -78.832485721952,-3.50236722968351</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170992</SimpleData>
+		<SimpleData name="nam">50000632</SimpleData>
+		<SimpleData name="com">8H</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YANTZAZA</SimpleData>
+		<SimpleData name="dpa_despar">CHICAÑA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2765</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7691385960119,-3.65499577100213 -78.7943334116111,-3.65505827641351 -78.7944715108236,-3.59810499721953 -78.7881731598852,-3.59808968036389 -78.7881840576078,-3.59356959484165 -78.7944823775755,-3.59358489240699 -78.7945515992297,-3.56465621024758 -78.7693592709265,-3.56459525469371 -78.7691385960119,-3.65499577100213</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170986</SimpleData>
+		<SimpleData name="nam">90000345</SimpleData>
+		<SimpleData name="com">8C</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487221200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">GUALAQUIZA</SimpleData>
+		<SimpleData name="dpa_despar">AMAZONAS</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4538</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7496116435027,-3.54556300176631 -78.769404905998,-3.54561112183354 -78.7693592709265,-3.56459525469371 -78.7945515992297,-3.56465621024758 -78.7947642881718,-3.47425395331249 -78.7497826227796,-3.47414739881406 -78.7496116435027,-3.54556300176631</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170988</SimpleData>
+		<SimpleData name="nam">90000346</SimpleData>
+		<SimpleData name="com">8D</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487221200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">GUALAQUIZA</SimpleData>
+		<SimpleData name="dpa_despar">NUEVA TARQUI</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4802</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7055276291319,-3.54545430060913 -78.7496116435027,-3.54556300176631 -78.749823222231,-3.4569714768575 -78.7057433438055,-3.45686549819125 -78.7055276291319,-3.54545430060913</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171423</SimpleData>
+		<SimpleData name="nam">70000241</SimpleData>
+		<SimpleData name="com">7C</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487826000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">BOLIVAR</SimpleData>
+		<SimpleData name="dpa_descan">CHILLANES</SimpleData>
+		<SimpleData name="dpa_despar">SAN JOSE DEL TAMBO (TAMBOPAMBA)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4850</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1973387984662,-2.02377237269132 -79.2422785462509,-2.02382199921621 -79.2423709797607,-1.93610567701516 -79.1974335921473,-1.93605820300702 -79.1973387984662,-2.02377237269132</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171425</SimpleData>
+		<SimpleData name="nam">70000243</SimpleData>
+		<SimpleData name="com">7E</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487826000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">BOLIVAR</SimpleData>
+		<SimpleData name="dpa_descan">CHILLANES</SimpleData>
+		<SimpleData name="dpa_despar">CHILLANES</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4850</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1074626852838,-2.02366936649733 -79.1524001688648,-2.02372149506617 -79.1524973224253,-1.93600953216411 -79.1075621984244,-1.93595966463621 -79.1074626852838,-2.02366936649733</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171422</SimpleData>
+		<SimpleData name="nam">70000240</SimpleData>
+		<SimpleData name="com">7B</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487826000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOS RIOS</SimpleData>
+		<SimpleData name="dpa_descan">BABAHOYO</SimpleData>
+		<SimpleData name="dpa_despar">FEBRES CORDERO (LAS JUNTAS. CAB. EN MATA DE CACAO)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3983</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.2422012416863,-2.09435670173269 -79.243998933422,-2.09435872910282 -79.244000946683,-2.09255014605765 -79.2628767931956,-2.09257129006399 -79.2630425457869,-1.93612711312142 -79.2423709797607,-1.93610567701516 -79.2422012416863,-2.09435670173269</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171426</SimpleData>
+		<SimpleData name="nam">70000244</SimpleData>
+		<SimpleData name="com">7H</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487826000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">BOLIVAR</SimpleData>
+		<SimpleData name="dpa_descan">CHILLANES</SimpleData>
+		<SimpleData name="dpa_despar">SAN JOSE DEL TAMBO (TAMBOPAMBA)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4827</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1074150192789,-2.0643594005851 -79.1083137801424,-2.06436047664167 -79.1083105701218,-2.0670731462181 -79.1110068600966,-2.06707637556698 -79.1110015083023,-2.0715974983791 -79.1074064457706,-2.0715931821307 -79.107358754222,-2.11137896808629 -79.1522987021371,-2.1114333579283 -79.1524001688648,-2.02372149506617 -79.1074626852838,-2.02366936649733 -79.1074150192789,-2.0643594005851</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171427</SimpleData>
+		<SimpleData name="nam">70000245</SimpleData>
+		<SimpleData name="com">7F</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487826000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOS RIOS</SimpleData>
+		<SimpleData name="dpa_descan">BABAHOYO</SimpleData>
+		<SimpleData name="dpa_despar">FEBRES CORDERO (LAS JUNTAS. CAB. EN MATA DE CACAO)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4808</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.197239796385,-2.11148644256239 -79.2242049915903,-2.11151766677489 -79.2242121681538,-2.1051876951926 -79.2296052332168,-2.10519386507202 -79.2295980784207,-2.11152385522229 -79.2421820091212,-2.11153822182515 -79.2422785462509,-2.02382199921621 -79.1973387984662,-2.02377237269132 -79.197239796385,-2.11148644256239</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171428</SimpleData>
+		<SimpleData name="nam">70000246</SimpleData>
+		<SimpleData name="com">7I</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487826000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">GUAYAS</SimpleData>
+		<SimpleData name="dpa_descan">GNRAL. ANTONIO ELIZALDE</SimpleData>
+		<SimpleData name="dpa_despar">GNRAL. ANTONIO ELIZALDE</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4788</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1521929210658,-2.19914511642133 -79.1647770325136,-2.19916073519038 -79.1647858595498,-2.19192672835541 -79.1773765557805,-2.18651664554824 -79.178272148794,-2.18923051649404 -79.1665802849374,-2.19464169898316 -79.1665747700234,-2.19916295774222 -79.1971365847559,-2.19920040830089 -79.197239796385,-2.11148644256239 -79.1522987021371,-2.1114333579283 -79.1521929210658,-2.19914511642133</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170995</SimpleData>
+		<SimpleData name="nam">50000635</SimpleData>
+		<SimpleData name="com">8L</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YANTZAZA</SimpleData>
+		<SimpleData name="dpa_despar">CHICAÑA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3516</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7690690571301,-3.68301989150903 -78.7555715937541,-3.68298585536709 -78.7554919614401,-3.71462567543597 -78.7599912612435,-3.71463714150536 -78.7599729998692,-3.72186911934247 -78.7536141690831,-3.74535684631508 -78.7941097226206,-3.74546014699344 -78.7941368558628,-3.73461193301013 -78.7806383788725,-3.73457780722527 -78.780674653434,-3.72011364996801 -78.7941729102347,-3.72014764322444 -78.7943334116111,-3.65505827641351 -78.7691385960119,-3.65499577100213 -78.7690690571301,-3.68301989150903</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171424</SimpleData>
+		<SimpleData name="nam">70000242</SimpleData>
+		<SimpleData name="com">7G</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487826000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">BOLIVAR</SimpleData>
+		<SimpleData name="dpa_descan">CHILLANES</SimpleData>
+		<SimpleData name="dpa_despar">SAN JOSE DEL TAMBO (TAMBOPAMBA)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4832</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1522987021371,-2.1114333579283 -79.197239796385,-2.11148644256239 -79.1973387984662,-2.02377237269132 -79.1685779449535,-2.02373995512819 -79.1685769298647,-2.02464420990986 -79.1649818537528,-2.02464011985663 -79.1649808362189,-2.02554437279949 -79.1586894670766,-2.02553719272462 -79.1586915086554,-2.02372869324412 -79.1524001688648,-2.02372149506617 -79.1522987021371,-2.1114333579283</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171429</SimpleData>
+		<SimpleData name="nam">70000247</SimpleData>
+		<SimpleData name="com">7A</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487826000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">GUAYAS</SimpleData>
+		<SimpleData name="dpa_descan">GNRAL. ANTONIO ELIZALDE</SimpleData>
+		<SimpleData name="dpa_despar">GNRAL. ANTONIO ELIZALDE</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3498</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1144772240281,-2.17016242009615 -79.1306561542656,-2.17018262326209 -79.130620368073,-2.19911809342192 -79.1521929210658,-2.19914511642133 -79.1522987021371,-2.1114333579283 -79.1145490677073,-2.11138775816413 -79.1144772240281,-2.17016242009615</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170990</SimpleData>
+		<SimpleData name="nam">50000630</SimpleData>
+		<SimpleData name="com">8F</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YACUAMBI</SimpleData>
+		<SimpleData name="dpa_despar">28 DE MAYO</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4900</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8384253737846,-3.65516595591059 -78.8825186304821,-3.6552714651697 -78.8827281109164,-3.56486411286485 -78.8386392081281,-3.56476121976933 -78.8384253737846,-3.65516595591059</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170991</SimpleData>
+		<SimpleData name="nam">50000631</SimpleData>
+		<SimpleData name="com">8G</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YANTZAZA</SimpleData>
+		<SimpleData name="dpa_despar">CHICAÑA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4896</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7944758591742,-3.59629695535225 -78.7962753894259,-3.59630132138943 -78.7962710446162,-3.59810936545729 -78.7944715108236,-3.59810499721953 -78.7943334116111,-3.65505827641351 -78.8384253737846,-3.65516595591059 -78.8386392081281,-3.56476121976933 -78.7945515992297,-3.56465621024758 -78.7944758591742,-3.59629695535225</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170993</SimpleData>
+		<SimpleData name="nam">50000633</SimpleData>
+		<SimpleData name="com">8I</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YACUAMBI</SimpleData>
+		<SimpleData name="dpa_despar">LA PAZ</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1040</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8823558930022,-3.72398092304656 -78.9031885533402,-3.66707334026858 -78.905005180152,-3.65984488848217 -78.9095046519222,-3.65985543274604 -78.911312820189,-3.65624328693064 -78.8825165090089,-3.65617553771814 -78.8823558930022,-3.72398092304656</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170996</SimpleData>
+		<SimpleData name="nam">50000636</SimpleData>
+		<SimpleData name="com">8J2</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YACUAMBI</SimpleData>
+		<SimpleData name="dpa_despar">LA PAZ</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4336</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8382061478298,-3.74557049697694 -78.8679044717855,-3.74564356104093 -78.8778561773868,-3.72397005518642 -78.8823558930022,-3.72398092304656 -78.8824867529229,-3.66883255135049 -78.8617894476058,-3.66878311366503 -78.8618023374326,-3.66335875300535 -78.8609024663882,-3.66335659585518 -78.8609067605334,-3.66154847654653 -78.8663059839771,-3.66156139945966 -78.8663209588546,-3.65523295887132 -78.8384253737846,-3.65516595591059 -78.8382061478298,-3.74557049697694</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">170997</SimpleData>
+		<SimpleData name="nam">50000637</SimpleData>
+		<SimpleData name="com">8N</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YANTZAZA</SimpleData>
+		<SimpleData name="dpa_despar">YANTZAZA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4870</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7939036965733,-3.82682165930952 -78.7966036916514,-3.82682862790886 -78.7965805528703,-3.83586880228076 -78.8379815275549,-3.83597483816593 -78.8382061478298,-3.74557049697694 -78.7941097226206,-3.74546014699344 -78.7939036965733,-3.82682165930952</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171430</SimpleData>
+		<SimpleData name="nam">70000248</SimpleData>
+		<SimpleData name="com">7D</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487826000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">BOLIVAR</SimpleData>
+		<SimpleData name="dpa_descan">CHILLANES</SimpleData>
+		<SimpleData name="dpa_despar">SAN JOSE DEL TAMBO (TAMBOPAMBA)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4698</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1524001688648,-2.02372149506617 -79.1559952174282,-2.023725611313 -79.155998280843,-2.02101286614708 -79.1595933307625,-2.02101696887643 -79.1595943489994,-2.02011271862943 -79.1658857004538,-2.02011987596032 -79.1658988509358,-2.00836458010346 -79.1730889427001,-2.00837268247788 -79.1730859266533,-2.01108545417153 -79.1766789803395,-2.01289801695045 -79.1766769695216,-2.01470653495805 -79.1676893065994,-2.01469638998942 -79.1676791757408,-2.02373893382253 -79.1973387984662,-2.02377237269132 -79.1974085963024,-1.95956922710836 -79.1902186177332,-1.95956142653639 -79.1902215288468,-1.95684862722309 -79.1974114958659,-1.95685641698794 -79.1974335921473,-1.93605820300702 -79.1524973224253,-1.93600953216411 -79.1524001688648,-2.02372149506617</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171456</SimpleData>
+		<SimpleData name="nam">10000326</SimpleData>
+		<SimpleData name="com">7M</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1482814800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CAÑAR</SimpleData>
+		<SimpleData name="dpa_descan">CAÑAR</SimpleData>
+		<SimpleData name="dpa_despar">GENERAL MORALES</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3961</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0485974463628,-2.36900028005409 -79.0665758072019,-2.36902563138559 -79.0665632397018,-2.37806760411824 -79.0998239280732,-2.37811406326531 -79.0999130099369,-2.31210634286864 -79.0486762425132,-2.31203643351905 -79.0485974463628,-2.36900028005409</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">172161</SimpleData>
+		<SimpleData name="nam">100000149</SimpleData>
+		<SimpleData name="com">SANTA ANA</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1481086800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">MEJIA</SimpleData>
+		<SimpleData name="dpa_despar">MANUEL CORNEJO ASTORGA (TANDAPI)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4977</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7520463300952,-0.384212883141918 -78.8086213340209,-0.384227686935893 -78.8086378470184,-0.312806557442754 -78.7520632685459,-0.312794505470651 -78.7520463300952,-0.384212883141918</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">243205</SimpleData>
+		<SimpleData name="nam">50000640</SimpleData>
+		<SimpleData name="com">10A</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1487566800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">ZAMORA</SimpleData>
+		<SimpleData name="dpa_despar">ZAMORA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4707.05</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9191012839581,-4.14808869488888 -78.9190965498272,-4.14989686137553 -78.9172957044442,-4.14989210490302 -78.9171453841812,-4.2068492384257 -78.9612698703253,-4.20696617818173 -78.9613991450232,-4.15662433583168 -78.960972301401,-4.15639835535103 -78.960305151027,-4.15561908963247 -78.9598490726383,-4.15504831683744 -78.9591832058572,-4.15398877982901 -78.9589384275499,-4.15331910255891 -78.9587646476888,-4.15239645898019 -78.9583808022131,-4.15109354254047 -78.9579609951014,-4.15020642550721 -78.9577864951628,-4.14956405429962 -78.9576136910955,-4.14826168633217 -78.957685687276,-4.14761995375547 -78.9582170075783,-4.14628324426738 -78.9586061929749,-4.14550671521848 -78.9588911357086,-4.1443411477874 -78.9589277437875,-4.14367219948982 -78.9587550092937,-4.14255969502491 -78.9586863790241,-4.14189047470313 -78.958478885595,-4.14050664708598 -78.9583405323286,-4.13959313654116 -78.9580601374896,-4.13898665712539 -78.9577114868443,-4.13778328781935 -78.9578906227383,-4.13661744654516 -78.9579641180422,-4.13538804438375 -78.9578256022678,-4.13453782177526 -78.9574751156756,-4.13383170997894 -78.9569828443378,-4.13267317667927 -78.9565276762615,-4.13174980838718 -78.9563191624958,-4.13076379012951 -78.9562854441087,-4.13008561901591 -78.9562874340906,-4.12930808875491 -78.9564667257918,-4.12807896030239 -78.9568200931258,-4.12743795260111 -78.9571042799995,-4.12656169807004 -78.9571419905098,-4.12545877835515 -78.9565105627894,-4.12458016423936 -78.9560195124153,-4.12404547238117 -78.9555986829923,-4.12333918230879 -78.9553900058039,-4.12241645169552 -78.9553224560046,-4.12132230296243 -78.9552192681069,-4.12030039223796 -78.9554672113033,-4.1197314411519 -78.9558560950894,-4.11906340045077 -78.9562196327703,-4.11840433511195 -78.956922920649,-4.11802641782319 -78.957499781928,-4.11779283239668 -78.9585086444597,-4.11741569876277 -78.9593018708785,-4.11685718692293 -78.9598565663844,-4.11655124286194 -78.9173830243812,-4.11644104914539 -78.9173004426649,-4.1480839404958 -78.9191012839581,-4.14808869488888</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171453</SimpleData>
+		<SimpleData name="nam">10000324</SimpleData>
+		<SimpleData name="com">7J</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1482210000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CAÑAR</SimpleData>
+		<SimpleData name="dpa_descan">CAÑAR</SimpleData>
+		<SimpleData name="dpa_despar">CAÑAR</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4959</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0540695130449,-2.31204387985731 -79.105306443756,-2.3121135937041 -79.1054090347588,-2.23344652688679 -79.0541748741363,-2.23337918732396 -79.0540695130449,-2.31204387985731</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171454</SimpleData>
+		<SimpleData name="nam">20000218</SimpleData>
+		<SimpleData name="com">7K</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1486702800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CHIMBORAZO</SimpleData>
+		<SimpleData name="dpa_descan">ALAUSI</SimpleData>
+		<SimpleData name="dpa_despar">HUIGRA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4872</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0037330042461,-2.31197358049481 -79.0540695130449,-2.31204387985731 -79.0541748741363,-2.23337918732396 -79.0038410864173,-2.23331128218643 -79.0037330042461,-2.31197358049481</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">171455</SimpleData>
+		<SimpleData name="nam">10000325</SimpleData>
+		<SimpleData name="com">7L</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1482814800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CAÑAR</SimpleData>
+		<SimpleData name="dpa_descan">CAÑAR</SimpleData>
+		<SimpleData name="dpa_despar">GENERAL MORALES</SimpleData>
+		<SimpleData name="tmm">PLOMO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4234</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0998239280732,-2.37811406326531 -79.151963600158,-2.3781852710864 -79.1520502411089,-2.31217557213112 -79.0999130099369,-2.31210634286864 -79.0998239280732,-2.37811406326531</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">332364</SimpleData>
+		<SimpleData name="nam">70000437</SimpleData>
+		<SimpleData name="com">2B</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">SANTO DOMINGO DE LOS TSACHILAS</SimpleData>
+		<SimpleData name="dpa_descan">SANTO DOMINGO</SimpleData>
+		<SimpleData name="dpa_despar">ALLURIQUIN</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">1662</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7691285613029,-0.296525438403112 -78.771822566759,-0.296525984866171 -78.7718192225339,-0.312798748930853 -78.8086378470184,-0.312806557442754 -78.8086447512983,-0.277548021154915 -78.7691322415646,-0.277540581331539 -78.7691285613029,-0.296525438403112</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">332365</SimpleData>
+		<SimpleData name="nam">70000438</SimpleData>
+		<SimpleData name="com">2C</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">SANTO DOMINGO DE LOS TSACHILAS</SimpleData>
+		<SimpleData name="dpa_descan">SANTO DOMINGO</SimpleData>
+		<SimpleData name="dpa_despar">ALLURIQUIN</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">2893</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.807746727984,-0.277547853541571 -78.8831825554857,-0.27756169411112 -78.8831820707055,-0.28027402290814 -78.9002454576148,-0.280277116371379 -78.9002465723925,-0.2739482793042 -78.8544453021321,-0.273940108085816 -78.8544501779196,-0.245009143584306 -78.8436736324884,-0.245007401123755 -78.8436762834823,-0.227829762472725 -78.8077550665273,-0.227824302975561 -78.807746727984,-0.277547853541571</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ecuadorfortescue">
+		<SimpleData name="objectid">332366</SimpleData>
+		<SimpleData name="nam">70000439</SimpleData>
+		<SimpleData name="com">2D</SimpleData>
+		<SimpleData name="ttm">ECUADORFORTESCUE S.A.</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">SANTO DOMINGO DE LOS TSACHILAS</SimpleData>
+		<SimpleData name="dpa_descan">SANTO DOMINGO</SimpleData>
+		<SimpleData name="dpa_despar">ALLURIQUIN</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">4120</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7421918151239,-0.281151528872972 -78.7691317307168,-0.280252703811644 -78.7691322415646,-0.277540581331539 -78.807746727984,-0.277547853541571 -78.8077550665273,-0.227824302975561 -78.7422010929591,-0.227814107353067 -78.7421918151239,-0.281151528872972</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
