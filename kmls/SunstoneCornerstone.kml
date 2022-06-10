@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="SunstoneCornerstone" id="SunstoneCornerstone">
+	<SimpleField name="objectid" type="string"></SimpleField>
+	<SimpleField name="nam" type="string"></SimpleField>
+	<SimpleField name="com" type="string"></SimpleField>
+	<SimpleField name="ttm" type="string"></SimpleField>
+	<SimpleField name="frm" type="string"></SimpleField>
+	<SimpleField name="sol" type="string"></SimpleField>
+	<SimpleField name="fen" type="float"></SimpleField>
+	<SimpleField name="plz" type="float"></SimpleField>
+	<SimpleField name="dpa_despro" type="string"></SimpleField>
+	<SimpleField name="dpa_descan" type="string"></SimpleField>
+	<SimpleField name="dpa_despar" type="string"></SimpleField>
+	<SimpleField name="tmm" type="string"></SimpleField>
+	<SimpleField name="eac" type="string"></SimpleField>
+	<SimpleField name="ach" type="float"></SimpleField>
+	<SimpleField name="tipo_mineral" type="string"></SimpleField>
+	<SimpleField name="rgm" type="string"></SimpleField>
+</Schema>
+<Folder><name>SunstoneCornerstone</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SunstoneCornerstone">
+		<SimpleData name="objectid">165347</SimpleData>
+		<SimpleData name="nam">60000334</SimpleData>
+		<SimpleData name="com">BRAMADEROS</SimpleData>
+		<SimpleData name="ttm">LA PLATA MINERALES</SimpleData>
+		<SimpleData name="frm">EXPLORACION AVANZADA</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1486962000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">GUACHANAMA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4948</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.7658594951396,-4.04314057458181 -79.756852595156,-4.04312678587126 -79.7568332713996,-4.05578938972336 -79.7595353801164,-4.0557935498879 -79.7595215701943,-4.0648382737491 -79.7757344612898,-4.06486310017519 -79.77572763504,-4.06938548903826 -79.7802312586552,-4.06939233497185 -79.7802244498757,-4.0739147309487 -79.7883310368047,-4.07392700375571 -79.7883215551003,-4.08025837638602 -79.793726002298,-4.08026652550561 -79.7937178995859,-4.08569342639432 -79.7991223939249,-4.0857015499319 -79.7991143166821,-4.0911284608964 -79.8072211329432,-4.09114059399423 -79.8072090786857,-4.09928098325451 -79.8126136908813,-4.09928904241101 -79.8126030043133,-4.10652495682821 -79.8108014495198,-4.10652226975666 -79.8107719187366,-4.1264210144303 -79.8188791258537,-4.12643313282045 -79.818881798088,-4.12462415112136 -79.8206833988516,-4.12462683166627 -79.8206807306911,-4.12643581454491 -79.8287879670356,-4.12644783167432 -79.8288525505055,-4.08212759754852 -79.8090359960602,-4.08209839419227 -79.8090413257624,-4.0784804396531 -79.8171480444895,-4.07849243499611 -79.8171440748501,-4.08120590893829 -79.8288538612125,-4.08122310245313 -79.8288826226676,-4.06132420510578 -79.819875311363,-4.06131105911838 -79.81992764097,-4.02513133763563 -79.7658867957066,-4.0250510716058 -79.7658594951396,-4.04314057458181</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SunstoneCornerstone">
+		<SimpleData name="objectid">313013</SimpleData>
+		<SimpleData name="nam">60000550</SimpleData>
+		<SimpleData name="com">MORAS</SimpleData>
+		<SimpleData name="ttm">LA PLATA MINERALES</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">CALVAS</SimpleData>
+		<SimpleData name="dpa_despar">COLAISACA</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">1650</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">MEDIANA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6195293054305,-4.28528920962408 -79.6690800935953,-4.28537717560124 -79.6691268664901,-4.25824411720964 -79.6195778183789,-4.25815671017341 -79.6195293054305,-4.28528920962408</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SunstoneCornerstone">
+		<SimpleData name="objectid">352392</SimpleData>
+		<SimpleData name="nam">60000598</SimpleData>
+		<SimpleData name="com">BRAMADEROS 02</SimpleData>
+		<SimpleData name="ttm">LA PLATA MINERALES</SimpleData>
+		<SimpleData name="frm">EXPLORACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">GUACHANAMA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">38</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.809038661507,-4.08028941696427 -79.8099394088577,-4.08029075441864 -79.8099407401273,-4.07938626547601 -79.8126429809432,-4.07939027088006 -79.8126389953071,-4.08210374031852 -79.8288525505055,-4.08212759754852 -79.8288538612125,-4.08122310245313 -79.8171440748501,-4.08120590893829 -79.8171480444895,-4.07849243499611 -79.8090413257624,-4.0784804396531 -79.809038661507,-4.08028941696427</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SunstoneCornerstone">
+		<SimpleData name="objectid">200285</SimpleData>
+		<SimpleData name="nam">60000423</SimpleData>
+		<SimpleData name="com">MATADERO 1</SimpleData>
+		<SimpleData name="ttm">LA PLATA MINERALES</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">MACARA</SimpleData>
+		<SimpleData name="dpa_despar">MACARA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">296</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.8690549486202,-4.31283466518574 -79.8627477248588,-4.31282523928313 -79.8627369547845,-4.32006124337779 -79.8825598922895,-4.32009074079884 -79.8825810392704,-4.30561863203267 -79.8690656408715,-4.30559864381594 -79.8690549486202,-4.31283466518574</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SunstoneCornerstone">
+		<SimpleData name="objectid">219970</SimpleData>
+		<SimpleData name="nam">60000437</SimpleData>
+		<SimpleData name="com">CUEVA DEL LEON</SimpleData>
+		<SimpleData name="ttm">LA PLATA MINERALES</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1481086800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">GUACHANAMA</SimpleData>
+		<SimpleData name="tmm">YESO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">11</SimpleData>
+		<SimpleData name="tipo_mineral">NO METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.8099394088577,-4.08029075441864 -79.809038661507,-4.08028941696427 -79.8090359960602,-4.08209839419227 -79.8126389953071,-4.08210374031852 -79.8126429809432,-4.07939027088006 -79.8099407401273,-4.07938626547601 -79.8099394088577,-4.08029075441864</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="NewcrestCornerstone" id="NewcrestCornerstone">
+	<SimpleField name="objectid" type="string"></SimpleField>
+	<SimpleField name="nam" type="string"></SimpleField>
+	<SimpleField name="com" type="string"></SimpleField>
+	<SimpleField name="ttm" type="string"></SimpleField>
+	<SimpleField name="frm" type="string"></SimpleField>
+	<SimpleField name="sol" type="string"></SimpleField>
+	<SimpleField name="fen" type="float"></SimpleField>
+	<SimpleField name="plz" type="float"></SimpleField>
+	<SimpleField name="dpa_despro" type="string"></SimpleField>
+	<SimpleField name="dpa_descan" type="string"></SimpleField>
+	<SimpleField name="dpa_despar" type="string"></SimpleField>
+	<SimpleField name="tmm" type="string"></SimpleField>
+	<SimpleField name="eac" type="string"></SimpleField>
+	<SimpleField name="ach" type="float"></SimpleField>
+	<SimpleField name="tipo_mineral" type="string"></SimpleField>
+	<SimpleField name="rgm" type="string"></SimpleField>
+</Schema>
+<Folder><name>NewcrestCornerstone</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#NewcrestCornerstone">
+		<SimpleData name="objectid">239610</SimpleData>
+		<SimpleData name="nam">60000478</SimpleData>
+		<SimpleData name="com">TIOLOMA</SimpleData>
+		<SimpleData name="ttm">CAÑABRAVA MINING SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION AVANZADA</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1494997200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">LOJA</SimpleData>
+		<SimpleData name="dpa_despar">GUALEL</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4950</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.3612604291859,-3.68973711970227 -79.3702620313594,-3.68975372361026 -79.3702289860045,-3.70784022657018 -79.3792308111777,-3.70785682027792 -79.3792472629174,-3.69881352917795 -79.3972508518415,-3.69884636067671 -79.3972182734716,-3.71693310192637 -79.3792143189849,-3.71690010945486 -79.3791977863372,-3.72594339670412 -79.3701957779399,-3.72592672183487 -79.3702124023119,-3.71688347516677 -79.3522086912287,-3.71684993049616 -79.3521581443922,-3.74397941918397 -79.3656613261327,-3.74400479658522 -79.3656445335119,-3.75304801706392 -79.4241599726859,-3.75315583590031 -79.4242884073628,-3.68080793400193 -79.3612769816769,-3.68069390615078 -79.3612604291859,-3.68973711970227</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#NewcrestCornerstone">
+		<SimpleData name="objectid">4930</SimpleData>
+		<SimpleData name="nam">600700</SimpleData>
+		<SimpleData name="com">CAÑA BRAVA</SimpleData>
+		<SimpleData name="ttm">CAÑABRAVA MINING SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1052370000000</SimpleData>
+		<SimpleData name="plz">183</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">LOJA</SimpleData>
+		<SimpleData name="dpa_despar">GUALEL</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1150</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.3612604291859,-3.68973711970227 -79.3612521376039,-3.69425872576009 -79.3522505308327,-3.69424200998172 -79.3522086912287,-3.71684993049616 -79.3702124023119,-3.71688347516677 -79.3701957779399,-3.72592672183487 -79.3791977863372,-3.72594339670412 -79.3792143189849,-3.71690010945486 -79.3972182734716,-3.71693310192637 -79.3972508518415,-3.69884636067671 -79.3792472629174,-3.69881352917795 -79.3792308111777,-3.70785682027792 -79.3702289860045,-3.70784022657018 -79.3702620313594,-3.68975372361026 -79.3612604291859,-3.68973711970227</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

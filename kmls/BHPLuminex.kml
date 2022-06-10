@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="BHPLuminex" id="BHPLuminex">
+	<SimpleField name="objectid" type="string"></SimpleField>
+	<SimpleField name="nam" type="string"></SimpleField>
+	<SimpleField name="com" type="string"></SimpleField>
+	<SimpleField name="ttm" type="string"></SimpleField>
+	<SimpleField name="frm" type="string"></SimpleField>
+	<SimpleField name="sol" type="string"></SimpleField>
+	<SimpleField name="fen" type="float"></SimpleField>
+	<SimpleField name="plz" type="float"></SimpleField>
+	<SimpleField name="dpa_despro" type="string"></SimpleField>
+	<SimpleField name="dpa_descan" type="string"></SimpleField>
+	<SimpleField name="dpa_despar" type="string"></SimpleField>
+	<SimpleField name="tmm" type="string"></SimpleField>
+	<SimpleField name="eac" type="string"></SimpleField>
+	<SimpleField name="ach" type="float"></SimpleField>
+	<SimpleField name="tipo_mineral" type="string"></SimpleField>
+	<SimpleField name="rgm" type="string"></SimpleField>
+</Schema>
+<Folder><name>BHPLuminex</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#BHPLuminex">
+		<SimpleData name="objectid">170980</SimpleData>
+		<SimpleData name="nam">90000343</SimpleData>
+		<SimpleData name="com">TARQUI 2</SimpleData>
+		<SimpleData name="ttm">CERRO YATSUR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1496984400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">GUALAQUIZA</SimpleData>
+		<SimpleData name="dpa_despar">GUALAQUIZA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2986</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">MEDIANA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.4981747976186,-3.37228197793904 -78.4783890428741,-3.3722306697854 -78.478363377464,-3.38217266718 -78.4819608013997,-3.38218205357356 -78.481942114545,-3.38941261584107 -78.4837408435909,-3.38941731407065 -78.4836939842567,-3.40749373966419 -78.5250662090966,-3.40760144732489 -78.5252400425207,-3.33890881479376 -78.4982598977984,-3.33884018773607 -78.4981747976186,-3.37228197793904</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#BHPLuminex">
+		<SimpleData name="objectid">129907</SimpleData>
+		<SimpleData name="nam">90000300</SimpleData>
+		<SimpleData name="com">TARQUI</SimpleData>
+		<SimpleData name="ttm">CERRO YATSUR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1496984400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">GUALAQUIZA</SimpleData>
+		<SimpleData name="dpa_despar">GUALAQUIZA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1831</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">MEDIANA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.4767153335535,-3.32341985212757 -78.473118138926,-3.32341060943035 -78.4730997127321,-3.33064113090311 -78.4668046005817,-3.33062488924677 -78.4667373012403,-3.35683539170722 -78.4721332527432,-3.35684942540951 -78.472093639084,-3.37221425992266 -78.4981747976186,-3.37228197793904 -78.4983055427879,-3.32076353398445 -78.484815925801,-3.32072912980514 -78.4848227877668,-3.31801765926881 -78.4767291071883,-3.31799694514605 -78.4767153335535,-3.32341985212757</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

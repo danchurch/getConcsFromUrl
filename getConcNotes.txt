@@ -1286,3 +1286,48 @@ soberano[["com","nam", "ttm","ach"]] ## owner of this is now URENA QUEZADA CELSO
 
 with fiona.Env():
     aa.to_file(('kmls/NewCrestLundin.kml'), driver='KML') 
+
+#### NEWCREST + CORNERSTONE RESOURCES ####
+
+subsid =  "CAÑABRAVA MINING SA" 
+
+subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
+
+df = draftConcessions[subsidFilter]
+df.sort_values(by='com')
+df.shape  
+
+with fiona.Env():
+    df.to_file(('kmls/NewcrestCornerstone.kml'), driver='KML') 
+
+#### SUNSTONE METALS + CORNERSTONE RESOURCES ####
+
+subsid = "LA PLATA MINERALES"
+subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
+df = draftConcessions[subsidFilter]
+
+df.sort_values(by='com')
+df.shape  
+
+## I have one more than they, called "CUEVA DEL LEON", nam=60000437
+## very small, probably why its not included
+
+with fiona.Env():
+    df.to_file(('kmls/SunstoneCornerstone.kml'), driver='KML') 
+
+## so that leaves 
+
+#### BHP + LUMINEX RESOURCES ####
+
+subsid = "CERRO YATSUR SA"
+subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
+df = draftConcessions[subsidFilter]
+df.sort_values(by='com')
+df.shape  
+
+## all in order there
+
+with fiona.Env():
+    df.to_file(('kmls/BHPLuminex.kml'), driver='KML') 
+
+
