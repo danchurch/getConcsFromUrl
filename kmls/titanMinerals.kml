@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="titanMinerals" id="titanMinerals">
+	<SimpleField name="objectid" type="string"></SimpleField>
+	<SimpleField name="nam" type="string"></SimpleField>
+	<SimpleField name="com" type="string"></SimpleField>
+	<SimpleField name="ttm" type="string"></SimpleField>
+	<SimpleField name="frm" type="string"></SimpleField>
+	<SimpleField name="sol" type="string"></SimpleField>
+	<SimpleField name="fen" type="float"></SimpleField>
+	<SimpleField name="plz" type="float"></SimpleField>
+	<SimpleField name="dpa_despro" type="string"></SimpleField>
+	<SimpleField name="dpa_descan" type="string"></SimpleField>
+	<SimpleField name="dpa_despar" type="string"></SimpleField>
+	<SimpleField name="tmm" type="string"></SimpleField>
+	<SimpleField name="eac" type="string"></SimpleField>
+	<SimpleField name="ach" type="float"></SimpleField>
+	<SimpleField name="tipo_mineral" type="string"></SimpleField>
+	<SimpleField name="rgm" type="string"></SimpleField>
+</Schema>
+<Folder><name>titanMinerals</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">2042</SimpleData>
+		<SimpleData name="nam">353</SimpleData>
+		<SimpleData name="com">JERUSALEN</SimpleData>
+		<SimpleData name="ttm">CLOUDSTREET INTERNATIONAL CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1274418000000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">PAQUISHA</SimpleData>
+		<SimpleData name="dpa_despar">NUEVO QUITO</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">225</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.5728147055726,-4.03592207261015 -78.5863159785862,-4.03596240895728 -78.5863559662535,-4.0224042309462 -78.5728549163825,-4.0223640305318 -78.5728147055726,-4.03592207261015</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">1858</SimpleData>
+		<SimpleData name="nam">300444</SimpleData>
+		<SimpleData name="com">NICOLE</SimpleData>
+		<SimpleData name="ttm">COMPAÑIA ELIPE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1053061200000</SimpleData>
+		<SimpleData name="plz">276</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">ZARUMA</SimpleData>
+		<SimpleData name="dpa_despar">ZARUMA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">8.48</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.603409980087,-3.69467404964795 -79.6084964807623,-3.69468206302654 -79.608498594175,-3.69332542540156 -79.6034121012189,-3.69331741497321 -79.603409980087,-3.69467404964795</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">3565</SimpleData>
+		<SimpleData name="nam">5200</SimpleData>
+		<SimpleData name="com">ZUDOS 1</SimpleData>
+		<SimpleData name="ttm">COMPAÑIA ELIPE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">994654800000</SimpleData>
+		<SimpleData name="plz">254</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">ZARUMA</SimpleData>
+		<SimpleData name="dpa_despar">MALVAS</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">323.47</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6192064612716,-3.66756589130865 -79.6192022955187,-3.67027918043747 -79.6169516811634,-3.67027568870511 -79.6169447200304,-3.67479783256275 -79.6142439720695,-3.67479362979787 -79.6142299966975,-3.68383790572645 -79.6133297389967,-3.68383649952274 -79.6133129119768,-3.69468962398594 -79.6214153419614,-3.69470228425644 -79.6214753751075,-3.65560375630231 -79.6139314398985,-3.65559209560915 -79.6139199982947,-3.6630355370453 -79.6142620883456,-3.66303606827049 -79.6142579128544,-3.66574935198239 -79.6169586336667,-3.66575354437638 -79.616955853701,-3.66756240216437 -79.6192064612716,-3.66756589130865</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">3566</SimpleData>
+		<SimpleData name="nam">5213</SimpleData>
+		<SimpleData name="com">EL SALVADOR X 1 A</SimpleData>
+		<SimpleData name="ttm">COMPAÑIA ELIPE S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION AVANZADA</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1001912400000</SimpleData>
+		<SimpleData name="plz">257</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">ATAHUALPA</SimpleData>
+		<SimpleData name="dpa_despar">AYAPAMBA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">57</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6890353247129,-3.62697070905935 -79.6944367047252,-3.62697854914884 -79.6944470774273,-3.61974287987205 -79.6809437567037,-3.6197232583219 -79.6809424478668,-3.62062771213105 -79.6890444394958,-3.6206395122277 -79.6890353247129,-3.62697070905935</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4984</SimpleData>
+		<SimpleData name="nam">600903</SimpleData>
+		<SimpleData name="com">LUMAPAMBA</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">293</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">625</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6170475817213,-4.16047480267932 -79.6395669179851,-4.1605140826227 -79.6396056122061,-4.13790340495564 -79.6170869159566,-4.13786433919886 -79.6170475817213,-4.16047480267932</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4974</SimpleData>
+		<SimpleData name="nam">600887</SimpleData>
+		<SimpleData name="com">COLANGA 2</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">293</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1770</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.610006043312,-4.06549835254101 -79.6099827631518,-4.07906461595954 -79.5937706719374,-4.07903635283218 -79.5937391469096,-4.09712457098563 -79.6396747258772,-4.097204151797 -79.6397355819099,-4.06102700215995 -79.5938020563102,-4.06094812629928 -79.5937942234026,-4.06547018371606 -79.610006043312,-4.06549835254101</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4954</SimpleData>
+		<SimpleData name="nam">600844</SimpleData>
+		<SimpleData name="com">BARBASCO</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">292</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">300</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6666585189714,-4.11986068432348 -79.6666283281296,-4.137949437904 -79.6756359671102,-4.13796457713073 -79.6756509771893,-4.12892016819719 -79.6846585472784,-4.12893517190059 -79.6846734224376,-4.11989072787873 -79.6666585189714,-4.11986068432348</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">5001</SimpleData>
+		<SimpleData name="nam">600969</SimpleData>
+		<SimpleData name="com">CAROL</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">298</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">100</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6395824211967,-4.15146981315126 -79.6485901128827,-4.15148531082411 -79.6486054797136,-4.14244100534859 -79.639597890377,-4.14242554155187 -79.6395824211967,-4.15146981315126</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4985</SimpleData>
+		<SimpleData name="nam">600904</SimpleData>
+		<SimpleData name="com">LUMAPAMBA 1</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">293</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">400</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.639597890377,-4.14242554155187 -79.6576131028544,-4.14245636649069 -79.6576283337551,-4.13341202524205 -79.6486208127404,-4.13339669775047 -79.6486513773891,-4.11530807620483 -79.6396440937498,-4.11529271403212 -79.639597890377,-4.14242554155187</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4956</SimpleData>
+		<SimpleData name="nam">600855</SimpleData>
+		<SimpleData name="com">COLANGA</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">291</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">300</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6396899909104,-4.08815986752669 -79.6667110319678,-4.0882053452744 -79.6667259606565,-4.07916095796986 -79.6397052219256,-4.07911558116067 -79.6396899909104,-4.08815986752669</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4970</SimpleData>
+		<SimpleData name="nam">600883</SimpleData>
+		<SimpleData name="com">GLORIA</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">293</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">CALVAS</SimpleData>
+		<SimpleData name="dpa_despar">CARIAMANGA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2005</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6170475817213,-4.16047480267932 -79.6170396889282,-4.1649968937769 -79.6062304224663,-4.1649777897133 -79.6061825127949,-4.19211020018287 -79.6593303744352,-4.19220330208591 -79.6593841099651,-4.16054811593416 -79.6170475817213,-4.16047480267932</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4982</SimpleData>
+		<SimpleData name="nam">600900</SimpleData>
+		<SimpleData name="com">BARBASCO 4</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">294</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">907</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6936735410342,-4.12442783515705 -79.6936513442294,-4.13799454793888 -79.6801397990374,-4.13797210828878 -79.6801022569176,-4.16058316263702 -79.6981181789584,-4.16061319465437 -79.6981256012511,-4.15609095209448 -79.7026295765269,-4.15609838753484 -79.7026325329079,-4.15428948711494 -79.710739690371,-4.15430280019898 -79.7107543606155,-4.14525826774366 -79.7197622415538,-4.14527293014769 -79.7197695134504,-4.14075064707554 -79.7152655945298,-4.14074333672623 -79.715262676509,-4.14255224681433 -79.7026517177402,-4.14253163231609 -79.7026811257727,-4.12444261794644 -79.6936735410342,-4.12442783515705</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4963</SimpleData>
+		<SimpleData name="nam">600872</SimpleData>
+		<SimpleData name="com">BARBASCO 1</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">294</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2625</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.648681806844,-4.09721944622404 -79.6486208127404,-4.13339669775047 -79.6576283337551,-4.13341202524205 -79.6576131028544,-4.14245636649069 -79.6486054797136,-4.14244100534859 -79.6485901128827,-4.15148531082411 -79.6395824211967,-4.15146981315126 -79.6395669179851,-4.1605140826227 -79.6801022569176,-4.16058316263702 -79.6801397990374,-4.13797210828878 -79.6666283281296,-4.137949437904 -79.6666585189714,-4.11986068432348 -79.6846734224376,-4.11989072787873 -79.6846585472784,-4.12893517190059 -79.6936661502683,-4.12895007327921 -79.693717714096,-4.09729439536771 -79.648681806844,-4.09721944622404</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4969</SimpleData>
+		<SimpleData name="nam">600881</SimpleData>
+		<SimpleData name="com">BARBASCO 2</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">293</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">520</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.7026517177402,-4.14253163231609 -79.715262676509,-4.14255224681433 -79.7153063118502,-4.1154185866208 -79.6936882980604,-4.11538335733094 -79.6936735410342,-4.12442783515705 -79.7026811257727,-4.12444261794644 -79.7026517177402,-4.14253163231609</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4972</SimpleData>
+		<SimpleData name="nam">600885</SimpleData>
+		<SimpleData name="com">GLORIA 1</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">293</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2009</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6098935852399,-4.13061637385842 -79.6098904356783,-4.13242520622321 -79.6080889670699,-4.13242204104244 -79.6080936970076,-4.12970879454856 -79.6026893178955,-4.12969928070217 -79.6026273447839,-4.16497138866547 -79.6170396889282,-4.1649968937769 -79.6170869159566,-4.13786433919886 -79.6396056122061,-4.13790340495564 -79.639613325528,-4.13338126782915 -79.630605872343,-4.13336573548 -79.6306676789303,-4.09718875584158 -79.5991432857715,-4.09713407048908 -79.5990943326693,-4.12517085720148 -79.6090022992531,-4.12518829695628 -79.6089928528009,-4.13061479247484 -79.6098935852399,-4.13061637385842</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4986</SimpleData>
+		<SimpleData name="nam">600911</SimpleData>
+		<SimpleData name="com">GONZA 1</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">295</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1200</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6396899909104,-4.08815986752669 -79.6396747258772,-4.097204151797 -79.6306676789303,-4.09718875584158 -79.630605872343,-4.13336573548 -79.639613325528,-4.13338126782915 -79.6396440937498,-4.11529271403212 -79.6486513773891,-4.11530807620483 -79.648681806844,-4.09721944622404 -79.693717714096,-4.09729439536771 -79.6937323731091,-4.08824991123978 -79.6396899909104,-4.08815986752669</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">5003</SimpleData>
+		<SimpleData name="nam">600976</SimpleData>
+		<SimpleData name="com">CATACOCHA</SimpleData>
+		<SimpleData name="ttm">HELLES MINING CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">CATACOCHA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">270</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.5937706719374,-4.07903635283218 -79.6099827631518,-4.07906461595954 -79.610006043312,-4.06549835254101 -79.5937942234026,-4.06547018371606 -79.5937706719374,-4.07903635283218</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4947</SimpleData>
+		<SimpleData name="nam">600794</SimpleData>
+		<SimpleData name="com">DYNASTY 1</SimpleData>
+		<SimpleData name="ttm">MOORO MINING INC.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">288</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">MACARA</SimpleData>
+		<SimpleData name="dpa_despar">MACARA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4900</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.9997640948793,-4.26960012906134 -80.0538257836271,-4.2696687685512 -80.0539136576535,-4.19730415291971 -80.0088663715108,-4.1972481863424 -80.0088777669375,-4.18820272081999 -79.9998684867603,-4.18819124016706 -79.9997640948793,-4.26960012906134</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4952</SimpleData>
+		<SimpleData name="nam">600840</SimpleData>
+		<SimpleData name="com">LINDEROS E</SimpleData>
+		<SimpleData name="ttm">MOORO MINING INC.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1500267600000</SimpleData>
+		<SimpleData name="plz">290</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">MACARA</SimpleData>
+		<SimpleData name="dpa_despar">MACARA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3159</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.0718682280847,-4.25159956663189 -80.0718247558658,-4.28778202747672 -80.0763300648591,-4.28778749264698 -80.0763191917261,-4.29683311402524 -80.0889342360234,-4.2968483071792 -80.0889396012173,-4.29232548071127 -80.0934449585256,-4.2923308505437 -80.0934513574402,-4.28690345125275 -80.1078684370908,-4.28692043430576 -80.1078642398615,-4.2905387149721 -80.1312922260306,-4.29056575484043 -80.1313054961929,-4.27880626703368 -80.1403161618674,-4.2788164473713 -80.1403383033291,-4.25891571987735 -80.1394372589897,-4.25891471134819 -80.1394452930137,-4.25167808230839 -80.0718682280847,-4.25159956663189</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4958</SimpleData>
+		<SimpleData name="nam">600859</SimpleData>
+		<SimpleData name="com">NARANJO</SimpleData>
+		<SimpleData name="ttm">MOORO MINING INC.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1094533200000</SimpleData>
+		<SimpleData name="plz">291</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">CELICA</SimpleData>
+		<SimpleData name="dpa_despar">SABANILLA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2850</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-80.0538918312337,-4.21539531964909 -80.0538257836271,-4.2696687685512 -80.0628361493067,-4.26967983789972 -80.0628306596129,-4.27420263358225 -80.0718411015168,-4.2742136087058 -80.0718682280847,-4.25159956663189 -80.1259297800415,-4.2516628536389 -80.1259450426051,-4.23809421926352 -80.1079247499231,-4.2380736115461 -80.1079351067633,-4.22902789676109 -80.098925098376,-4.22901745766102 -80.0989355372336,-4.219971763148 -80.0719059613292,-4.21993988519051 -80.0719113285622,-4.2154170714194 -80.0538918312337,-4.21539531964909</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4959</SimpleData>
+		<SimpleData name="nam">600860</SimpleData>
+		<SimpleData name="com">CHORRERA</SimpleData>
+		<SimpleData name="ttm">MOORO MINING INC.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1095397200000</SimpleData>
+		<SimpleData name="plz">292</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">MACARA</SimpleData>
+		<SimpleData name="dpa_despar">MACARA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3408</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.9997640948793,-4.26960012906134 -79.9997406212761,-4.28769096960168 -79.9907302147795,-4.28767910891151 -79.9906825416059,-4.32386066345964 -80.0267260187275,-4.32390786469336 -80.0267329392947,-4.31848057427476 -80.0222275150566,-4.31847477525509 -80.0222367714671,-4.31123839655993 -80.0267421530695,-4.31124418582697 -80.0267547965428,-4.30129414943299 -80.0447761495682,-4.30131698620565 -80.0447524336948,-4.32031260916075 -80.0519611806996,-4.32032166436406 -80.0519679162301,-4.31489433308385 -80.0537700925605,-4.31489658333011 -80.0538257836271,-4.2696687685512 -79.9997640948793,-4.26960012906134</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4945</SimpleData>
+		<SimpleData name="nam">600775</SimpleData>
+		<SimpleData name="com">ZAR TRES A</SimpleData>
+		<SimpleData name="ttm">NEK DEVELOPMENT CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1071637200000</SimpleData>
+		<SimpleData name="plz">282</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">CELICA</SimpleData>
+		<SimpleData name="dpa_despar">CELICA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4659</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.8917591412267,-4.1880453728901 -79.891746399865,-4.19709049741167 -79.9367920151848,-4.19715322821178 -79.9368042389092,-4.18810796803546 -79.9458133391617,-4.18812017556842 -79.9458495414673,-4.16098430294702 -79.882788570902,-4.16089723947925 -79.882841861962,-4.12290778348337 -79.8378012929994,-4.1228430987962 -79.8378117945563,-4.11560712164308 -79.8288038484284,-4.11559390142922 -79.8287879670356,-4.12644783167432 -79.8377960352438,-4.12646108686933 -79.8377736378874,-4.14183753242802 -79.8476827373417,-4.14185204907342 -79.8476761901633,-4.14637454780698 -79.8656929260927,-4.14640065199353 -79.8656592984219,-4.16991778545099 -79.8737671069633,-4.16992946428617 -79.873741294697,-4.18801960803663 -79.8917591412267,-4.1880453728901</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4897</SimpleData>
+		<SimpleData name="nam">600353</SimpleData>
+		<SimpleData name="com">ZAR 1</SimpleData>
+		<SimpleData name="ttm">NEK DEVELOPMENT CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1005973200000</SimpleData>
+		<SimpleData name="plz">258</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">CELICA</SimpleData>
+		<SimpleData name="dpa_despar">CELICA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1900</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.8828393354716,-4.12471680603819 -79.9278807048847,-4.1247789629558 -79.9279169623986,-4.09764320559142 -79.9008929719899,-4.097606462332 -79.9009176152096,-4.07951610976282 -79.8829021624149,-4.07949121711001 -79.8828393354716,-4.12471680603819</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4893</SimpleData>
+		<SimpleData name="nam">600242</SimpleData>
+		<SimpleData name="com">PILO 9</SimpleData>
+		<SimpleData name="ttm">NEK DEVELOPMENT CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1003294800000</SimpleData>
+		<SimpleData name="plz">256</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">CELICA</SimpleData>
+		<SimpleData name="dpa_despar">CELICA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2000</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.882788570902,-4.16089723947925 -79.927831986051,-4.16095994345042 -79.9278807048847,-4.1247789629558 -79.8828393354716,-4.12471680603819 -79.882788570902,-4.16089723947925</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4971</SimpleData>
+		<SimpleData name="nam">600884</SimpleData>
+		<SimpleData name="com">CECILIA 1</SimpleData>
+		<SimpleData name="ttm">NEK DEVELOPMENT CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1098766800000</SimpleData>
+		<SimpleData name="plz">293</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">MACARA</SimpleData>
+		<SimpleData name="dpa_despar">LARAMA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2550</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.9187736876603,-4.1971284480583 -79.9186922279792,-4.25592223876376 -79.9637416380336,-4.2559842685879 -79.9637597508528,-4.24241628033981 -79.9457402222618,-4.24239186334474 -79.9457768994401,-4.21525602907532 -79.9547863373488,-4.215268211467 -79.954762120928,-4.23335882225747 -79.9637717936431,-4.23337095215263 -79.9637838104971,-4.22432562182001 -79.9592790231019,-4.22431958296874 -79.9593030831058,-4.20622894183636 -79.9547984063205,-4.20622290286411 -79.954810449135,-4.19717759212886 -79.9458012189694,-4.19716546220063 -79.945789072396,-4.20621074670444 -79.9367797648541,-4.20619848625913 -79.9367920151848,-4.19715322821178 -79.9187736876603,-4.1971284480583</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#titanMinerals">
+		<SimpleData name="objectid">4896</SimpleData>
+		<SimpleData name="nam">600331</SimpleData>
+		<SimpleData name="com">ZAR</SimpleData>
+		<SimpleData name="ttm">NEK DEVELOPMENT CORP.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1005973200000</SimpleData>
+		<SimpleData name="plz">258</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">PALTAS</SimpleData>
+		<SimpleData name="dpa_despar">GUACHANAMA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2800</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.8378012929994,-4.1228430987962 -79.882841861962,-4.12290778348337 -79.8829021624149,-4.07949121711001 -79.8288564817479,-4.07941411220002 -79.8288038484284,-4.11559390142922 -79.8378117945563,-4.11560712164308 -79.8378012929994,-4.1228430987962</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

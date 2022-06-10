@@ -1,0 +1,2224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="solgold" id="solgold">
+	<SimpleField name="objectid" type="string"></SimpleField>
+	<SimpleField name="nam" type="string"></SimpleField>
+	<SimpleField name="com" type="string"></SimpleField>
+	<SimpleField name="ttm" type="string"></SimpleField>
+	<SimpleField name="frm" type="string"></SimpleField>
+	<SimpleField name="sol" type="string"></SimpleField>
+	<SimpleField name="fen" type="float"></SimpleField>
+	<SimpleField name="plz" type="float"></SimpleField>
+	<SimpleField name="dpa_despro" type="string"></SimpleField>
+	<SimpleField name="dpa_descan" type="string"></SimpleField>
+	<SimpleField name="dpa_despar" type="string"></SimpleField>
+	<SimpleField name="tmm" type="string"></SimpleField>
+	<SimpleField name="eac" type="string"></SimpleField>
+	<SimpleField name="ach" type="float"></SimpleField>
+	<SimpleField name="tipo_mineral" type="string"></SimpleField>
+	<SimpleField name="rgm" type="string"></SimpleField>
+</Schema>
+<Folder><name>solgold</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">135155</SimpleData>
+		<SimpleData name="nam">40000181</SimpleData>
+		<SimpleData name="com">CHICAL 3</SimpleData>
+		<SimpleData name="ttm">CARNEGIE RIDGE RESOURCES S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1503032400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CARCHI</SimpleData>
+		<SimpleData name="dpa_descan">TULCAN</SimpleData>
+		<SimpleData name="dpa_despar">EL CHICAL</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4800</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.2149084753093,0.84943570028171 -78.2867269884227,0.8494871675925 -78.286687933086,0.903709655508587 -78.2148683894207,0.9036549025489 -78.2149084753093,0.84943570028171</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">134358</SimpleData>
+		<SimpleData name="nam">40000179</SimpleData>
+		<SimpleData name="com">CHICAL 1</SimpleData>
+		<SimpleData name="ttm">CARNEGIE RIDGE RESOURCES S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1503032400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CARCHI</SimpleData>
+		<SimpleData name="dpa_descan">TULCAN</SimpleData>
+		<SimpleData name="dpa_despar">EL CHICAL</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4925</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.1968713481243,0.957859340844737 -78.2013599408917,0.95786303615782 -78.2013708674832,0.944308398287935 -78.2866570555598,0.944376509662604 -78.2866211526788,0.989561890706746 -78.1968452051386,0.989486702463038 -78.1968713481243,0.957859340844737</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">234391</SimpleData>
+		<SimpleData name="nam">40000314</SimpleData>
+		<SimpleData name="com">NIEVES</SimpleData>
+		<SimpleData name="ttm">CARNEGIE RIDGE RESOURCES S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1494565200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CARCHI</SimpleData>
+		<SimpleData name="dpa_descan">MIRA</SimpleData>
+		<SimpleData name="dpa_despar">JIJON Y CAAMAÑO ( CAB. EN RIO BLANCO)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2695</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.309164238499,0.859443951995602 -78.3585430027688,0.859478671746349 -78.3585117733033,0.903762982303785 -78.3091324269393,0.903726473353278 -78.309164238499,0.859443951995602</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">138399</SimpleData>
+		<SimpleData name="nam">40000190</SimpleData>
+		<SimpleData name="com">RIO MIRA</SimpleData>
+		<SimpleData name="ttm">CARNEGIE RIDGE RESOURCES S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1503032400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CARCHI</SimpleData>
+		<SimpleData name="dpa_descan">MIRA</SimpleData>
+		<SimpleData name="dpa_despar">JIJON Y CAAMAÑO ( CAB. EN RIO BLANCO)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2110</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.2508543098745,0.795240728690771 -78.2508495017222,0.802470179340219 -78.2526449449889,0.802471394440406 -78.2526419197613,0.806989807794073 -78.2544373677177,0.806991028941043 -78.2544343274804,0.811509449020723 -78.2571275074817,0.811511289497877 -78.2571232268122,0.81783709176834 -78.2616118806998,0.817840179111676 -78.2616069558399,0.825069694442907 -78.2651978975842,0.825072182491884 -78.2651935584448,0.831398027244581 -78.2696822579469,0.831401156541613 -78.269679143369,0.835919633950124 -78.2732701192146,0.835922147285267 -78.2732669918556,0.840440638165159 -78.2777557319722,0.8404437921558 -78.2777538505545,0.843154896803334 -78.280447104564,0.843156792808278 -78.2804452189466,0.845867903511013 -78.2831384808733,0.845869803736151 -78.2831359597888,0.849484626062472 -78.2149084753093,0.84943570028171 -78.2149225519795,0.829555321787468 -78.2418538480376,0.829574323657977 -78.2418771500348,0.795234696167006 -78.2508543098745,0.795240728690771</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">239601</SimpleData>
+		<SimpleData name="nam">40000320</SimpleData>
+		<SimpleData name="com">BLANCA</SimpleData>
+		<SimpleData name="ttm">CARNEGIE RIDGE RESOURCES S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1494565200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CARCHI</SimpleData>
+		<SimpleData name="dpa_descan">MIRA</SimpleData>
+		<SimpleData name="dpa_despar">JIJON Y CAAMAÑO ( CAB. EN RIO BLANCO)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4682</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3585454828324,0.855863625475863 -78.3639323723398,0.855867358524871 -78.3639342217563,0.853156061944814 -78.3711167725922,0.853161011789608 -78.3711192226742,0.849545928640157 -78.3783018084649,0.849550844097655 -78.3783048481277,0.845031963905827 -78.3818961524466,0.845034403557461 -78.3818979659792,0.84232306755761 -78.383693620786,0.842324282222432 -78.383694825744,0.840516722259053 -78.4034471900604,0.840530000162221 -78.4034411849311,0.849567942586008 -78.4124196559953,0.849574009372422 -78.4124136075464,0.858612015878234 -78.4213921635689,0.858618126033784 -78.4213860722434,0.867656196394247 -78.4303647132257,0.867662349472501 -78.430339796666,0.90381488251518 -78.3585117733033,0.903762982303785 -78.3585454828324,0.855863625475863</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">122707</SimpleData>
+		<SimpleData name="nam">40000148</SimpleData>
+		<SimpleData name="com">RIO AMARILLO 1</SimpleData>
+		<SimpleData name="ttm">CARNEGIE RIDGE RESOURCES S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1491282000000</SimpleData>
+		<SimpleData name="plz">288</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">IBARRA</SimpleData>
+		<SimpleData name="dpa_despar">CAROLINA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4880</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.1908659625322,0.512361993266513 -78.2456222630229,0.512385945004162 -78.2455891860688,0.584680205576823 -78.1908322301053,0.584652874196493 -78.1908659625322,0.512361993266513</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">122715</SimpleData>
+		<SimpleData name="nam">40000149</SimpleData>
+		<SimpleData name="com">RIO AMARILLO II</SimpleData>
+		<SimpleData name="ttm">CARNEGIE RIDGE RESOURCES S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1491282000000</SimpleData>
+		<SimpleData name="plz">288</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">IBARRA</SimpleData>
+		<SimpleData name="dpa_despar">CAROLINA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4244</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.1414638761389,0.583724174343127 -78.1333855473528,0.583720031533428 -78.1334100780247,0.533118948750367 -78.1908567198723,0.533145623523552 -78.1908272441651,0.594592868747915 -78.1414583458982,0.59456733916664 -78.1414638761389,0.583724174343127</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">134359</SimpleData>
+		<SimpleData name="nam">40000180</SimpleData>
+		<SimpleData name="com">CHICAL 2</SimpleData>
+		<SimpleData name="ttm">CARNEGIE RIDGE RESOURCES S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1503032400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CARCHI</SimpleData>
+		<SimpleData name="dpa_descan">TULCAN</SimpleData>
+		<SimpleData name="dpa_despar">EL CHICAL</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4747</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.1923973533351,0.939782928452213 -78.1879088185073,0.939779291290827 -78.1879095413959,0.938875659174427 -78.1888072467409,0.938876386370003 -78.1888271988079,0.913574665399342 -78.1879294998138,0.913573957804147 -78.1879337056554,0.908152164129008 -78.2148649369616,0.90817316860076 -78.2148683894207,0.9036549025489 -78.286687933086,0.903709655508587 -78.2866570555598,0.944376509662604 -78.1923937342237,0.944301106444708 -78.1923973533351,0.939782928452213</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">327126</SimpleData>
+		<SimpleData name="nam">40000470</SimpleData>
+		<SimpleData name="com">LANISPORT</SimpleData>
+		<SimpleData name="ttm">CARNEGIE RIDGE RESOURCES S.A</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">CARCHI</SimpleData>
+		<SimpleData name="dpa_descan">MIRA</SimpleData>
+		<SimpleData name="dpa_despar">JIJON Y CAAMAÑO ( CAB. EN RIO BLANCO)</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">4715</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.2867694986291,0.786227576993924 -78.3047245221433,0.786239291683763 -78.3047127899223,0.804313732018336 -78.313690440775,0.804319694281182 -78.3136826975999,0.816068166645747 -78.3091938509513,0.816065144479646 -78.3090912968332,0.957949952468093 -78.2866464609363,0.957932125379348 -78.2867694986291,0.786227576993924</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">261237</SimpleData>
+		<SimpleData name="nam">40000343</SimpleData>
+		<SimpleData name="com">RIO AMARILLO III</SimpleData>
+		<SimpleData name="ttm">CARNEGIE RIDGE RESOURCES S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1504846800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">IBARRA</SimpleData>
+		<SimpleData name="dpa_despar">CAROLINA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3203</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.1414583458982,0.59456733916664 -78.1908272441651,0.594592868747915 -78.1908322301053,0.584652874196493 -78.241998487793,0.584678429786337 -78.2419830897974,0.615403391050077 -78.1414474617193,0.61535007039587 -78.1414583458982,0.59456733916664</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">242019</SimpleData>
+		<SimpleData name="nam">90000406</SimpleData>
+		<SimpleData name="com">HELIPUERTO</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1496206800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">SAN JUAN BOSCO</SimpleData>
+		<SimpleData name="dpa_despar">SAN CARLOS DE LIMON</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4850</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3033494689652,-3.25337457498991 -78.3905664868751,-3.25360511177166 -78.3906819680989,-3.20841720334463 -78.3034687987825,-3.20818987486765 -78.3033494689652,-3.25337457498991</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">251228</SimpleData>
+		<SimpleData name="nam">50000954</SimpleData>
+		<SimpleData name="com">CANGAIME</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">ZAMORA</SimpleData>
+		<SimpleData name="dpa_despar">CUMBARATZA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">4772</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8918370760095,-3.8957789927844 -78.887336440107,-3.89576767517943 -78.887322894348,-3.90119209709523 -78.8810219859226,-3.90117618978969 -78.8810265167341,-3.89936805662875 -78.8702250428518,-3.89934068967943 -78.870220488987,-3.90114881011262 -78.8711206108119,-3.9011510970598 -78.8711115005451,-3.9047673398031 -78.8702113748754,-3.90476505072967 -78.8702136542011,-3.90386099060659 -78.8675132832685,-3.90385411918712 -78.8675087183153,-3.90566223622044 -78.8603077372227,-3.90564386141536 -78.8603054462515,-3.90654791563486 -78.857605084266,-3.90654100753936 -78.8575959034877,-3.91015721779534 -78.8557956571385,-3.91015260328659 -78.8557933586802,-3.91105665472842 -78.8539931125467,-3.91105203527999 -78.8539885101702,-3.91286013595912 -78.8521882623267,-3.91285551049735 -78.8521859584071,-3.91375955973374 -78.8494855877739,-3.91375261267282 -78.8494809725412,-3.91556070786396 -78.8458804781706,-3.91555142726504 -78.8458735397183,-3.9182635634476 -78.8449734145762,-3.91826123926308 -78.8449710997178,-3.91916528407763 -78.8440709741487,-3.91916295838587 -78.8440732899721,-3.9182589141094 -78.8431731659065,-3.91825658798657 -78.8431662139251,-3.92096871913832 -78.8413659616184,-3.92096406075333 -78.8413729193914,-3.91825193283345 -78.8395726750325,-3.91824727380375 -78.8395703543838,-3.91915131538643 -78.837770110253,-3.91914665140109 -78.8377677871342,-3.92005069188379 -78.8368676649134,-3.9200483578972 -78.8368630151248,-3.92185643772007 -78.8377631392768,-3.92185877278642 -78.8377584892595,-3.92366685360536 -78.8359582376314,-3.92366218034266 -78.83595590988,-3.92456621964074 -78.8350557839101,-3.92456388101335 -78.8350487945128,-3.92727599716092 -78.8359489233832,-3.92727833740932 -78.8359396004878,-3.93089449414071 -78.835039467747,-3.93089215173095 -78.83503480112,-3.93270022889014 -78.8368350710152,-3.9327049148983 -78.8368304061004,-3.93451299413447 -78.8377305437959,-3.93451533675927 -78.8377282114972,-3.93541937688577 -78.8386283507019,-3.93542171907707 -78.8395261595462,-3.93632810147959 -78.8395191636084,-3.93904022490747 -78.8404193077709,-3.93904256730888 -78.8404169756827,-3.93994660894871 -78.8386166859568,-3.93994192209291 -78.8386236864232,-3.93722980034642 -78.8377235452798,-3.93722745707577 -78.8377258786585,-3.93632341699127 -78.835925599931,-3.93631872860847 -78.8359279347083,-3.93541468958299 -78.8341276600812,-3.93540999838666 -78.8341346669834,-3.93269788442699 -78.8314342678198,-3.93269084520128 -78.831438942193,-3.93088277236932 -78.8323390727697,-3.93088511866811 -78.832341408176,-3.92998108167942 -78.8314412785672,-3.92997873592186 -78.8314459496909,-3.92817066296404 -78.8305458225589,-3.92816831731737 -78.8305504934506,-3.9263602453586 -78.8314506186484,-3.92636258992236 -78.8314482844404,-3.92726662645368 -78.8323484111467,-3.92726897058753 -78.8323554092454,-3.92455685930701 -78.8287549172722,-3.92454748344229 -78.8287525812476,-3.92545151839048 -78.8296527043947,-3.92545386435458 -78.8296199566706,-3.93811035901365 -78.8287198199678,-3.93810800546278 -78.8287174758094,-3.93901204009615 -78.830517751697,-3.93901674730747 -78.8305154089366,-3.93992078300344 -78.8332158297416,-3.93992783813714 -78.8332134893507,-3.94083187543583 -78.8350137745343,-3.94083657506717 -78.8350114355435,-3.94174061342621 -78.8359115799171,-3.94174296232014 -78.8359069022553,-3.94355104005582 -78.8368070491114,-3.94355338905505 -78.8368117248313,-3.9417453102391 -78.8377118702856,-3.94174765718311 -78.8377142063646,-3.94084361720369 -78.8386143513883,-3.94084596263305 -78.8386026704489,-3.94536616501826 -78.8413031233247,-3.94537320354639 -78.8412914434729,-3.94989341349402 -78.8421916003713,-3.94989576041228 -78.8421892637563,-3.95079980287742 -78.8430894221666,-3.95080214935725 -78.843082412008,-3.95351427824193 -78.8421822506777,-3.95351193014638 -78.8421799119069,-3.9544159725272 -78.8457805643549,-3.95442536119496 -78.8457735564998,-3.95713749466975 -78.8448733896574,-3.95713514735628 -78.8448710516549,-3.95803919126778 -78.843970884376,-3.95803684243739 -78.843966204806,-3.95984492912078 -78.853868095894,-3.95987072422251 -78.853863435631,-3.96167882263573 -78.8583643264321,-3.96169051385428 -78.8583596737846,-3.96349861753526 -78.8592598555026,-3.96350095390818 -78.8592552026682,-3.96530905857378 -78.9015644344917,-3.96541781188238 -78.9016597761151,-3.92744655168479 -78.9160625309659,-3.92748272884167 -78.9160804627445,-3.92025003684323 -78.9133799592293,-3.92024328506686 -78.9133934035732,-3.91481877456403 -78.8998910433128,-3.91478493179247 -78.8999360109073,-3.89670338149304 -78.8927349542201,-3.89668532694584 -78.8927417042916,-3.89397310628914 -78.8918415774494,-3.89397084671156 -78.8918370760095,-3.8957789927844</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">251226</SimpleData>
+		<SimpleData name="nam">50000953</SimpleData>
+		<SimpleData name="com">PIUNTZA</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">ZAMORA</SimpleData>
+		<SimpleData name="dpa_despar">GUADALUPE</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">4964</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9107376588325,-3.89673034763991 -78.9134380825678,-3.89673706748728 -78.9133934035732,-3.91481877456403 -78.9133799592293,-3.92024328506686 -78.9160804627445,-3.92025003684323 -78.9223816558186,-3.92026575704399 -78.9223727211432,-3.92388211775507 -78.9250732518414,-3.92388884665649 -78.9250620863286,-3.9284093048519 -78.92686245239,-3.92841379111034 -78.9268579864288,-3.93022197631375 -78.9304587325064,-3.93023094130502 -78.9304475779159,-3.93475141429098 -78.921445679826,-3.93472894675301 -78.9214524031981,-3.93201667855805 -78.9187518526044,-3.9320099239879 -78.9187630623616,-3.92748948436769 -78.9160625309659,-3.92748272884167 -78.9016597761151,-3.92744655168479 -78.9015644344917,-3.96541781188238 -78.9654805687163,-3.96557798929314 -78.9656537061653,-3.89415293287351 -78.9107443513397,-3.89401809555446 -78.9107376588325,-3.89673034763991</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">367193</SimpleData>
+		<SimpleData name="nam">50001178</SimpleData>
+		<SimpleData name="com">EL HUECO</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">CENTINELA DEL CONDOR</SimpleData>
+		<SimpleData name="dpa_despar">ZUMBI</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">89</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7585181016973,-3.93520945256802 -78.7648187492066,-3.93522642700403 -78.7648211599909,-3.93432243133583 -78.7630209741315,-3.93431758747906 -78.7630257978995,-3.93250959831213 -78.7648259798848,-3.93251443993621 -78.7648524493917,-3.92257048573259 -78.7603520518057,-3.92255840509638 -78.7603400044251,-3.92707837063308 -78.7594399217531,-3.92707594879996 -78.7594519739655,-3.92255598605911 -78.7585518966847,-3.92255356605185 -78.7585181016973,-3.93520945256802</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">251232</SimpleData>
+		<SimpleData name="nam">50000955</SimpleData>
+		<SimpleData name="com">PALMAS 1</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">ZAMORA</SimpleData>
+		<SimpleData name="dpa_despar">ZAMORA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3906</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.927470465978,-4.04504387266632 -78.9391745495941,-4.04507379121191 -78.9391654041662,-4.04869017951705 -78.9436670179324,-4.04870165189161 -78.9436601684226,-4.05141395060525 -78.9454608235154,-4.05141853562203 -78.9454585413144,-4.05232263617676 -78.9652659044556,-4.05237281794015 -78.9654805687163,-3.96557798929314 -78.9276707098567,-3.9654838339445 -78.927470465978,-4.04504387266632</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">251234</SimpleData>
+		<SimpleData name="nam">50000956</SimpleData>
+		<SimpleData name="com">PALMAS 2</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">ZAMORA</SimpleData>
+		<SimpleData name="dpa_despar">CUMBARATZA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3874</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8825374396768,-4.01328496298045 -78.882535109819,-4.01418902797611 -78.8924379009776,-4.01421470783511 -78.892428619786,-4.01783099081129 -78.8987304568731,-4.01784728468718 -78.8987211949831,-4.02146358203331 -78.9032225427485,-4.02147520117749 -78.9032063489295,-4.02780373905289 -78.9167105748106,-4.02783850203945 -78.916673702549,-4.04230385277188 -78.9274773584978,-4.04233160133721 -78.9276707098567,-3.9654838339445 -78.8628559426965,-3.96531839853318 -78.8628326855516,-3.97435894195266 -78.8718346707403,-3.97438227643194 -78.8717928499156,-3.99065534508826 -78.8753937295191,-3.99066468957469 -78.8753821017241,-3.99518499582091 -78.8861848504457,-3.99521296625374 -78.886173268463,-3.99973330371402 -78.8798716213109,-3.99971698642541 -78.8798530074516,-4.00694949565695 -78.878052525822,-4.00694481619652 -78.8780408650686,-4.01146512847784 -78.8798413565743,-4.01146981323385 -78.8798390248098,-4.01237387668522 -78.881639520411,-4.01237855852996 -78.8816371900937,-4.0132826230182 -78.8825374396768,-4.01328496298045</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264450</SimpleData>
+		<SimpleData name="nam">90000460</SimpleData>
+		<SimpleData name="com">AYANGASA 2</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1501736400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SANTA SUSANA DE CHIVIAZA (CAB. EN CHIVIAZA)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4720</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.2736785256959,-2.89995546036023 -78.2916545420103,-2.89999885996547 -78.2916867333347,-2.88644349646637 -78.3015735400304,-2.88646713305102 -78.3015607284765,-2.89188932335657 -78.3195370334528,-2.89193215859149 -78.319568804624,-2.87837648063801 -78.3312534077838,-2.87840404044861 -78.3312217747086,-2.89195984840604 -78.3752652645477,-2.89206313349181 -78.3753067152619,-2.87398807552275 -78.3690147907095,-2.87397351715093 -78.3690230692798,-2.87035852313801 -78.3609335244752,-2.8703397778026 -78.3609542384419,-2.86130235077967 -78.3555612802886,-2.86128986151919 -78.3555757705054,-2.85496368932185 -78.3501828654795,-2.85495120235116 -78.3501952852381,-2.84952879217944 -78.2737987240665,-2.84934951022421 -78.2736785256959,-2.89995546036023</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">247643</SimpleData>
+		<SimpleData name="nam">90000438</SimpleData>
+		<SimpleData name="com">HELIPUERTO 3</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1496206800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">SAN JUAN BOSCO</SimpleData>
+		<SimpleData name="dpa_despar">SAN CARLOS DE LIMON</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4850</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3032284612698,-3.29855923013006 -78.3904493818864,-3.29879297548962 -78.3905664868751,-3.25360511177166 -78.3033494689652,-3.25337457498991 -78.3032284612698,-3.29855923013006</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">249218</SimpleData>
+		<SimpleData name="nam">90000441</SimpleData>
+		<SimpleData name="com">HELIPUERTO 4</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1496206800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">SAN JUAN BOSCO</SimpleData>
+		<SimpleData name="dpa_despar">SAN CARLOS DE LIMON</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3783</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3031329102448,-3.3338032295122 -78.3903569125454,-3.33403947775443 -78.3904493818864,-3.29879297548962 -78.3032284612698,-3.29855923013006 -78.3031329102448,-3.3338032295122</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264063</SimpleData>
+		<SimpleData name="nam">10000502</SimpleData>
+		<SimpleData name="com">ZHUCAY</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1503550800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CAÑAR</SimpleData>
+		<SimpleData name="dpa_descan">CAÑAR</SimpleData>
+		<SimpleData name="dpa_despar">SAN ANTONIO</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4690</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.3000536823078,-2.57190014042726 -79.3629970434256,-2.57198288478086 -79.363073394977,-2.511391983933 -79.300132966222,-2.51131119130265 -79.3000536823078,-2.57190014042726</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">247642</SimpleData>
+		<SimpleData name="nam">90000437</SimpleData>
+		<SimpleData name="com">HELIPUERTO 2</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1496206800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE CONCHAY</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4950</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.2143406749699,-3.25313149383136 -78.3033494689652,-3.25337457498991 -78.3034687987825,-3.20818987486765 -78.2144639313054,-3.20795017658836 -78.2143406749699,-3.25313149383136</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264438</SimpleData>
+		<SimpleData name="nam">90000452</SimpleData>
+		<SimpleData name="com">TSAPA</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1501736400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE CONCHAY</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4396</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-77.9541368590676,-3.08524206718344 -77.9739082350054,-3.08529880429122 -77.973841495036,-3.10878811020019 -77.9891199616895,-3.108832032864 -77.9890762698853,-3.12419063615654 -78.0106465498248,-3.12425257258269 -78.0105772107037,-3.14864612240087 -78.0204639607885,-3.14867458255701 -78.020699734715,-3.06465154052534 -77.9946369154928,-3.0645783179449 -77.9946621036527,-3.05554378951148 -77.9542213816677,-3.0554292496149 -77.9541368590676,-3.08524206718344</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264439</SimpleData>
+		<SimpleData name="nam">90000453</SimpleData>
+		<SimpleData name="com">VICTORIA</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1503378000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE CONCHAY</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4908</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3460662055081,-3.07364561644063 -78.3190968333238,-3.07357788953324 -78.3189693932466,-3.12418553489164 -78.3908924454998,-3.1243675768716 -78.3910318371309,-3.06743064848845 -78.3694556296039,-3.06737754179247 -78.3694622572613,-3.06466630483604 -78.3460885165438,-3.06460833178322 -78.3460662055081,-3.07364561644063</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264440</SimpleData>
+		<SimpleData name="nam">90000454</SimpleData>
+		<SimpleData name="com">YANGUZA</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1502686800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SAN ANTONIO (CAB. EN SAN ANTONIO CENTRO)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4660</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3011175848901,-3.07353235895099 -78.3460662055081,-3.07364561644063 -78.3460885165438,-3.06460833178322 -78.3730582567263,-3.06467517837653 -78.3730516381037,-3.06738642319759 -78.3910318371309,-3.06743064848845 -78.3911276623894,-3.02766513492696 -78.3012325909397,-3.02744389097104 -78.3011175848901,-3.07353235895099</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264441</SimpleData>
+		<SimpleData name="nam">90000455</SimpleData>
+		<SimpleData name="com">EL CISNE</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1502773200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SAN ANTONIO (CAB. EN SAN ANTONIO CENTRO)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4500</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3012325909397,-3.02744389097104 -78.3911276623894,-3.02766513492696 -78.3912243662464,-2.98699582636469 -78.3013326172673,-2.98677755949294 -78.3012325909397,-3.02744389097104</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264442</SimpleData>
+		<SimpleData name="nam">90000456</SimpleData>
+		<SimpleData name="com">SAN SALVADOR</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1502773200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SANTA SUSANA DE CHIVIAZA (CAB. EN CHIVIAZA)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2956</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3588927642458,-2.97426574884419 -78.3570949324525,-2.97426142111517 -78.3571056894736,-2.96974273022071 -78.3508133244461,-2.96972758313091 -78.3508219386373,-2.96611264859036 -78.3580131922677,-2.96612993551344 -78.3580260588726,-2.96070750155545 -78.3013963586996,-2.96057035033536 -78.3013326172673,-2.98677755949294 -78.3912243662464,-2.98699582636469 -78.3912923342276,-2.95807540890609 -78.3589313864244,-2.95799843600035 -78.3588927642458,-2.97426574884419</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264444</SimpleData>
+		<SimpleData name="nam">50001006</SimpleData>
+		<SimpleData name="com">LA HUECA</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1509080400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">CENTINELA DEL CONDOR</SimpleData>
+		<SimpleData name="dpa_despar">ZUMBI</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2903</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7730009800986,-3.90451214627634 -78.7585999849343,-3.90447372102538 -78.7585518966847,-3.92255356605185 -78.7648524493917,-3.92257048573259 -78.76476799379,-3.95421033115744 -78.7836705284788,-3.95426121337636 -78.7837041069722,-3.9416051149596 -78.785504333915,-3.94160992290836 -78.785530619584,-3.93166583051299 -78.7972320099343,-3.9316969082951 -78.7972058628859,-3.94164107953168 -78.8134081333069,-3.94168394749176 -78.8134175791715,-3.93806784607239 -78.8296199566706,-3.93811035901365 -78.8296527043947,-3.92545386435458 -78.82155161561,-3.92543271572554 -78.8215797047902,-3.91458434708471 -78.8044777712424,-3.91453956620159 -78.8044989513823,-3.90640338109771 -78.7954980997858,-3.90637972125749 -78.7955169661763,-3.8991475992337 -78.778415646048,-3.89910246335128 -78.7784227665656,-3.89639044873545 -78.7730224084876,-3.89637613297433 -78.7730009800986,-3.90451214627634</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264445</SimpleData>
+		<SimpleData name="nam">50001007</SimpleData>
+		<SimpleData name="com">LA FLORIDA</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1509080400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">CENTINELA DEL CONDOR</SimpleData>
+		<SimpleData name="dpa_despar">ZUMBI</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1859</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7316203318333,-3.89626522645627 -78.7217200119771,-3.89623840329382 -78.7216148624528,-3.93510907333903 -78.7585181016973,-3.93520945256802 -78.7586215516091,-3.89633778802961 -78.7532212671663,-3.89632334508402 -78.7532308608163,-3.89270738776376 -78.7316300175265,-3.89264932323238 -78.7316203318333,-3.89626522645627</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264446</SimpleData>
+		<SimpleData name="nam">50001008</SimpleData>
+		<SimpleData name="com">SANTA CRUZ</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1509080400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">CENTINELA DEL CONDOR</SimpleData>
+		<SimpleData name="dpa_despar">ZUMBI</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4666</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.726107845854,-3.93783331656405 -78.7297081430128,-3.93784316901106 -78.7296319034976,-3.9658663423989 -78.7368327663171,-3.96588614087778 -78.7368007344425,-3.97763784699931 -78.7548033037831,-3.97768721490433 -78.7547763410174,-3.9876310872186 -78.7817809387142,-3.98770458516911 -78.7817954774553,-3.98228055485509 -78.8250035858856,-3.98239614740761 -78.8250225635836,-3.97516389522416 -78.8340243328311,-3.97518764801316 -78.8340431975074,-3.96795535112352 -78.8169400310572,-3.9679102192733 -78.8169518966798,-3.96339008459987 -78.8358553052785,-3.96343988958507 -78.8359022224314,-3.94535911770734 -78.8142988139238,-3.9453024230492 -78.8142917201537,-3.94801450027692 -78.7962890614764,-3.94796679250836 -78.7963033606897,-3.94254270360785 -78.7909026409093,-3.94252833494532 -78.7908715583986,-3.95428048364058 -78.76476799379,-3.95421033115744 -78.7648187492066,-3.93522642700403 -78.7261152065856,-3.93512140228372 -78.726107845854,-3.93783331656405</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264447</SimpleData>
+		<SimpleData name="nam">50001009</SimpleData>
+		<SimpleData name="com">MACHOS 1</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1502686800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YANTZAZA</SimpleData>
+		<SimpleData name="dpa_despar">YANTZAZA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3139</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.6949025128412,-3.82836817098813 -78.739000136048,-3.82848608102265 -78.7390309314846,-3.8167343153489 -78.7408308389688,-3.81673906506204 -78.7409108663859,-3.78600362321607 -78.730111837128,-3.785975298909 -78.7301494501493,-3.77151166193853 -78.727449750207,-3.77150458700836 -78.7274591419393,-3.76788868375651 -78.695063276046,-3.7678032122827 -78.6949025128412,-3.82836817098813</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264448</SimpleData>
+		<SimpleData name="nam">50001010</SimpleData>
+		<SimpleData name="com">MACHOS 2</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1502686800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YANTZAZA</SimpleData>
+		<SimpleData name="dpa_despar">YANTZAZA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3448</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.694771062931,-3.87718165254049 -78.7352711335737,-3.87729140825685 -78.7352518607201,-3.88452323531305 -78.7397519778346,-3.8845353331477 -78.7397423469726,-3.88815125746996 -78.7631432822583,-3.88821383748308 -78.7631528136137,-3.88459785479064 -78.7613527358693,-3.88459306848711 -78.7613717870612,-3.87736111104006 -78.7496714356662,-3.87732996467528 -78.7497239143109,-3.85744223506742 -78.7479239105564,-3.85743745366108 -78.7479381871128,-3.85201353240671 -78.7452382027789,-3.85200636326757 -78.7452999077334,-3.82850273978449 -78.7210009410115,-3.82843822897714 -78.7209817916453,-3.83566999240061 -78.7164819906387,-3.83565794745384 -78.7165011777343,-3.82842620680497 -78.6949025128412,-3.82836817098813 -78.694771062931,-3.87718165254049</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">264449</SimpleData>
+		<SimpleData name="nam">90000459</SimpleData>
+		<SimpleData name="com">AYANGASA 1</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1501822800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SANTA SUSANA DE CHIVIAZA (CAB. EN CHIVIAZA)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3680</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.2737987240665,-2.84934951022421 -78.3501952852381,-2.84952879217944 -78.3502056169268,-2.84501011660417 -78.3430151753413,-2.84499348605363 -78.3430358451062,-2.83595618663806 -78.3376430834764,-2.83594372401168 -78.337715053048,-2.80431330298294 -78.2739042487021,-2.80416558428105 -78.2737987240665,-2.84934951022421</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">265643</SimpleData>
+		<SimpleData name="nam">90000457</SimpleData>
+		<SimpleData name="com">CUMTZA 1</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1514437200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">YUNGANZA EL ROSARIO</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4050</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3870225822795,-2.860458595346 -78.4014042101103,-2.86049143763395 -78.4013531117309,-2.88308573704253 -78.4094430087469,-2.88310427691899 -78.4094634329358,-2.87406650012784 -78.4274410270108,-2.87410736473885 -78.4274003973959,-2.89218317416146 -78.4543676923187,-2.89224432169764 -78.4545033561317,-2.83078524259351 -78.3870897828855,-2.83063444806095 -78.3870225822795,-2.860458595346</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">265644</SimpleData>
+		<SimpleData name="nam">90000458</SimpleData>
+		<SimpleData name="com">CUMTZA 2</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1514437200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">YUNGANZA EL ROSARIO</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3879</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3754254467165,-2.82157037176882 -78.3763242551456,-2.82157241075883 -78.3762815341842,-2.84055125435345 -78.375382711161,-2.84054920162699 -78.375347905023,-2.85591301122551 -78.3870328096486,-2.85593978624823 -78.3870897828855,-2.83063444806095 -78.4365260514245,-2.83074541506481 -78.4366285372308,-2.7837479095589 -78.3755100549423,-2.78361269154881 -78.3754254467165,-2.82157037176882</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">266038</SimpleData>
+		<SimpleData name="nam">90000445</SimpleData>
+		<SimpleData name="com">COANGOS</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1504069200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE CONCHAY</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4924</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.1670654867474,-3.11655601702212 -78.2102129994519,-3.11667181937752 -78.2104175761615,-3.03805637080812 -78.2068221515383,-3.03804703043082 -78.2068615636281,-3.02268542330789 -78.1673131855727,-3.02258241213275 -78.1670654867474,-3.11655601702212</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">266039</SimpleData>
+		<SimpleData name="nam">90000446</SimpleData>
+		<SimpleData name="com">COANGOS 2</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1501736400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE CONCHAY</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4363</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.1267716812097,-3.05861800283679 -78.1204800338163,-3.05860104601719 -78.1203241806991,-3.11642856548023 -78.1670654867474,-3.11655601702212 -78.1672732172496,-3.03794349480123 -78.1268268541293,-3.03783610538199 -78.1267716812097,-3.05861800283679</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">266040</SimpleData>
+		<SimpleData name="nam">90000447</SimpleData>
+		<SimpleData name="com">CHIMIUS</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1501736400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE CONCHAY</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4608</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.0556086529013,-3.11624866277521 -78.1203241806991,-3.11642856548023 -78.1204800338163,-3.05860104601719 -78.0557679963329,-3.05842448768645 -78.0556086529013,-3.11624866277521</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">266041</SimpleData>
+		<SimpleData name="nam">90000448</SimpleData>
+		<SimpleData name="com">CHIMIUS 2</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1501822800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE CONCHAY</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4176</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.055461657351,-3.16865175937015 -78.1201804049891,-3.16883469321542 -78.1203241806991,-3.11642856548023 -78.0556086529013,-3.11624866277521 -78.055461657351,-3.16865175937015</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">266042</SimpleData>
+		<SimpleData name="nam">90000449</SimpleData>
+		<SimpleData name="com">CHIMIUS 3</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1501736400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE CONCHAY</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3419</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.0401633928572,-3.17493239552561 -78.0464552788758,-3.17495048764814 -78.0463960076752,-3.19573083743019 -78.0643733824579,-3.195782655423 -78.06434764818,-3.20481773393446 -78.0940112134817,-3.20490278463269 -78.0939856660468,-3.21393810159922 -78.1200545262702,-3.21401234161131 -78.1201804049891,-3.16883469321542 -78.0401813929062,-3.16860797547187 -78.0401633928572,-3.17493239552561</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">266043</SimpleData>
+		<SimpleData name="nam">90000450</SimpleData>
+		<SimpleData name="com">CISNEROS</SimpleData>
+		<SimpleData name="ttm">CRUZ DEL SOL CSSA S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1501736400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">MORONA SANTIAGO</SimpleData>
+		<SimpleData name="dpa_descan">LIMON INDANZA</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE CONCHAY</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4604</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.0404719444463,-3.06470666478797 -78.020699734715,-3.06465154052534 -78.0204072490195,-3.16855097875433 -78.055461657351,-3.16865175937015 -78.0557679963329,-3.05842448768645 -78.0404893159462,-3.05838222972134 -78.0404719444463,-3.06470666478797</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">479956</SimpleData>
+		<SimpleData name="nam">40000739</SimpleData>
+		<SimpleData name="com">RIO MIRA 2</SimpleData>
+		<SimpleData name="ttm">EXPLORACIONES NOVOMINING S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1560402000000</SimpleData>
+		<SimpleData name="plz">279</SimpleData>
+		<SimpleData name="dpa_despro">CARCHI</SimpleData>
+		<SimpleData name="dpa_descan">MIRA</SimpleData>
+		<SimpleData name="dpa_despar">JIJON Y CAAMAÑO ( CAB. EN RIO BLANCO)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1800</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.2508543098745,0.795240728690771 -78.2643201770835,0.79524974071402 -78.2643260970144,0.786212824582864 -78.2867694986291,0.786227576993924 -78.2867269884227,0.8494871675925 -78.2831359597888,0.849484626062472 -78.2831384808733,0.845869803736151 -78.2804452189466,0.845867903511013 -78.280447104564,0.843156792808278 -78.2777538505545,0.843154896803334 -78.2777557319722,0.8404437921558 -78.2732669918556,0.840440638165159 -78.2732701192146,0.835922147285267 -78.269679143369,0.835919633950124 -78.2696822579469,0.831401156541613 -78.2651935584448,0.831398027244581 -78.2651978975842,0.825072182491884 -78.2616069558399,0.825069694442907 -78.2616118806998,0.817840179111676 -78.2571232268122,0.81783709176834 -78.2571275074817,0.811511289497877 -78.2544343274804,0.811509449020723 -78.2544373677177,0.806991028941043 -78.2526419197613,0.806989807794073 -78.2526449449889,0.802471394440406 -78.2508495017222,0.802470179340219 -78.2508543098745,0.795240728690771</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">479954</SimpleData>
+		<SimpleData name="nam">40000741</SimpleData>
+		<SimpleData name="com">BLANCA 2</SimpleData>
+		<SimpleData name="ttm">EXPLORACIONES NOVOMINING S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1560402000000</SimpleData>
+		<SimpleData name="plz">275</SimpleData>
+		<SimpleData name="dpa_despro">CARCHI</SimpleData>
+		<SimpleData name="dpa_descan">MIRA</SimpleData>
+		<SimpleData name="dpa_despar">JIJON Y CAAMAÑO ( CAB. EN RIO BLANCO)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">318</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.383694825744,0.840516722259053 -78.383693620786,0.842324282222432 -78.3818979659792,0.84232306755761 -78.3818961524466,0.845034403557461 -78.3783048481277,0.845031963905827 -78.3783018084649,0.849550844097655 -78.3711192226742,0.849545928640157 -78.3711167725922,0.853161011789608 -78.3639342217563,0.853156061944814 -78.3639323723398,0.855867358524871 -78.3585454828324,0.855863625475863 -78.3585559064399,0.840499677987075 -78.383694825744,0.840516722259053</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">479955</SimpleData>
+		<SimpleData name="nam">40000740</SimpleData>
+		<SimpleData name="com">NIEVES 2</SimpleData>
+		<SimpleData name="ttm">EXPLORACIONES NOVOMINING S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1560402000000</SimpleData>
+		<SimpleData name="plz">275</SimpleData>
+		<SimpleData name="dpa_despro">CARCHI</SimpleData>
+		<SimpleData name="dpa_descan">MIRA</SimpleData>
+		<SimpleData name="dpa_despar">JIJON Y CAAMAÑO ( CAB. EN RIO BLANCO)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2040</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3585430027688,0.859478671746349 -78.309164238499,0.859443951995602 -78.3091938509513,0.816065144479646 -78.3316382500717,0.816080204998604 -78.3316261990255,0.834155043037961 -78.3585601436141,0.834173346277143 -78.3585430027688,0.859478671746349</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">2852</SimpleData>
+		<SimpleData name="nam">402288</SimpleData>
+		<SimpleData name="com">CASCABEL</SimpleData>
+		<SimpleData name="ttm">EXPLORACIONES NOVOMINING S.A.</SimpleData>
+		<SimpleData name="frm">EVALUACION ECONOMICA</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1272258000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">IMBABURA</SimpleData>
+		<SimpleData name="dpa_descan">IBARRA</SimpleData>
+		<SimpleData name="dpa_despar">LITA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4979</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.3406179043388,0.813374948224747 -78.3163778086257,0.813358785650591 -78.3163795977097,0.81064759373016 -78.3136862853299,0.810645794879389 -78.313690440775,0.804319694281182 -78.3074060781866,0.804315522779768 -78.3074084436099,0.800700626804791 -78.3047151577047,0.800698844092721 -78.3047245221433,0.786239291683763 -78.2957469769351,0.786233444032488 -78.2957752341167,0.741047671769992 -78.3586187883337,0.741085868799192 -78.3585825866319,0.799830398817035 -78.3496046155159,0.799824568676683 -78.3495987812475,0.808862121172919 -78.3406208559999,0.808856205198155 -78.3406179043388,0.813374948224747</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">241214</SimpleData>
+		<SimpleData name="nam">50000930</SimpleData>
+		<SimpleData name="com">TIMBARA 3</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1496379600000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">ZAMORA</SimpleData>
+		<SimpleData name="dpa_despar">ZAMORA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4901</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8568386248697,-4.19764484064869 -78.8721462039595,-4.19768678966811 -78.8721216877644,-4.20672733574567 -78.8766239980026,-4.20673964311215 -78.8766141973671,-4.21035587153296 -78.8829174830376,-4.21037307295611 -78.917135770243,-4.21046556138395 -78.9173193747191,-4.14085128198651 -78.8569929536689,-4.14068992027997 -78.8568386248697,-4.19764484064869</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">242015</SimpleData>
+		<SimpleData name="nam">60000488</SimpleData>
+		<SimpleData name="com">SACAPALCA 1</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1497243600000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">GONZANAMA</SimpleData>
+		<SimpleData name="dpa_despar">CHANGAIMINA(LA LIBERTAD)</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4637</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.553961538068,-4.17844925736843 -79.549457717799,-4.17844092705709 -79.5493100602969,-4.25802727749315 -79.5763358655263,-4.2580778190273 -79.5764103113556,-4.21737978969914 -79.5980300570384,-4.21741915793002 -79.5980349195208,-4.21470592899488 -79.5944316269444,-4.21469941363527 -79.594536474105,-4.15591283028568 -79.5540028450378,-4.15583942299535 -79.553961538068,-4.17844925736843</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">242016</SimpleData>
+		<SimpleData name="nam">60000489</SimpleData>
+		<SimpleData name="com">SACAPALCA 2</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1497243600000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">CALVAS</SimpleData>
+		<SimpleData name="dpa_despar">CARIAMANGA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2976</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.5944316269444,-4.21469941363527 -79.6034398689051,-4.21471567070144 -79.603435025154,-4.21742890592962 -79.5764103113556,-4.21737978969914 -79.5763690416284,-4.23998981143684 -79.5790715769613,-4.23999479203743 -79.5790649657061,-4.24361239851826 -79.5763624178092,-4.24360741365322 -79.5763358655263,-4.2580778190273 -79.5853445388322,-4.25809445517331 -79.5853955763001,-4.23005792976984 -79.6403472608064,-4.23015646973887 -79.6404132026976,-4.19217057863624 -79.6061825127949,-4.19211020018287 -79.6062176772393,-4.17221310105811 -79.5945075882481,-4.17219220090949 -79.5944316269444,-4.21469941363527</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">242018</SimpleData>
+		<SimpleData name="nam">50000932</SimpleData>
+		<SimpleData name="com">TIMBARA 2</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1497502800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">ZAMORA</SimpleData>
+		<SimpleData name="dpa_despar">TIMBARA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3321</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8569929536689,-4.14068992027997 -78.862395222691,-4.14070455805789 -78.8624097730555,-4.135280256103 -78.8678120246115,-4.13529483781132 -78.867821689724,-4.13167862327362 -78.8741243122721,-4.13169557383132 -78.8741219039204,-4.13259963122009 -78.8705203980553,-4.13258994919511 -78.8705131575886,-4.13530211485401 -78.8687124017378,-4.1352972645153 -78.8687051503643,-4.13800942678431 -78.8633028772604,-4.13799484162293 -78.8632956027331,-4.14070699410215 -78.8939088405297,-4.14078921006554 -78.8939398784378,-4.12903631375652 -78.8912387255201,-4.12902912756794 -78.891250654737,-4.1245087897388 -78.8894498989292,-4.12450399910638 -78.889466591909,-4.11817553259962 -78.883164012972,-4.11815875910376 -78.8831783432535,-4.11273438055364 -78.8921819745258,-4.11275829576062 -78.8921677050861,-4.11818270595753 -78.8912673334999,-4.11818031585711 -78.8912554227336,-4.12270065445361 -78.8930561765857,-4.12270543889885 -78.8930466466143,-4.12632171359221 -78.8957477935378,-4.12632888891924 -78.8957096382653,-4.14079400941754 -78.9173193747191,-4.14085128198651 -78.9174416208499,-4.09383896749323 -78.8571187342382,-4.09367944380869 -78.8569929536689,-4.14068992027997</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">347572</SimpleData>
+		<SimpleData name="nam">50001146</SimpleData>
+		<SimpleData name="com">ANDRE</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_despar">SAN ANDRES</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">2188</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.2729372769923,-4.93475001364125 -79.2873626675857,-4.93478738324561 -79.2873835207798,-4.92664906614756 -79.2909898418113,-4.92665834423217 -79.2910083098105,-4.91942426915984 -79.2955161720998,-4.91943582222526 -79.2955529285978,-4.90496763303588 -79.299159148459,-4.90497682629818 -79.299168301079,-4.90135977116935 -79.3009714038816,-4.90136435710703 -79.300989669259,-4.89413023882704 -79.3045958412592,-4.89413938254757 -79.3046684754229,-4.8652028388659 -79.2731160531723,-4.8651226525035 -79.2729372769923,-4.93475001364125</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">281273</SimpleData>
+		<SimpleData name="nam">60000518</SimpleData>
+		<SimpleData name="com">EL CISNE 2B</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1513054800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">LOJA</SimpleData>
+		<SimpleData name="dpa_despar">EL CISNE</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4920</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.4249491377254,-3.81465310969799 -79.3898371815019,-3.81458787120414 -79.3898034278684,-3.83267449831096 -79.4456238854527,-3.83277802717723 -79.4455845788805,-3.85448255718138 -79.4662930734516,-3.85452024804473 -79.466456379441,-3.76227501250442 -79.4250440012687,-3.76220094696112 -79.4249491377254,-3.81465310969799</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">281265</SimpleData>
+		<SimpleData name="nam">10000509</SimpleData>
+		<SimpleData name="com">EL CISNE 1B</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1514523600000</SimpleData>
+		<SimpleData name="plz">48</SimpleData>
+		<SimpleData name="dpa_despro">AZUAY</SimpleData>
+		<SimpleData name="dpa_descan">SANTA ISABEL</SimpleData>
+		<SimpleData name="dpa_despar">ZHAGLLI  (SHAGLLI)</SimpleData>
+		<SimpleData name="tmm">CONCENTRADO DE ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4995</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.3127731919853,-3.10184635356911 -79.3532552397291,-3.10191043889618 -79.3532831478414,-3.08382386321389 -79.3946649540153,-3.083887392546 -79.3947255864648,-3.04319173400685 -79.3128655062601,-3.04306617585779 -79.3127731919853,-3.10184635356911</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">281270</SimpleData>
+		<SimpleData name="nam">10000511</SimpleData>
+		<SimpleData name="com">EL CISNE 1A</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1513659600000</SimpleData>
+		<SimpleData name="plz">48</SimpleData>
+		<SimpleData name="dpa_despro">AZUAY</SimpleData>
+		<SimpleData name="dpa_descan">CUENCA</SimpleData>
+		<SimpleData name="dpa_despar">BANOS</SimpleData>
+		<SimpleData name="tmm">CONCENTRADO DE ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4930</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.3128655062601,-3.04306617585779 -79.3947255864648,-3.04319173400685 -79.3947655585501,-3.01606127719552 -79.3920668880456,-3.0160572734131 -79.3920999789106,-2.99344857870753 -79.312942232506,-2.9933290500687 -79.3128655062601,-3.04306617585779</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">281272</SimpleData>
+		<SimpleData name="nam">60000517</SimpleData>
+		<SimpleData name="com">EL CISNE 2A</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1513054800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">LOJA</SimpleData>
+		<SimpleData name="dpa_despar">GUALEL</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4929</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.3593429725538,-3.7530361716129 -79.3592272566428,-3.81452982434419 -79.4249491377254,-3.81465310969799 -79.4250440012687,-3.76220094696112 -79.4241437413391,-3.76219931494559 -79.424159972686,-3.75315583590032 -79.3593429725538,-3.7530361716129</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">281275</SimpleData>
+		<SimpleData name="nam">60000519</SimpleData>
+		<SimpleData name="com">EL CISNE 2C</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1513054800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOJA</SimpleData>
+		<SimpleData name="dpa_descan">LOJA</SimpleData>
+		<SimpleData name="dpa_despar">EL CISNE</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4823</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.3898034278684,-3.83267449831096 -79.3896840233612,-3.89597763036765 -79.456313550175,-3.89610281556913 -79.4563889853796,-3.85450228498671 -79.4455845788805,-3.85448255718138 -79.4456238854527,-3.83277802717723 -79.4285174551381,-3.83274668833027 -79.4285125001609,-3.83545973295906 -79.425811489252,-3.83545474986118 -79.425816452737,-3.83274170876735 -79.3898034278684,-3.83267449831096</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">317892</SimpleData>
+		<SimpleData name="nam">10000552</SimpleData>
+		<SimpleData name="com">SAN ANTONIO 2</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">0</SimpleData>
+		<SimpleData name="dpa_despro">CAÑAR</SimpleData>
+		<SimpleData name="dpa_descan">CAÑAR</SimpleData>
+		<SimpleData name="dpa_despar">GUALLETURO</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">4886</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0798277682228,-2.53180110172499 -79.0573519562374,-2.53176742846474 -79.0573303421601,-2.5462344695612 -79.1535299604793,-2.54637665340262 -79.1535569020802,-2.52738759962942 -79.1247867790165,-2.52734614483193 -79.1248010288628,-2.51739965862814 -79.153570933606,-2.51744095007625 -79.1536051392969,-2.49302643985875 -79.0798845798909,-2.49292039413213 -79.0798277682228,-2.53180110172499</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">172160</SimpleData>
+		<SimpleData name="nam">10000229</SimpleData>
+		<SimpleData name="com">SAN ANTONIO</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1485925200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CAÑAR</SimpleData>
+		<SimpleData name="dpa_descan">CAÑAR</SimpleData>
+		<SimpleData name="dpa_despar">SAN ANTONIO</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4815</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1536051392969,-2.49302643985875 -79.1535299604793,-2.54637665340262 -79.2299539750607,-2.54648446447388 -79.2300260463289,-2.49313198936606 -79.1536051392969,-2.49302643985875</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">172163</SimpleData>
+		<SimpleData name="nam">20000169</SimpleData>
+		<SimpleData name="com">CHILLANES</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1483074000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">CHIMBORAZO</SimpleData>
+		<SimpleData name="dpa_descan">PALLATANGA</SimpleData>
+		<SimpleData name="dpa_despar">PALLATANGA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4815</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9754110392591,-1.9764929751469 -79.0383171304526,-1.97656894404773 -79.0383550349019,-1.94401821329891 -79.0230779139281,-1.94400028422887 -79.0230831691071,-1.93947939007008 -79.0383602495341,-1.93949727741432 -79.0383902545306,-1.91327584424811 -78.975486504393,-1.91320230976613 -78.9754110392591,-1.9764929751469</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">241215</SimpleData>
+		<SimpleData name="nam">50000931</SimpleData>
+		<SimpleData name="com">TIMBARA 4</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1496379600000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">ZAMORA</SimpleData>
+		<SimpleData name="dpa_despar">ZAMORA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4938</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.917135770243,-4.21046556138395 -78.8829174830376,-4.21037307295611 -78.8829028097606,-4.21579743715329 -78.8901066464143,-4.21581705875147 -78.8900920039788,-4.22124144747597 -78.8945944502345,-4.22125369286365 -78.8945822597156,-4.22577402934238 -78.8981842470182,-4.22578381735857 -78.8981549861149,-4.23663264783227 -78.8945529487566,-4.23662283459931 -78.8945137495115,-4.25108790323003 -78.899916909118,-4.25110266720314 -78.8999046631538,-4.25562301571963 -78.9044073368168,-4.25563530320094 -78.9043975515766,-4.25925159208565 -78.9116018902655,-4.25927121401583 -78.911597011301,-4.26107936668196 -78.9296080460577,-4.26112814716459 -78.9296104647969,-4.26022406045632 -78.9476216857257,-4.26027240884938 -78.9476384554852,-4.25394372918281 -78.9611468958692,-4.25397966007597 -78.9611564044022,-4.2503632405454 -78.963858093696,-4.25037039219253 -78.9638652103135,-4.24765807272847 -78.9692685837938,-4.24767233847986 -78.9692922099857,-4.23863124166768 -78.9764966527192,-4.23865016329727 -78.9765037056021,-4.23593782166542 -78.9792053705843,-4.23594489542238 -78.9792802179983,-4.20701319034492 -78.9171453841812,-4.2068492384257 -78.917135770243,-4.21046556138395</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">241216</SimpleData>
+		<SimpleData name="nam">10000462</SimpleData>
+		<SimpleData name="com">SHARUG 2</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1499144400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">AZUAY</SimpleData>
+		<SimpleData name="dpa_descan">PUCARA</SimpleData>
+		<SimpleData name="dpa_despar">SAN RAFAEL DE SHARUG</SimpleData>
+		<SimpleData name="tmm">PLOMO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3160</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.4798122879728,-3.30016094846921 -79.5509007022905,-3.30026755003485 -79.5509268399541,-3.28217934689861 -79.5428281899785,-3.28216752511023 -79.542838662759,-3.27493226807501 -79.5329404238225,-3.27491776194062 -79.5329443717379,-3.27220455231707 -79.5275453654576,-3.27219660512786 -79.5275598661245,-3.26224819275572 -79.5266600418809,-3.26224686943242 -79.5266666224342,-3.25772486497372 -79.479876481646,-3.25765503626607 -79.4798122879728,-3.30016094846921</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">251242</SimpleData>
+		<SimpleData name="nam">50000963</SimpleData>
+		<SimpleData name="com">NANGARITZA 1</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1497502800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">NANGARITZA</SimpleData>
+		<SimpleData name="dpa_despar">ZURMI</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4741</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.846829979257,-4.54928995802116 -78.9243055051687,-4.54951764629029 -78.9288100159074,-4.54953062780921 -78.9289385862189,-4.50432663550341 -78.927136892018,-4.50432149803982 -78.9271189546953,-4.51065005332359 -78.9136061977898,-4.51061132564821 -78.9136345569377,-4.50066653825744 -78.8469742628676,-4.50047223661865 -78.846829979257,-4.54928995802116</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">251243</SimpleData>
+		<SimpleData name="nam">50000964</SimpleData>
+		<SimpleData name="com">NANGARITZA 2</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1497502800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">NANGARITZA</SimpleData>
+		<SimpleData name="dpa_despar">ZURMI</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4708</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.846724796194,-4.58454715735133 -78.8683465322171,-4.58461203695376 -78.8683062663386,-4.59817268105694 -78.8818202625926,-4.59821301836914 -78.8817961986177,-4.60634947386235 -78.8935085581605,-4.6063842874813 -78.8934739154404,-4.61813703110725 -78.9178002691204,-4.6182089042924 -78.9179653959324,-4.56125237207806 -78.9242717913656,-4.56127064076484 -78.9243055051687,-4.54951764629029 -78.846829979257,-4.54928995802116 -78.846724796194,-4.58454715735133</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">320732</SimpleData>
+		<SimpleData name="nam">10000555</SimpleData>
+		<SimpleData name="com">SAN ANTONIO 3</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">0</SimpleData>
+		<SimpleData name="dpa_despro">CAÑAR</SimpleData>
+		<SimpleData name="dpa_descan">CAÑAR</SimpleData>
+		<SimpleData name="dpa_despar">GUALLETURO</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">1771</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1221386624383,-2.49298168349704 -79.1751824773335,-2.4930566934251 -79.1752035933567,-2.47768440272813 -79.1653140617728,-2.47767066592486 -79.1653339229144,-2.46320270449928 -79.1221807190296,-2.46314224995664 -79.1221386624383,-2.49298168349704</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">219975</SimpleData>
+		<SimpleData name="nam">50000875</SimpleData>
+		<SimpleData name="com">LOYOLA</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1497502800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">PALANDA</SimpleData>
+		<SimpleData name="dpa_despar">EL PORVENIR DEL CARMEN</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1333</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9866336192127,-4.49002286691697 -78.9866236981295,-4.49363932064274 -78.9902271703317,-4.49364927262714 -78.9902147798098,-4.49816984930122 -78.9938182822464,-4.49817979352025 -78.993803423652,-4.50360449678484 -78.9992087323466,-4.50361939772648 -78.9992013162675,-4.50633175804757 -79.0037057706337,-4.50634415232851 -79.0037008351932,-4.50815239741676 -79.0055026248892,-4.50815734931405 -79.0054976918975,-4.50996559630123 -79.0100021860001,-4.50997796149081 -79.0099800129141,-4.51811509415296 -79.0153854824178,-4.51812992234702 -79.0153953153692,-4.51451340726339 -79.0208007760325,-4.51452818330497 -79.0207418197547,-4.53622733938608 -79.0279493427482,-4.53624707295753 -79.0279346127993,-4.54167188352121 -79.0549633062915,-4.54174533231718 -79.0549826735606,-4.53451213392873 -79.0513788581156,-4.53450241479625 -79.051366734841,-4.53902315423957 -79.040555268276,-4.53899385976678 -79.0405893705588,-4.52633586984356 -79.0351837576972,-4.52632120310144 -79.0352129919469,-4.51547152902904 -79.0262038104193,-4.5154470538505 -79.0262184677604,-4.51002224504995 -79.019011211566,-4.51000260813024 -79.0190454672369,-4.4973447729329 -79.0118383672324,-4.49732512008654 -79.0118457216968,-4.49461273812422 -79.007341317008,-4.49460042636934 -79.007343773043,-4.49369630148751 -79.0001367603765,-4.4936765488096 -79.0001589219669,-4.48553945971504 -78.9947537433009,-4.48552462550025 -78.9947709984782,-4.47919579811248 -78.9902667354294,-4.47918342328424 -78.9902716720058,-4.47737519168998 -78.9866682794626,-4.47736527588896 -78.9866336192127,-4.49002286691697</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">219976</SimpleData>
+		<SimpleData name="nam">50000876</SimpleData>
+		<SimpleData name="com">PORVENIR 2</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1497502800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">PALANDA</SimpleData>
+		<SimpleData name="dpa_despar">EL PORVENIR DEL CARMEN</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3424</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9424666000981,-4.4989404948147 -78.9289539274946,-4.4989021524029 -78.9288100159074,-4.54953062780921 -78.9729549033223,-4.54965635676226 -78.973145670272,-4.48094435846885 -78.9425172706151,-4.48085872357479 -78.9424666000981,-4.4989404948147</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">219977</SimpleData>
+		<SimpleData name="nam">50000877</SimpleData>
+		<SimpleData name="com">PORVENIR 3</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1497502800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">PALANDA</SimpleData>
+		<SimpleData name="dpa_despar">EL PORVENIR DEL CARMEN</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4104</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9863324758531,-4.59851631217529 -79.0548096989557,-4.59870671595911 -79.0549414808311,-4.54988267867499 -78.9864688893812,-4.54969430461732 -78.9863324758531,-4.59851631217529</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">219978</SimpleData>
+		<SimpleData name="nam">50000878</SimpleData>
+		<SimpleData name="com">PORVENIR 4</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1497502800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">PALANDA</SimpleData>
+		<SimpleData name="dpa_despar">EL PORVENIR DEL CARMEN</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4013</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9242717913656,-4.56127064076484 -78.9179653959324,-4.56125237207806 -78.9178581677791,-4.59831933260132 -78.9863324758531,-4.59851631217529 -78.9864688893812,-4.54969430461732 -78.9243055051687,-4.54951764629029 -78.9242717913656,-4.56127064076484</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">219979</SimpleData>
+		<SimpleData name="nam">50000879</SimpleData>
+		<SimpleData name="com">PORVENIR 1</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1497502800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">PALANDA</SimpleData>
+		<SimpleData name="dpa_despar">EL PORVENIR DEL CARMEN</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2051</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9729549033223,-4.54965635676226 -79.0143981527621,-4.5497719270976 -79.0144574756805,-4.52807286283459 -79.0054482520551,-4.52804806092903 -79.0054680519765,-4.52081507622312 -78.9982607804752,-4.52079518593678 -78.9982930029713,-4.50904163445154 -78.9901849912064,-4.5090192308937 -78.9902023767021,-4.50269042538114 -78.9847971048522,-4.50267546056283 -78.9848120270303,-4.49725078729607 -78.9821094178964,-4.49724329890765 -78.9821143945719,-4.49543507731798 -78.9767092032662,-4.49542007654026 -78.976749050161,-4.48095434886476 -78.973145670272,-4.48094435846885 -78.9729549033223,-4.54965635676226</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">219980</SimpleData>
+		<SimpleData name="nam">50000880</SimpleData>
+		<SimpleData name="com">TIMBARA</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1497502800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">ZAMORA</SimpleData>
+		<SimpleData name="dpa_despar">SAN CARLOS DE LAS MINAS</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1998</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8498895853661,-4.10360457401791 -78.8426869575263,-4.10358511044709 -78.8427039332998,-4.09725683436493 -78.8102927912956,-4.0971685810866 -78.810260770778,-4.10892083897881 -78.8030582856151,-4.10890099181262 -78.803031029903,-4.11884515893966 -78.806632312689,-4.11885511476951 -78.8066471633426,-4.11343101078493 -78.8192516369034,-4.11346568194555 -78.8192294813286,-4.12160190643059 -78.8066248799607,-4.12156716646474 -78.8066149619806,-4.12518323508336 -78.8030136507623,-4.12517326390675 -78.8029962447119,-4.13150136779351 -78.8570172547348,-4.13164944864706 -78.8571187342382,-4.09367944380869 -78.8499161608622,-4.093660092372 -78.8498895853661,-4.10360457401791</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">219992</SimpleData>
+		<SimpleData name="nam">10000436</SimpleData>
+		<SimpleData name="com">SHARUG</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1499144400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">AZUAY</SimpleData>
+		<SimpleData name="dpa_descan">PUCARA</SimpleData>
+		<SimpleData name="dpa_despar">SAN RAFAEL DE SHARUG</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2684</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.5122973558283,-3.23871131236853 -79.5212953477182,-3.23872454223771 -79.5212835223533,-3.24686413323626 -79.5302816229765,-3.24687731603178 -79.5302698398476,-3.25501693879032 -79.536568582538,-3.25502614197468 -79.5365607443477,-3.26045257176651 -79.542859538611,-3.26046175076716 -79.5428504168621,-3.26679260261965 -79.5509489434111,-3.26680436891462 -79.5509385547823,-3.27403965327894 -79.573434775944,-3.2740720654204 -79.5734856858842,-3.23789527397916 -79.5689865841993,-3.23788890341313 -79.568994195554,-3.23246239308872 -79.5393005070788,-3.23241991611582 -79.539326309657,-3.2143317822231 -79.5123328674848,-3.214292631219 -79.5122973558283,-3.23871131236853</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">303837</SimpleData>
+		<SimpleData name="nam">10000534</SimpleData>
+		<SimpleData name="com">CARMEN</SimpleData>
+		<SimpleData name="ttm">GREEN ROCK RESOURCES GRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1517374800000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">AZUAY</SimpleData>
+		<SimpleData name="dpa_descan">PONCE ENRIQUEZ</SimpleData>
+		<SimpleData name="dpa_despar">CARMEN DE PIJILI</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1980</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.5325674374391,-2.89054377626149 -79.5325347577631,-2.91586723839721 -79.5964026410386,-2.91594909919559 -79.5964338995747,-2.89062492495807 -79.541562604279,-2.89055542391043 -79.5415602937478,-2.89236425032385 -79.5397612546221,-2.892361925062 -79.5397635680009,-2.89055310010512 -79.5325674374391,-2.89054377626149</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">242017</SimpleData>
+		<SimpleData name="nam">20000298</SimpleData>
+		<SimpleData name="com">AGUSTIN 3</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1498194000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">COTOPAXI</SimpleData>
+		<SimpleData name="dpa_descan">LA MANA</SimpleData>
+		<SimpleData name="dpa_despar">LA MANA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4836</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1497466409567,-0.857234573911991 -79.1470517342648,-0.857233261859786 -79.1470307924701,-0.899733151137687 -79.2377625743884,-0.899778413172999 -79.237775399087,-0.872649460559643 -79.2350803499701,-0.872648188394795 -79.2350816127649,-0.86993529686073 -79.2377766599559,-0.869936565070083 -79.2377829053898,-0.856372087010076 -79.1497470748842,-0.856330319454474 -79.1497466409567,-0.857234573911991</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">280878</SimpleData>
+		<SimpleData name="nam">70000363</SimpleData>
+		<SimpleData name="com">EL DESCANSO 1A</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1516856400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">SANTO DOMINGO DE LOS TSACHILAS</SimpleData>
+		<SimpleData name="dpa_descan">SANTO DOMINGO</SimpleData>
+		<SimpleData name="dpa_despar">ALLURIQUIN</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4956</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8355702104645,-0.352591763229443 -78.8355706271344,-0.35078360082788 -78.8373667201963,-0.35078401904627 -78.8373673406698,-0.348071772196136 -78.8382653877465,-0.348071979559525 -78.8382657985494,-0.346263813906212 -78.8400618939666,-0.346264226221965 -78.8400620983959,-0.34536014231596 -78.8427562452753,-0.345360758535031 -78.8427560411005,-0.346264844054212 -78.8418579915217,-0.346264638195648 -78.841857786728,-0.347168723175475 -78.8409597375982,-0.347168516693666 -78.8409595321851,-0.348072601133911 -78.8400614835043,-0.348072394028413 -78.8400612774715,-0.348976477928846 -78.8391632292397,-0.348976270199212 -78.8391628153989,-0.350784436918128 -78.8382647675301,-0.350784228025516 -78.8382645597215,-0.351688310843766 -78.8364684654167,-0.35168789172118 -78.8364682569004,-0.352591973460086 -78.8679002178584,-0.35259927667078 -78.8679030467427,-0.339941869984121 -78.8562282578919,-0.339939266747357 -78.8562354541328,-0.30558370994028 -78.8616237890528,-0.30558479158926 -78.8616248526021,-0.300160210564548 -78.856236520357,-0.300159148116774 -78.8562407573961,-0.277556806575717 -78.8086447512984,-0.277548021154915 -78.8086264908134,-0.363434194759278 -78.8355676654549,-0.36344073747898 -78.8355702104645,-0.352591763229443</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">172162</SimpleData>
+		<SimpleData name="nam">70000156</SimpleData>
+		<SimpleData name="com">SALAMPE</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1482469200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOS RIOS</SimpleData>
+		<SimpleData name="dpa_descan">URDANETA</SimpleData>
+		<SimpleData name="dpa_despar">RICAURTE</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4862</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.2346246010996,-1.57076388026439 -79.3262820730614,-1.57083978841635 -79.3263041878512,-1.54280536987973 -79.3110278379894,-1.54279322005466 -79.3110420221485,-1.52470663681005 -79.2346627502746,-1.52464496573363 -79.2346246010996,-1.57076388026439</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">172165</SimpleData>
+		<SimpleData name="nam">70000161</SimpleData>
+		<SimpleData name="com">YATUBI I</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1482469200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">BOLIVAR</SimpleData>
+		<SimpleData name="dpa_descan">CALUMA</SimpleData>
+		<SimpleData name="dpa_despar">CALUMA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4932</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.2786057908572,-1.63048552509655 -79.2830989355329,-1.63048938653428 -79.2830981688893,-1.63139370164928 -79.2786050222098,-1.63138983806877 -79.2785856673207,-1.6539976595932 -79.3504780829959,-1.65405910686184 -79.35050836671,-1.61698089861999 -79.346913748735,-1.61697795594756 -79.3469152115814,-1.61516926579133 -79.350509826379,-1.61517220517053 -79.3505236116507,-1.59798961572884 -79.3037945249147,-1.59795131729681 -79.3037908092763,-1.60247294322787 -79.3010949289192,-1.60247069475236 -79.3010986504561,-1.59794907516888 -79.2786331779483,-1.59793025246232 -79.2786057908572,-1.63048552509655</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">316292</SimpleData>
+		<SimpleData name="nam">100000349</SimpleData>
+		<SimpleData name="com">SAN MIGUEL 4</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1513573200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2326</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.86434748965,-0.045204935177228 -78.9128427708486,-0.045206355333083 -78.9128427447667,-0.04611048243561 -78.9254158428541,-0.046110852566515 -78.9254164447774,-0.014466149854886 -78.8643480825726,-0.014465579285615 -78.86434748965,-0.045204935177228</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">309017</SimpleData>
+		<SimpleData name="nam">40000422</SimpleData>
+		<SimpleData name="com">AURORA 2</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1516165200000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">ESMERALDAS</SimpleData>
+		<SimpleData name="dpa_descan">QUININDE</SimpleData>
+		<SimpleData name="dpa_despar">MALIMPIA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3102</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9936372786215,0.339064832837176 -79.0358502022678,0.339073550284657 -79.0358371127781,0.398750476199066 -78.9936239082717,0.398740224437323 -78.9936372786215,0.339064832837176</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">280879</SimpleData>
+		<SimpleData name="nam">100000310</SimpleData>
+		<SimpleData name="com">EL DESCANSO 1B</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1514955600000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">MEJIA</SimpleData>
+		<SimpleData name="dpa_despar">MANUEL CORNEJO ASTORGA (TANDAPI)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4808</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8679030467427,-0.339941869984121 -78.8679002178584,-0.35259927667078 -78.8355702104645,-0.352591763229443 -78.8355676654549,-0.36344073747898 -78.8328735262001,-0.363440086842109 -78.8328728770912,-0.366152325505437 -78.8319748314767,-0.366152106827084 -78.831974395876,-0.367960264846258 -78.8310763506179,-0.367960044997109 -78.8310756929214,-0.370672280390536 -78.8301776479282,-0.370672058829291 -78.8301785241454,-0.367055747129073 -78.8310765687767,-0.367055966528688 -78.8310774360445,-0.363439652635406 -78.8086264908134,-0.363434194759278 -78.808621334021,-0.384227686935893 -78.8086211033055,-0.385131751788852 -78.8086154034543,-0.406829307629456 -78.8571101100636,-0.406842425655651 -78.857110586226,-0.405034237745127 -78.85800865084,-0.405034476840964 -78.858009124683,-0.403226287854357 -78.8616013876443,-0.403227238972095 -78.861601151384,-0.404131335599096 -78.8624992185469,-0.404131573662148 -78.8624989818566,-0.405035670819587 -78.8633970496477,-0.405035909315197 -78.863396812528,-0.405940007002845 -78.8678871599075,-0.405941200638825 -78.8678869227576,-0.406845300982821 -78.8831542040438,-0.406849349592839 -78.8831702127819,-0.339945252806425 -78.8679030467427,-0.339941869984121</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">301807</SimpleData>
+		<SimpleData name="nam">100000328</SimpleData>
+		<SimpleData name="com">SAN MIGUEL 3</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1513573200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4092</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8427903988766,-0.121147505034526 -78.877814189845,-0.121150290588981 -78.877818248014,-0.045205332930919 -78.86434748965,-0.045204935177228 -78.8643480825726,-0.014465579285615 -78.8427951227898,-0.01446537396372 -78.8427903988766,-0.121147505034526</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">301808</SimpleData>
+		<SimpleData name="nam">100000329</SimpleData>
+		<SimpleData name="com">SAN MIGUEL 2</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1513832400000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3276</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.877814189845,-0.121150290588981 -78.9128387795361,-0.121153030630118 -78.9128427708486,-0.045206355333083 -78.877818248014,-0.045205332930919 -78.877814189845,-0.121150290588981</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">301809</SimpleData>
+		<SimpleData name="nam">100000330</SimpleData>
+		<SimpleData name="com">SAN MIGUEL 1</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1513573200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4230</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9254158428541,-0.046110852566515 -78.9128427447667,-0.04611048243561 -78.9128387795361,-0.121153030630118 -78.9487622515491,-0.121155793644558 -78.9487667438093,-0.01446636364712 -78.9254164447774,-0.014466149854886 -78.9254158428541,-0.046110852566515</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">172157</SimpleData>
+		<SimpleData name="nam">70000162</SimpleData>
+		<SimpleData name="com">YATUBI II</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1482469200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOS RIOS</SimpleData>
+		<SimpleData name="dpa_descan">MONTALVO</SimpleData>
+		<SimpleData name="dpa_despar">MONTALVO</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4918</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.2506781386433,-1.71003968749784 -79.2785365161092,-1.7100650335215 -79.2785445546991,-1.70102191098672 -79.2812405360131,-1.70102432939644 -79.2812325099973,-1.7100674647955 -79.3054966268741,-1.7100891749859 -79.3055013796228,-1.70466322492985 -79.3072987288171,-1.70466481576111 -79.3072939811038,-1.71009077088367 -79.3225715596629,-1.71010426771178 -79.3226194550422,-1.65403560672631 -79.2507280842862,-1.65397314503262 -79.2506781386433,-1.71003968749784</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">309016</SimpleData>
+		<SimpleData name="nam">40000421</SimpleData>
+		<SimpleData name="com">AURORA 1</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1516165200000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">ESMERALDAS</SimpleData>
+		<SimpleData name="dpa_descan">QUININDE</SimpleData>
+		<SimpleData name="dpa_despar">MALIMPIA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3036</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0358502022678,0.339073550284657 -79.0771660185658,0.339081903043591 -79.077153203995,0.398760299085261 -79.0358371127781,0.398750476199066 -79.0358502022678,0.339073550284657</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">317910</SimpleData>
+		<SimpleData name="nam">20000371</SimpleData>
+		<SimpleData name="com">ALAUSI 1</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">CHIMBORAZO</SimpleData>
+		<SimpleData name="dpa_descan">ALAUSI</SimpleData>
+		<SimpleData name="dpa_despar">SIBAMBE</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3754</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8413330029206,-2.11555061803703 -78.8548126799699,-2.11556942912452 -78.854796480657,-2.12732247706115 -78.8673777154586,-2.12734002499628 -78.8673527647137,-2.14542178273915 -78.8799342501532,-2.14543937605473 -78.8799079796772,-2.16442537258827 -78.9086664025888,-2.16446554841779 -78.9087446668773,-2.10660237307749 -78.8871766051927,-2.10657309740803 -78.8871863379633,-2.09934029783752 -78.8701119149604,-2.09931698899606 -78.8701204720883,-2.09298835911155 -78.8413640964339,-2.0929487985605 -78.8413330029206,-2.11555061803703</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">320704</SimpleData>
+		<SimpleData name="nam">70000398</SimpleData>
+		<SimpleData name="com">EL TESORO 1</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">SANTO DOMINGO DE LOS TSACHILAS</SimpleData>
+		<SimpleData name="dpa_descan">SANTO DOMINGO</SimpleData>
+		<SimpleData name="dpa_despar">SANTO DOMINGO DE LOS COLORADOS</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3902</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9487622515491,-0.121155793644558 -78.9002657588338,-0.121152052262507 -78.900261339013,-0.169070398736038 -78.9631275808386,-0.169077143555228 -78.9631326427785,-0.110307015403887 -78.9487630312239,-0.110306021379617 -78.9487622515491,-0.121155793644558</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">320705</SimpleData>
+		<SimpleData name="nam">70000399</SimpleData>
+		<SimpleData name="com">EL TESORO 2</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">SANTO DOMINGO DE LOS TSACHILAS</SimpleData>
+		<SimpleData name="dpa_descan">SANTO DOMINGO</SimpleData>
+		<SimpleData name="dpa_despar">SANTO DOMINGO DE LOS COLORADOS</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3128</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8634443141113,-0.133806527058315 -78.8391972054437,-0.133804388193056 -78.8391950601025,-0.156406479674036 -78.8454813165134,-0.156407130568105 -78.8454799730695,-0.169064354247642 -78.900261339013,-0.169070398736038 -78.9002657588338,-0.121152052262507 -78.8634453577165,-0.121149153303 -78.8634443141113,-0.133806527058315</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">320706</SimpleData>
+		<SimpleData name="nam">100000360</SimpleData>
+		<SimpleData name="com">LOS BANCOS</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">0</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="dpa_despar">SAN MIGUEL DE LOS BANCOS</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">2283</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8814110584242,0.014465740372646 -78.8778188372036,0.014465706566773 -78.8778188600465,0.011753386586413 -78.8742266472666,0.011753359072694 -78.8742266598908,0.009945149985012 -78.8697364057794,0.009945120828695 -78.8697364163218,0.008136917041949 -78.8616539921884,0.008136873976034 -78.8616540006543,0.006328679759318 -78.8436932118863,0.006328604871117 -78.8436931566636,-0.014465382559884 -78.9317030297709,-0.014466207651977 -78.9317030950272,-0.000904137978453 -78.9209261079173,-0.000904131779207 -78.9209261071456,0.00180826355841 -78.9092511213866,0.001808250054126 -78.9092511159543,0.004520625135231 -78.8975762175989,0.004520591185808 -78.8975761980898,0.009041182371013 -78.8885955667666,0.009041129884309 -78.8885955082508,0.016274033788515 -78.8814110406001,0.016273957918242 -78.8814110584242,0.014465740372646</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">320707</SimpleData>
+		<SimpleData name="nam">100000361</SimpleData>
+		<SimpleData name="com">SIGSAL 1</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">0</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">QUITO</SimpleData>
+		<SimpleData name="dpa_despar">LLOA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">4006</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.738600233982,-0.279342785113619 -78.6712532667496,-0.279329537312905 -78.6712436452638,-0.324528481805758 -78.742182832459,-0.324544681524178 -78.7421945233187,-0.266687143854682 -78.7386025995811,-0.266686479720535 -78.738600233982,-0.279342785113619</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">320708</SimpleData>
+		<SimpleData name="nam">100000362</SimpleData>
+		<SimpleData name="com">SIGSAL 2</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="plz">0</SimpleData>
+		<SimpleData name="dpa_despro">PICHINCHA</SimpleData>
+		<SimpleData name="dpa_descan">MEJIA</SimpleData>
+		<SimpleData name="dpa_despar">MANUEL CORNEJO ASTORGA (TANDAPI)</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">4952</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.7421918151239,-0.281151528872972 -78.742182832459,-0.324544681524178 -78.6712436452638,-0.324528481805758 -78.6712346808028,-0.361591613044858 -78.7520520658155,-0.361612131995313 -78.7520632685459,-0.312794505470651 -78.7718192225339,-0.312798748930853 -78.771822566759,-0.296525984866171 -78.7691285613029,-0.296525438403112 -78.7691317307168,-0.280252703811644 -78.7421918151239,-0.281151528872972</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">321925</SimpleData>
+		<SimpleData name="nam">70000405</SimpleData>
+		<SimpleData name="com">LELIA</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">SANTO DOMINGO DE LOS TSACHILAS</SimpleData>
+		<SimpleData name="dpa_descan">SANTO DOMINGO</SimpleData>
+		<SimpleData name="dpa_despar">ALLURIQUIN</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3521</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9756598393184,-0.404160770888998 -79.0008077397274,-0.404167043902451 -79.0008101424795,-0.394221102133263 -79.0322455252055,-0.394228643046709 -79.032255720376,-0.348114754994706 -78.9756727600987,-0.348102693273465 -78.9756598393184,-0.404160770888998</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">321926</SimpleData>
+		<SimpleData name="nam">20000384</SimpleData>
+		<SimpleData name="com">LAS PAMPAS</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">COTOPAXI</SimpleData>
+		<SimpleData name="dpa_descan">SIGCHOS</SimpleData>
+		<SimpleData name="dpa_despar">LAS PAMPAS</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3178</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.9514046265,-0.426758366590335 -78.9711634164337,-0.426763640643308 -78.9711602932707,-0.43851771913844 -78.9558920924863,-0.438513536087666 -78.9558933128453,-0.433992779838259 -78.9514026960077,-0.433991556316304 -78.9514004854178,-0.442128894581429 -78.9567892329465,-0.442130390010367 -78.9567887374319,-0.443938693493396 -78.9585849910908,-0.443939193131157 -78.9585847427931,-0.444843345886766 -78.9693623084326,-0.444846340587619 -78.9693628019081,-0.4430380229 -78.9720572039871,-0.443038766068992 -78.9720574496452,-0.442134605704923 -78.9747518559155,-0.442135346374097 -78.9747525889047,-0.439422860723671 -78.9783451363167,-0.439423840703818 -78.9783461049,-0.435807185071306 -78.9855312202898,-0.435809123731437 -78.98553146033,-0.434904955795252 -78.9945128983571,-0.434907364422105 -78.9945121799528,-0.437619883246894 -79.0007992183665,-0.437621573368627 -79.0008077397274,-0.404167043902451 -78.9756598393184,-0.404160770888998 -78.9756698107042,-0.361665132101009 -78.9514205407803,-0.361659652819071 -78.9514046265,-0.426758366590335</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">278856</SimpleData>
+		<SimpleData name="nam">70000354</SimpleData>
+		<SimpleData name="com">SALINAS 1</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1520485200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">BOLIVAR</SimpleData>
+		<SimpleData name="dpa_descan">GUARANDA</SimpleData>
+		<SimpleData name="dpa_despar">SALINAS</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4113</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.020931901297,-1.39425556904759 -79.0631572061132,-1.39429091947739 -79.0631601593937,-1.39067409689492 -79.0658554237492,-1.39067632167276 -79.0658524745723,-1.39429315004356 -79.1098757989337,-1.39432914357818 -79.1099077910813,-1.35363876691555 -79.0910408317292,-1.3536238898089 -79.0910337342736,-1.36266609758214 -79.0613859674347,-1.36264226295684 -79.0613931749524,-1.35360021339909 -79.0209653965631,-1.35356734027159 -79.020931901297,-1.39425556904759</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">278857</SimpleData>
+		<SimpleData name="nam">70000355</SimpleData>
+		<SimpleData name="com">SALINAS 2</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1520485200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">BOLIVAR</SimpleData>
+		<SimpleData name="dpa_descan">GUARANDA</SimpleData>
+		<SimpleData name="dpa_despar">SALINAS</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4950</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0208935197673,-1.43946469458627 -79.109839139796,-1.43954065574032 -79.1098757989337,-1.39432914357818 -79.020931901297,-1.39425556904759 -79.0208935197673,-1.43946469458627</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">278858</SimpleData>
+		<SimpleData name="nam">70000356</SimpleData>
+		<SimpleData name="com">SALINAS 3</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1520485200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">BOLIVAR</SimpleData>
+		<SimpleData name="dpa_descan">GUARANDA</SimpleData>
+		<SimpleData name="dpa_despar">GUARANDA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4779</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.020853107607,-1.48557798300929 -79.1098005411532,-1.48565637861185 -79.109839139796,-1.43954065574032 -79.0496431038775,-1.43948962908114 -79.0496291911732,-1.45576519168079 -79.0388479619608,-1.45575577865455 -79.0388401219871,-1.46479769831122 -79.0316526460111,-1.46479135500563 -79.031661298856,-1.45484528643034 -79.0406456092567,-1.45485315810495 -79.0406588053402,-1.43948187618445 -79.0208935197673,-1.43946469458627 -79.020853107607,-1.48557798300929</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">278859</SimpleData>
+		<SimpleData name="nam">70000357</SimpleData>
+		<SimpleData name="com">SALINAS 4</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1520485200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">BOLIVAR</SimpleData>
+		<SimpleData name="dpa_descan">GUARANDA</SimpleData>
+		<SimpleData name="dpa_despar">GUARANDA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4963</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0208089278616,-1.53440379550575 -79.0549505712792,-1.5344353157469 -79.0549587178455,-1.52539331455754 -79.0522633107492,-1.52539086058025 -79.0522657486879,-1.52267826443196 -79.0316011315458,-1.52265937155442 -79.0316076801187,-1.51542587126424 -79.036998407133,-1.51543079551831 -79.0369926945022,-1.52176012887622 -79.0567589004563,-1.5217781440794 -79.0567475192686,-1.53443695953751 -79.1097583439976,-1.5344847688649 -79.1097866272137,-1.50193251126872 -79.1017002444981,-1.50192545662879 -79.1017049192262,-1.49650010485431 -79.1097912820574,-1.49650713399986 -79.1098005411532,-1.48565637861185 -79.069369307432,-1.4856211903803 -79.0693630105201,-1.49285485602141 -79.0442062041763,-1.49283247736401 -79.0442125830123,-1.48559892020602 -79.020853107607,-1.48557798300929 -79.0208089278616,-1.53440379550575</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">317912</SimpleData>
+		<SimpleData name="nam">20000372</SimpleData>
+		<SimpleData name="com">ALAUSI 2</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">CHIMBORAZO</SimpleData>
+		<SimpleData name="dpa_descan">ALAUSI</SimpleData>
+		<SimpleData name="dpa_despar">ALAUSI</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">4324</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.8494045547847,-2.1273149249792 -78.8413167020085,-2.12730356137665 -78.8412672561662,-2.16256237982376 -78.8637341341375,-2.16259436217083 -78.8637316030611,-2.16440253300037 -78.8412646985209,-2.16437052388805 -78.8412493076536,-2.17521938730077 -78.8475400520934,-2.17522842867931 -78.8475387697799,-2.1761325043162 -78.8412480215994,-2.17612345917638 -78.8412338396488,-2.18606824903937 -78.8547141347562,-2.18608768773178 -78.8546922271005,-2.20145704243914 -78.9086151474848,-2.20153412039621 -78.9086664025888,-2.16446554841779 -78.8799079796772,-2.16442537258827 -78.8799342501532,-2.14543937605473 -78.8673527647137,-2.14542178273915 -78.8673777154586,-2.12734002499628 -78.854796480657,-2.12732247706115 -78.8548126799699,-2.11556942912452 -78.8494207947378,-2.11556191880289 -78.8494045547847,-2.1273149249792</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">172164</SimpleData>
+		<SimpleData name="nam">70000158</SimpleData>
+		<SimpleData name="com">SALINAS</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1482469200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOS RIOS</SimpleData>
+		<SimpleData name="dpa_descan">URDANETA</SimpleData>
+		<SimpleData name="dpa_despar">RICAURTE</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4937</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.3110705761606,-1.48762913125766 -79.3110278379894,-1.54279322005466 -79.3838162183827,-1.54285012139374 -79.3838571166971,-1.48768399713912 -79.3110705761606,-1.48762913125766</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">241225</SimpleData>
+		<SimpleData name="nam">70000323</SimpleData>
+		<SimpleData name="com">AGUSTIN 1</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1496293200000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">LOS RIOS</SimpleData>
+		<SimpleData name="dpa_descan">VALENCIA</SimpleData>
+		<SimpleData name="dpa_despar">VALENCIA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4880</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1928851409415,-0.814754315035435 -79.1892918845071,-0.814752690640106 -79.1892728343532,-0.856349323718854 -79.2791073042468,-0.856390991024207 -79.2791203848814,-0.826548476929949 -79.2755269500675,-0.826546907557914 -79.2755277295407,-0.824738273621768 -79.2791211627323,-0.824739839559277 -79.2791265599622,-0.812079377484127 -79.1928863479922,-0.812041485410428 -79.1928851409415,-0.814754315035435</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">242001</SimpleData>
+		<SimpleData name="nam">20000297</SimpleData>
+		<SimpleData name="com">AGUSTIN 2</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1498194000000</SimpleData>
+		<SimpleData name="plz">300</SimpleData>
+		<SimpleData name="dpa_despro">COTOPAXI</SimpleData>
+		<SimpleData name="dpa_descan">LA MANA</SimpleData>
+		<SimpleData name="dpa_despar">LA MANA</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">4871</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.0994568622992,-0.827370232017162 -79.1021516746852,-0.827371530905102 -79.102148654538,-0.833701139755639 -79.0994538378699,-0.833699830929525 -79.0994428481098,-0.856305539561327 -79.1461538677204,-0.856328571473835 -79.1461547358812,-0.854520066237435 -79.1497479413646,-0.854521810525937 -79.1497470748842,-0.856330319454474 -79.1892728343532,-0.856349323718854 -79.1892930939547,-0.812039866424429 -79.0994641113481,-0.811998348057714 -79.0994568622992,-0.827370232017162</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">320740</SimpleData>
+		<SimpleData name="nam">70000406</SimpleData>
+		<SimpleData name="com">GUAYACANES 1</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">LOS RIOS</SimpleData>
+		<SimpleData name="dpa_descan">URDANETA</SimpleData>
+		<SimpleData name="dpa_despar">RICAURTE</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3702</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.3262820730614,-1.57083978841635 -79.316397231874,-1.57083179666178 -79.3163921532456,-1.57716211592928 -79.3038114814512,-1.57715183533913 -79.3037945249147,-1.59795131729681 -79.3711926007265,-1.59800621455013 -79.3712353194536,-1.54284046555286 -79.3263041878512,-1.54280536987973 -79.3262820730614,-1.57083978841635</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">320741</SimpleData>
+		<SimpleData name="nam">70000407</SimpleData>
+		<SimpleData name="com">GUAYACANES 2</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">BOLIVAR</SimpleData>
+		<SimpleData name="dpa_descan">CALUMA</SimpleData>
+		<SimpleData name="dpa_despar">CALUMA</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3891</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.2346016287253,-1.59789264356955 -79.2507763628283,-1.59790656932021 -79.2507632910363,-1.61327966590454 -79.2669382863605,-1.61329359644891 -79.2669197911173,-1.63499697497301 -79.2507446233871,-1.63498285692624 -79.2507280842862,-1.65397314503262 -79.2785856673207,-1.6539976595932 -79.2786050222098,-1.63138983806877 -79.2741118861993,-1.63138596440262 -79.2741111151201,-1.63229027521795 -79.2696179878017,-1.63228638931233 -79.2696187608859,-1.63138208065096 -79.2723146347888,-1.63138441211221 -79.2723154062417,-1.63048010214927 -79.2786057908572,-1.63048552509655 -79.2786331779483,-1.59793025246232 -79.3010986504561,-1.59794907516888 -79.3010964187975,-1.60066204694402 -79.3037922967932,-1.60066429288049 -79.3037945249147,-1.59795131729681 -79.3038114814512,-1.57715183533913 -79.3145949093952,-1.57716065195396 -79.3145963640681,-1.57535199102682 -79.3163936063691,-1.57535345332246 -79.316397231874,-1.57083179666178 -79.2346246010996,-1.57076388026439 -79.2346016287253,-1.59789264356955</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">328737</SimpleData>
+		<SimpleData name="nam">20000388</SimpleData>
+		<SimpleData name="com">AGUSTIN 4</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">COTOPAXI</SimpleData>
+		<SimpleData name="dpa_descan">PUJILI</SimpleData>
+		<SimpleData name="dpa_despar">TINGO</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3706</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1281745714492,-0.883447078614261 -79.1344626691849,-0.883450262777561 -79.1344187163456,-0.9675451620674 -79.1487919342005,-0.967553089067472 -79.148803089646,-0.946755259329357 -79.1829397452989,-0.946773441094577 -79.1829486114221,-0.929592293233612 -79.1757619276876,-0.929588562541374 -79.1757633182236,-0.926875760448408 -79.1712716589831,-0.926873428125147 -79.1712730488626,-0.924160632815817 -79.1694763896984,-0.924159701018393 -79.1694782383432,-0.920542644185575 -79.1667832557151,-0.920541250254173 -79.1667846394706,-0.917828461687295 -79.164987988009,-0.917827534004338 -79.1649893690291,-0.915114748136429 -79.1622943972707,-0.915113359029024 -79.1622957762207,-0.912400577236414 -79.1685840453055,-0.912403805719589 -79.1685826710675,-0.915116597112804 -79.1739726377261,-0.915119363791226 -79.1739708044637,-0.918736429852125 -79.1775641282185,-0.918738277053883 -79.1775736533776,-0.899748641193661 -79.1470307924701,-0.899733151137687 -79.1470517342648,-0.857233261859786 -79.1452551320971,-0.857232386098895 -79.1398653366233,-0.85722975373105 -79.1398657728649,-0.856325504358831 -79.1281879423524,-0.856319780772954 -79.1281745714492,-0.883447078614261</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#solgold">
+		<SimpleData name="objectid">328738</SimpleData>
+		<SimpleData name="nam">20000389</SimpleData>
+		<SimpleData name="com">AGUSTIN 5</SimpleData>
+		<SimpleData name="ttm">VALLE RICO RESOURCES VRR SA</SimpleData>
+		<SimpleData name="frm"></SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="dpa_despro">COTOPAXI</SimpleData>
+		<SimpleData name="dpa_descan">LA MANA</SimpleData>
+		<SimpleData name="dpa_despar">LA MANA</SimpleData>
+		<SimpleData name="eac">TRAMITE</SimpleData>
+		<SimpleData name="ach">3716</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">GRAN MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.1829397452989,-0.946773441094577 -79.148803089646,-0.946755259329357 -79.1487734796221,-1.00101046167016 -79.1326034568634,-1.00100123090778 -79.1325988330308,-1.00913943458821 -79.1496672369581,-1.00914925503268 -79.1496537926413,-1.03265984763028 -79.159535647586,-1.03266562351938 -79.1595246216852,-1.05165505186832 -79.166711502936,-1.05165931001945 -79.1667438509703,-0.99469078712676 -79.1909993616449,-0.994704263560747 -79.1910290395537,-0.938639222968537 -79.1829439652901,-0.938635002855755 -79.1829397452989,-0.946773441094577</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

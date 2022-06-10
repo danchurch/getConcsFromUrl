@@ -854,8 +854,9 @@ import fiona
 import pandas as pd
 import geopandas as gpd
 from matplotlib import pyplot as plt; plt.ion()
-
 draftConcessions = gpd.read_file('draftConcessions/draftConcessions.05.2022.geojson')
+draftConcessions['ttm'] = draftConcessions['ttm'].str.strip()
+fiona.supported_drivers['KML'] = 'rw'
 
 draftConcessions.columns
 
@@ -1080,14 +1081,155 @@ GREEN ROCK RESOURCES GRR SA
 VALLE RICO RESOURCES VRR SA
 
 ## should be 103 concessions, I think
+## at least, that's how many the aussies have.
 
-subsid = ""
-filename = ""
-#######
-subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
-df = draftConcessions[subsidFilter]
-df.sort_values(by='com')
-df.shape  
+## loop it:
+
+concs = [
+    "CARNEGIE RIDGE RESOURCES S.A",
+    "CRUZ DEL SOL CSSA S.A.",
+    "EXPLORACIONES NOVOMINING S.A.",
+    "GREEN ROCK RESOURCES GRR SA",
+    "VALLE RICO RESOURCES VRR SA"
+        ]
+
+
+aa = gpd.GeoDataFrame(columns=draftConcessions.columns.to_list(), geometry='geometry')
+for subsid in concs:
+    print(subsid)
+    subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
+    df = draftConcessions[subsidFilter]
+    df.sort_values(by='com')
+    df.shape  
+    aa = pd.concat([aa, df])
 
 with fiona.Env():
-    df.to_file(('kmls/' + filename + '.kml'), driver='KML') 
+    aa.to_file(('kmls/solgold.kml'), driver='KML') 
+
+## that didn't work. the kml is really weird. 
+## the x coordinates are really weird
+## the y axis look okay, but the x coordinates are really strange.
+
+## the geopanda plots just fine, but won't export 
+
+## maybe qgis will do it for us?
+
+aa.to_file('solgold.geojson', driver='GeoJSON')
+
+## nope. nothing plots
+
+aa.is_valid.all() ## says all polygons good...
+
+## ah, the projection is lost:
+
+aa.crs ## nada
+
+aa.crs = "EPSG:32717"
+
+## did that fix it?
+
+with fiona.Env():
+    aa.to_file(('kmls/solgold.kml'), driver='KML') 
+
+## indeed. 
+
+## the last one, Valle Rico, seems like it is short one row...
+vrcs = pd.Series(["SAN MIGUEL 4", "EL DESCANSO 1A", "SAN MIGUEL 1", "AGUSTIN 1", "SALINAS 3", "SALINAS 2", "LOS BANCOS", "YATUBI II", "ALAUSI 1", "EL TESORO 2", "AURORA 2", "ALAUSI 2", "SIGSAL 2", "SALAMPE", "AGUSTIN 2", "AGUSTIN 3", "LAS PAMPAS", "GUAYACANES 1", "SAN MIGUEL 3", "EL DESCANSO 1B", "SALINAS", "AGUSTIN 5", "SALINAS 1", "SIGSAL 1", "AGUSTIN 4", "SALINAS 4", "YATUBI I", "SAN MIGUEL 2", "AURORA 1", "LELIA", "GUAYACANES 2", "EL TESORO 1", "AURORA 1"])
+
+vrcs.duplicated().any()
+
+vrcs[vrcs.duplicated()] ## yup, looks like "Aurora 1" is doubled
+
+## so not our problem. march on.
+
+#### Tempus ####
+
+concs = [ "CONDOR GOLD S.A.","MININGSOURCES S.A" ]
+aa = gpd.GeoDataFrame(columns=draftConcessions.columns.to_list(), geometry='geometry')
+aa.crs = "EPSG:32717"
+for subsid in concs:
+    print(subsid)
+    subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
+    df = draftConcessions[subsidFilter]
+    df.sort_values(by='com')
+    df.shape  
+    aa = pd.concat([aa, df])
+
+aa[["com","nam", "ttm","ach"]]
+
+with fiona.Env():
+    aa.to_file(('kmls/tempus.kml'), driver='KML') 
+
+#### Titan Minerals ####
+
+## should be 30
+concs = [
+    "CLOUDSTREET INTERNATIONAL CORP",
+    "COMPAÑIA ELIPE S.A.",
+    "HELLES MINING CORP.",
+    "MOORO MINING INC.",
+    "NEK DEVELOPMENT CORP."
+        ]
+
+aa = gpd.GeoDataFrame(columns=draftConcessions.columns.to_list(), geometry='geometry')
+aa.crs = "EPSG:32717"
+for subsid in concs:
+    print(subsid)
+    subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
+    df = draftConcessions[subsidFilter]
+    df.sort_values(by='com')
+    df.shape  
+    aa = pd.concat([aa, df])
+
+with fiona.Env():
+    aa.to_file(('kmls/titanMinerals.kml'), driver='KML') 
+
+
+#### Pelorus Minerald Limited ####
+
+concs = [
+    "BULLA RESOURCES CORP",
+    "HARTOG S.A.S.",
+    "LONE PINE S.A.S.",
+    "ROUND HOUSE MINING INC",
+    "THIRD RIDGE CORP"
+        ]
+
+
+aa = gpd.GeoDataFrame(columns=draftConcessions.columns.to_list(), geometry='geometry')
+aa.crs = "EPSG:32717"
+for subsid in concs:
+    print(subsid)
+    subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
+    df = draftConcessions[subsidFilter]
+    df.sort_values(by='com')
+    df.shape  
+    aa = pd.concat([aa, df])
+
+## I have one more than they...
+
+## this is their list:
+pelorusCom = pd.Series(["MACHAY ","BETHZABETH ","SAICHUMA I ","EL SALVADOR X 3 ","LA DURA ","LA CALERA ","EL RETAZO 3",
+"LOS LAURELES 2 ","NUEVA ESPERANZA 2 ","NUEVA ESPERANZA ","ANA MICHELLE ","EL SOROCHE UNIFICADO",
+"NUEVA ESPERANZA3 ","SUCA 4 ","SUCA ","SAN ANTONIO DE PADUA ","NUEVA ESPERANZA 6 ","LA ENVIDIA", 
+"EL TABLON ","MARA 8 ","SAN JOSE 2 ","EL TABLON 1 ","RESUC 4 ","RUTH ","IAM ZARUMA"]).str.strip()
+
+pelorusCom[~pelorusCom.isin(aa['com'])] ## and they find two concessions not in my list. 
+## weird and weird. these are:
+
+draftConcessions['ttm']
+
+draftConcessions['com'].str.contains("MACHAY").any()
+
+machay = draftConcessions[draftConcessions['com'].str.contains("MACHAY").astype('bool')]
+
+machay[["com","nam", "ttm","ach"]] ## owner of this is now SOCIEDAD CIVIL MINERA GOLDMINS
+
+"MACHAY" in draftConcessions['com'] 
+
+"EL SOROCHE UNIFICADO"
+
+with fiona.Env():
+    aa.to_file(('kmls/titanMinerals.kml'), driver='KML') 
+
+

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="tempus" id="tempus">
+	<SimpleField name="objectid" type="string"></SimpleField>
+	<SimpleField name="nam" type="string"></SimpleField>
+	<SimpleField name="com" type="string"></SimpleField>
+	<SimpleField name="ttm" type="string"></SimpleField>
+	<SimpleField name="frm" type="string"></SimpleField>
+	<SimpleField name="sol" type="string"></SimpleField>
+	<SimpleField name="fen" type="float"></SimpleField>
+	<SimpleField name="plz" type="float"></SimpleField>
+	<SimpleField name="dpa_despro" type="string"></SimpleField>
+	<SimpleField name="dpa_descan" type="string"></SimpleField>
+	<SimpleField name="dpa_despar" type="string"></SimpleField>
+	<SimpleField name="tmm" type="string"></SimpleField>
+	<SimpleField name="eac" type="string"></SimpleField>
+	<SimpleField name="ach" type="float"></SimpleField>
+	<SimpleField name="tipo_mineral" type="string"></SimpleField>
+	<SimpleField name="rgm" type="string"></SimpleField>
+</Schema>
+<Folder><name>tempus</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tempus">
+		<SimpleData name="objectid">3405</SimpleData>
+		<SimpleData name="nam">500055.1</SimpleData>
+		<SimpleData name="com">RIO ZARZA</SimpleData>
+		<SimpleData name="ttm">CONDOR GOLD S.A.</SimpleData>
+		<SimpleData name="frm">EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1274850000000</SimpleData>
+		<SimpleData name="plz">120</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YANTZAZA</SimpleData>
+		<SimpleData name="dpa_despar">LOS ENCUENTROS</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">633</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.4997733334163,-3.77810834609554 -78.5465614792007,-3.7782423107559 -78.5465741739571,-3.77372302508492 -78.5420752645821,-3.77371026888251 -78.5420879672293,-3.76919099801761 -78.524092576088,-3.76913980164042 -78.5241079102054,-3.76371674979189 -78.5124111106078,-3.76368332067694 -78.5124034102114,-3.76639482254313 -78.5043056622798,-3.76637157045932 -78.5043082380357,-3.76546774211977 -78.5034084923018,-3.76546515452478 -78.5034136437976,-3.76365749902976 -78.5016141579023,-3.76365232354133 -78.5016193106087,-3.76184467045687 -78.5007195704467,-3.76184208256479 -78.5007221467902,-3.76093825661528 -78.4998224081769,-3.76093566841746 -78.4997733334163,-3.77810834609554</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tempus">
+		<SimpleData name="objectid">3418</SimpleData>
+		<SimpleData name="nam">500228.1</SimpleData>
+		<SimpleData name="com">VALLE DEL INCA 1</SimpleData>
+		<SimpleData name="ttm">CONDOR GOLD S.A.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1008046800000</SimpleData>
+		<SimpleData name="plz">240</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">YANTZAZA</SimpleData>
+		<SimpleData name="dpa_despar">LOS ENCUENTROS</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">367</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.5511110215907,-3.7601778520152 -78.525917630102,-3.76010650553386 -78.5259074271132,-3.76372187878312 -78.5241079102054,-3.76371674979189 -78.524092576088,-3.76913980164042 -78.5420879672293,-3.76919099801761 -78.5420752645821,-3.77371026888251 -78.5465741739571,-3.77372302508492 -78.5465614792007,-3.7782423107559 -78.5510604271004,-3.77825505893623 -78.5511110215907,-3.7601778520152</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#tempus">
+		<SimpleData name="objectid">3420</SimpleData>
+		<SimpleData name="nam">500305</SimpleData>
+		<SimpleData name="com">VALLE DEL TIGRE II</SimpleData>
+		<SimpleData name="ttm">MININGSOURCES S.A</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1274850000000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">ZAMORA CHINCHIPE</SimpleData>
+		<SimpleData name="dpa_descan">EL PANGUI</SimpleData>
+		<SimpleData name="dpa_despar">PACHICUTZA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA COBRE</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2195</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-78.5063845576682,-3.6669553678413 -78.5063770374834,-3.66966686315862 -78.5018787933853,-3.66965425524562 -78.5016758258419,-3.74196048112251 -78.5376651289082,-3.74206269000096 -78.5376903502322,-3.7330241713081 -78.5331916792748,-3.73301150684868 -78.5332168850316,-3.7239730168724 -78.5287182753105,-3.72396036015579 -78.5287685936079,-3.70588343573412 -78.5197716031614,-3.70585817683391 -78.5198793425294,-3.66699302766373 -78.5063845576682,-3.6669553678413</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
