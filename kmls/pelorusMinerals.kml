@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="pelorusMinerals" id="pelorusMinerals">
+	<SimpleField name="objectid" type="string"></SimpleField>
+	<SimpleField name="nam" type="string"></SimpleField>
+	<SimpleField name="com" type="string"></SimpleField>
+	<SimpleField name="ttm" type="string"></SimpleField>
+	<SimpleField name="frm" type="string"></SimpleField>
+	<SimpleField name="sol" type="string"></SimpleField>
+	<SimpleField name="fen" type="float"></SimpleField>
+	<SimpleField name="plz" type="float"></SimpleField>
+	<SimpleField name="dpa_despro" type="string"></SimpleField>
+	<SimpleField name="dpa_descan" type="string"></SimpleField>
+	<SimpleField name="dpa_despar" type="string"></SimpleField>
+	<SimpleField name="tmm" type="string"></SimpleField>
+	<SimpleField name="eac" type="string"></SimpleField>
+	<SimpleField name="ach" type="float"></SimpleField>
+	<SimpleField name="tipo_mineral" type="string"></SimpleField>
+	<SimpleField name="rgm" type="string"></SimpleField>
+</Schema>
+<Folder><name>pelorusMinerals</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1848</SimpleData>
+		<SimpleData name="nam">300350</SimpleData>
+		<SimpleData name="com">BETHZABETH</SimpleData>
+		<SimpleData name="ttm">HARTOG S.A.S.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">997938000000</SimpleData>
+		<SimpleData name="plz">255</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">ATAHUALPA</SimpleData>
+		<SimpleData name="dpa_despar">SAN JOSE</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1280</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6584410484157,-3.61788121632549 -79.6854474631835,-3.61792091029438 -79.6854993429234,-3.58174267553974 -79.6584939932115,-3.58170337949942 -79.6585018887398,-3.5762767014344 -79.6540010527144,-3.57627008452651 -79.653979900518,-3.5907411977217 -79.6584808072216,-3.59074784147171 -79.6584410484157,-3.61788121632549</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1845</SimpleData>
+		<SimpleData name="nam">300321</SimpleData>
+		<SimpleData name="com">LA CALERA</SimpleData>
+		<SimpleData name="ttm">LONE PINE S.A.S.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1001912400000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">ZARUMA</SimpleData>
+		<SimpleData name="dpa_despar">MALVAS</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">890</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6214445848016,-3.67570924940411 -79.6214083570136,-3.69922443418061 -79.6403142308087,-3.69925372240962 -79.6403280007823,-3.69020935028911 -79.6583335518446,-3.69023680066091 -79.6583471061129,-3.68119235919085 -79.6673498411052,-3.68120591385889 -79.6673565603225,-3.67668367572053 -79.6349470349223,-3.67663451276322 -79.6349484104011,-3.6757300772048 -79.6214445848016,-3.67570924940411</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1870</SimpleData>
+		<SimpleData name="nam">300558</SimpleData>
+		<SimpleData name="com">LOS LAURELES 2</SimpleData>
+		<SimpleData name="ttm">LONE PINE S.A.S.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1003899600000</SimpleData>
+		<SimpleData name="plz">257</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">ATAHUALPA</SimpleData>
+		<SimpleData name="dpa_despar">AYAPAMBA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">100</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6494389768136,-3.61786780575807 -79.6494349575927,-3.62058113224408 -79.6539360025802,-3.62058785378044 -79.6539373381947,-3.61968340995362 -79.6674405100402,-3.61970343501392 -79.6674391878144,-3.62060788385718 -79.6809424478668,-3.62062771213105 -79.6809437567036,-3.6197232583219 -79.68544485542,-3.61972982125642 -79.6854474631835,-3.61792091029438 -79.6494389768136,-3.61786780575807</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1821</SimpleData>
+		<SimpleData name="nam">300101</SimpleData>
+		<SimpleData name="com">LA DURA</SimpleData>
+		<SimpleData name="ttm">LONE PINE S.A.S.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">994395600000</SimpleData>
+		<SimpleData name="plz">258</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">ZARUMA</SimpleData>
+		<SimpleData name="dpa_despar">ARCAPAMBA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">129.55</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.5998933749484,-3.64040302246776 -79.5998895038449,-3.64290827365179 -79.5995474235159,-3.64290773986364 -79.5995362256481,-3.65014312047499 -79.6094386504412,-3.65015855019599 -79.6094497691933,-3.6429231389202 -79.6133927149044,-3.64292924015129 -79.6133965487028,-3.64042397451112 -79.5998933749484,-3.64040302246776</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1841</SimpleData>
+		<SimpleData name="nam">300274</SimpleData>
+		<SimpleData name="com">SAICHUMA I</SimpleData>
+		<SimpleData name="ttm">LONE PINE S.A.S.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1001394000000</SimpleData>
+		<SimpleData name="plz">256</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PIÑAS</SimpleData>
+		<SimpleData name="dpa_despar">PIÑAS</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">466</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6800330508883,-3.62695757036266 -79.6799736683572,-3.6676579518042 -79.694377969733,-3.66767916662172 -79.694384528428,-3.66315687766117 -79.6889829327022,-3.66314895916452 -79.6890144307271,-3.64144201268354 -79.6872139446624,-3.64143938164945 -79.6872231086465,-3.63510819148633 -79.6890235821515,-3.63511081793415 -79.6890353247129,-3.62697070905935 -79.6800330508883,-3.62695757036266</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1851</SimpleData>
+		<SimpleData name="nam">300391</SimpleData>
+		<SimpleData name="com">EL RETAZO 3</SimpleData>
+		<SimpleData name="ttm">LONE PINE S.A.S.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1001912400000</SimpleData>
+		<SimpleData name="plz">256</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">ZARUMA</SimpleData>
+		<SimpleData name="dpa_despar">ARCAPAMBA</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">32.25</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6202330547563,-3.65560184041862 -79.6214753751075,-3.65560375630231 -79.6214957387161,-3.64224531063566 -79.6160944303883,-3.64223699872061 -79.6160971928207,-3.64042814057293 -79.6133965487028,-3.64042397451112 -79.6133927149044,-3.64292924015129 -79.6202523759923,-3.64293981336562 -79.6202330547563,-3.65560184041862</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">3529</SimpleData>
+		<SimpleData name="nam">5012</SimpleData>
+		<SimpleData name="com">EL SALVADOR X 3</SimpleData>
+		<SimpleData name="ttm">LONE PINE S.A.S.</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1003899600000</SimpleData>
+		<SimpleData name="plz">257</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">ATAHUALPA</SimpleData>
+		<SimpleData name="dpa_despar">MILAGRO</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">15</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6539360025802,-3.62058785378044 -79.6674391878144,-3.62060788385718 -79.6674405100402,-3.61970343501392 -79.6539373381947,-3.61968340995362 -79.6539360025802,-3.62058785378044</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">2055</SimpleData>
+		<SimpleData name="nam">389</SimpleData>
+		<SimpleData name="com">MINANCA</SimpleData>
+		<SimpleData name="ttm">ROUND HOUSE MINING INC</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1273467600000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">41.67</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6098578429529,-3.6992063415987 -79.6098537114744,-3.70185630823821 -79.6069998435369,-3.70185181150839 -79.6069966906503,-3.70386867775007 -79.6067086025777,-3.7038682230612 -79.6067071878733,-3.70477264724278 -79.608507740738,-3.70477548820221 -79.6085023120602,-3.70824847955297 -79.611131131985,-3.70825262465413 -79.6111297200965,-3.70915705045267 -79.6123901155402,-3.70915903553747 -79.6124043467651,-3.70002432919585 -79.6120892510696,-3.70002383431853 -79.6120905177714,-3.69920985060016 -79.6098578429529,-3.6992063415987</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1859</SimpleData>
+		<SimpleData name="nam">300445</SimpleData>
+		<SimpleData name="com">ANA MICHELLE</SimpleData>
+		<SimpleData name="ttm">ROUND HOUSE MINING INC</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1007182800000</SimpleData>
+		<SimpleData name="plz">258</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">20</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6123929364102,-3.70735018295067 -79.6168943451032,-3.70735725437873 -79.6168999644125,-3.7037395420578 -79.6123985739937,-3.70373247754868 -79.6123929364102,-3.70735018295067</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">437</SimpleData>
+		<SimpleData name="nam">152</SimpleData>
+		<SimpleData name="com">NUEVA ESPERANZA</SimpleData>
+		<SimpleData name="ttm">ROUND HOUSE MINING INC</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1278651600000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">5</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6120892510696,-3.70002383431853 -79.6147900726929,-3.7000280724809 -79.6147914773853,-3.69912364508747 -79.613891204077,-3.69912223362925 -79.6138926093356,-3.69821780656285 -79.6120920655813,-3.69821498159016 -79.6120892510696,-3.70002383431853</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1809</SimpleData>
+		<SimpleData name="nam">297</SimpleData>
+		<SimpleData name="com">BARBASCO UNIFICADO</SimpleData>
+		<SimpleData name="ttm">ROUND HOUSE MINING INC</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1273467600000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">10</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6058026630211,-3.70748449677292 -79.6085035000211,-3.70748876271898 -79.608507740738,-3.70477548820221 -79.6067071878733,-3.70477264724278 -79.6067086025777,-3.7038682230612 -79.6058083275803,-3.70386680155296 -79.6058026630211,-3.70748449677292</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1818</SimpleData>
+		<SimpleData name="nam">300085</SimpleData>
+		<SimpleData name="com">NUEVA ESPERANZA 2</SimpleData>
+		<SimpleData name="ttm">ROUND HOUSE MINING INC</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">994741200000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">42</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6169139885183,-3.6946952599251 -79.6168943451032,-3.70735725437873 -79.6123929364102,-3.70735018295067 -79.6123901155402,-3.70915903553747 -79.6186921029301,-3.70916893394829 -79.6187145288614,-3.69469807240333 -79.6169139885183,-3.6946952599251</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">2921</SimpleData>
+		<SimpleData name="nam">447</SimpleData>
+		<SimpleData name="com">BARBASCO 1A</SimpleData>
+		<SimpleData name="ttm">ROUND HOUSE MINING INC</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1273467600000</SimpleData>
+		<SimpleData name="plz">253</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">77.24</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6015995297875,-3.70100216241739 -79.6015900172334,-3.70706179120843 -79.6033905707844,-3.70706464436587 -79.6033887256267,-3.70824039404414 -79.6085023120602,-3.70824847955297 -79.6085035000211,-3.70748876271898 -79.6058026630211,-3.70748449677292 -79.6058083275803,-3.70386680155296 -79.6069966906503,-3.70386867775007 -79.6069998435369,-3.70185181150839 -79.6051992977396,-3.70184896971404 -79.60520212762,-3.70004012237868 -79.6043018570685,-3.70003870080285 -79.6043095381211,-3.69512768179597 -79.6034092728687,-3.6951262611967 -79.6034106872181,-3.69422183809444 -79.5998096333406,-3.69421614794106 -79.5997989898711,-3.70099931026919 -79.6015995297875,-3.70100216241739</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">107460</SimpleData>
+		<SimpleData name="nam">300630</SimpleData>
+		<SimpleData name="com">LA ENVIDIA</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1001998800000</SimpleData>
+		<SimpleData name="plz">256</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">SALATI</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1346</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.60427480005,-3.7172860504026 -79.6042605611438,-3.72633027919717 -79.5862546912635,-3.7263014512659 -79.5862170277211,-3.74981625474626 -79.6249308506997,-3.74987816764959 -79.6249815115231,-3.71731866649665 -79.60427480005,-3.7172860504026</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1832</SimpleData>
+		<SimpleData name="nam">300195</SimpleData>
+		<SimpleData name="com">NUEVA ESPERANZA 6</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">994654800000</SimpleData>
+		<SimpleData name="plz">254</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">77.8</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.600240598528,-3.70642655379136 -79.6002306354066,-3.71275750475648 -79.6006807762832,-3.71275822017978 -79.6006736515753,-3.71728032831363 -79.6088662724384,-3.71729332469843 -79.6088691066913,-3.715484475161 -79.6087790779173,-3.71548433282743 -79.608783326967,-3.71277105848241 -79.6074328998951,-3.71276892393861 -79.6074385659227,-3.70915122663047 -79.6083388468903,-3.70915264849906 -79.6083402616137,-3.70824822377676 -79.6033887256267,-3.70824039404414 -79.6033905707844,-3.70706464436587 -79.6015900172334,-3.70706179120843 -79.6015910118154,-3.70642869570307 -79.600240598528,-3.70642655379136</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1820</SimpleData>
+		<SimpleData name="nam">300089</SimpleData>
+		<SimpleData name="com">NUEVA ESPERANZA3</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">994654800000</SimpleData>
+		<SimpleData name="plz">254</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">30</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6150881484383,-3.71097213781411 -79.6150811004718,-3.71549427394975 -79.6123802315839,-3.71549001899106 -79.6123774044788,-3.71729887123474 -79.6168788635183,-3.71730596169015 -79.616891533377,-3.70916611042501 -79.6123901155402,-3.70915903553747 -79.6123872932846,-3.71096788804808 -79.6150881484383,-3.71097213781411</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1867</SimpleData>
+		<SimpleData name="nam">300523</SimpleData>
+		<SimpleData name="com">SUCA 4</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1004418000000</SimpleData>
+		<SimpleData name="plz">257</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">1</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6083388468903,-3.70915264849906 -79.6092391282053,-3.70915406944884 -79.6092405420142,-3.70824964437913 -79.6083402616137,-3.70824822377676 -79.6083388468903,-3.70915264849906</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1862</SimpleData>
+		<SimpleData name="nam">300477</SimpleData>
+		<SimpleData name="com">IAM ZARUMA</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">994654800000</SimpleData>
+		<SimpleData name="plz">254</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2.5</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6002235084087,-3.71727961201659 -79.6006736515753,-3.71728032831363 -79.6006807762832,-3.71275822017978 -79.6002306354066,-3.71275750475648 -79.6002235084087,-3.71727961201659</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">2051</SimpleData>
+		<SimpleData name="nam">385</SimpleData>
+		<SimpleData name="com">SAN JOSE 2</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">994654800000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">5</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6097708103118,-3.71458147284582 -79.6097693946223,-3.71548589799044 -79.6088691066913,-3.715484475161 -79.6088662724384,-3.71729332469843 -79.6106668523129,-3.7172961708256 -79.6106710976738,-3.71458289440783 -79.6097708103118,-3.71458147284582</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1866</SimpleData>
+		<SimpleData name="nam">300519</SimpleData>
+		<SimpleData name="com">SUCA</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1003726800000</SimpleData>
+		<SimpleData name="plz">257</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3.8</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6106668523129,-3.7172961708256 -79.6123774044788,-3.71729887123474 -79.6123802315839,-3.71549001899106 -79.6106696829004,-3.7154873198995 -79.6106668523129,-3.7172961708256</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1872</SimpleData>
+		<SimpleData name="nam">300579</SimpleData>
+		<SimpleData name="com">RESUC 4</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1272430800000</SimpleData>
+		<SimpleData name="plz">257</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">3.5</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.609236299546,-3.71096291953112 -79.6123872932846,-3.71096788804808 -79.6123887045856,-3.7100634618023 -79.6092377140492,-3.7100584944995 -79.609236299546,-3.71096291953112</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1952</SimpleData>
+		<SimpleData name="nam">300861</SimpleData>
+		<SimpleData name="com">EL TABLON</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION INICIAL</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1030942800000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">42</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">REGIMEN GENERAL</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.5889555627897,-3.72630579899318 -79.5952576086694,-3.72631591138388 -79.5952662112844,-3.72088939531654 -79.5889642039672,-3.72087929769205 -79.5889555627897,-3.72630579899318</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1953</SimpleData>
+		<SimpleData name="nam">300862</SimpleData>
+		<SimpleData name="com">EL TABLON 1</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1035262800000</SimpleData>
+		<SimpleData name="plz">271</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">8</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6002178005205,-3.72089729748098 -79.6020183810473,-3.72090016408251 -79.6020240815991,-3.71728247582352 -79.6002235084087,-3.71727961201659 -79.6002178005205,-3.72089729748098</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1834</SimpleData>
+		<SimpleData name="nam">300210</SimpleData>
+		<SimpleData name="com">SAN ANTONIO DE PADUA</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">994741200000</SimpleData>
+		<SimpleData name="plz">254</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">67</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6195797430871,-3.7173102049133 -79.6249815115231,-3.71731866649665 -79.6249927090675,-3.7100832184307 -79.616890126996,-3.71007053841959 -79.616883089912,-3.7145926781067 -79.6177833800077,-3.71459409239941 -79.6177805645896,-3.71640294883136 -79.6195811494807,-3.71640577603606 -79.6195797430871,-3.7173102049133</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1868</SimpleData>
+		<SimpleData name="nam">300537</SimpleData>
+		<SimpleData name="com">MARA 8</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1003726800000</SimpleData>
+		<SimpleData name="plz">260</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">5</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6168788635183,-3.71730596169015 -79.6195797430871,-3.7173102049133 -79.6195811494807,-3.71640577603606 -79.6177805645896,-3.71640294883136 -79.6177833800077,-3.71459409239941 -79.616883089912,-3.7145926781067 -79.6168788635183,-3.71730596169015</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#pelorusMinerals">
+		<SimpleData name="objectid">1873</SimpleData>
+		<SimpleData name="nam">300580</SimpleData>
+		<SimpleData name="com">RUTH</SimpleData>
+		<SimpleData name="ttm">THIRD RIDGE CORP</SimpleData>
+		<SimpleData name="frm">EXPLORACION-EXPLOTACION</SimpleData>
+		<SimpleData name="sol">CONCESION MINERA</SimpleData>
+		<SimpleData name="fen">1272344400000</SimpleData>
+		<SimpleData name="plz">360</SimpleData>
+		<SimpleData name="dpa_despro">EL ORO</SimpleData>
+		<SimpleData name="dpa_descan">PORTOVELO</SimpleData>
+		<SimpleData name="dpa_despar">PORTOVELO   CANTON</SimpleData>
+		<SimpleData name="tmm">ORO PLATA</SimpleData>
+		<SimpleData name="eac">INSCRITA</SimpleData>
+		<SimpleData name="ach">2</SimpleData>
+		<SimpleData name="tipo_mineral">METALICO</SimpleData>
+		<SimpleData name="rgm">PEQUEÑA MINERIA</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-79.6064807133252,-3.72288794532313 -79.608281302722,-3.72289080061759 -79.6082827227593,-3.72198637619904 -79.6064821351983,-3.72198352160011 -79.6064807133252,-3.72288794532313</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>

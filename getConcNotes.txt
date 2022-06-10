@@ -1214,8 +1214,24 @@ pelorusCom = pd.Series(["MACHAY ","BETHZABETH ","SAICHUMA I ","EL SALVADOR X 3 "
 "NUEVA ESPERANZA3 ","SUCA 4 ","SUCA ","SAN ANTONIO DE PADUA ","NUEVA ESPERANZA 6 ","LA ENVIDIA", 
 "EL TABLON ","MARA 8 ","SAN JOSE 2 ","EL TABLON 1 ","RESUC 4 ","RUTH ","IAM ZARUMA"]).str.strip()
 
+aa[~aa['com'].isin(pelorusCom)] ## all Round house concessions: 
+
+"MINANCA"
+"BARBASCO UNIFICADO"
+"BARBASCO 1A"
+
+
+draftConcessions[draftConcessions['com'].str.contains("BARBASCO").astype('bool')][["com","nam", "ttm","ach"]]
+## interesting, there is a BARBASCO 1 and a BARBASCO 1A. 
+## most of the Barbasco's belong to the Helles mining corporation,
+## which is a subsidiary of Titan Minerals, above. 
+## but these two belong to Round house, subsidiary of Pelorus
+## both are very small
+
+pelorusCom[~pelorusCom.isin(aa['com'])] 
+
 pelorusCom[~pelorusCom.isin(aa['com'])] ## and they find two concessions not in my list. 
-## weird and weird. these are:
+## weird and weird. these are: "MACHAY" and "EL SOROCHE UNIFICADO".
 
 draftConcessions['ttm']
 
@@ -1225,11 +1241,48 @@ machay = draftConcessions[draftConcessions['com'].str.contains("MACHAY").astype(
 
 machay[["com","nam", "ttm","ach"]] ## owner of this is now SOCIEDAD CIVIL MINERA GOLDMINS
 
-"MACHAY" in draftConcessions['com'] 
+soroche = draftConcessions[draftConcessions['com'].str.contains("EL SOROCHE UNIFICADO").astype('bool')]
 
-"EL SOROCHE UNIFICADO"
+## anyway, I can only report what these latest data say, so make the kml 
+## with the three additional concessions I found, minus the two whose 
+## ownership seems to have shifted away from the Pelorus group 
 
 with fiona.Env():
-    aa.to_file(('kmls/titanMinerals.kml'), driver='KML') 
+    aa.to_file(('kmls/pelorusMinerals.kml'), driver='KML') 
+
+#### NEWCREST + LUNDIN GOLD ####
+
+concs = [ "AURELIAN ECUADOR S.A.","AURELIANMENOR S.A." ]
+
+aa = gpd.GeoDataFrame(columns=draftConcessions.columns.to_list(), geometry='geometry')
+aa.crs = "EPSG:32717"
+for subsid in concs:
+    print(subsid)
+    subsidFilter = draftConcessions['ttm'].str.contains(subsid).astype('bool')
+    df = draftConcessions[subsidFilter]
+    df.sort_values(by='com')
+    df.shape  
+    aa = pd.concat([aa, df])
+
+## I get two more than they do for this.
+## their concession names:
+
+newLunCom = pd.Series(["CONDESA","LA ZARZA","PRINCESA I","VALLE DEL INCA 2","RIO ZARZA 2","GUACAMAYO","SOBERANO",
+"MARQUESA","BARON","REINA","CACIQUE","SOBERANA","LAS ORQUIDEAS","REY","EMPERADOR","CACIQUE 1",
+"BARONESA","SOBERANO 3","PRINCIPE","MARQUES","VIZCONDE","VIZCONDE 1"])
+
+aa[~aa['com'].isin(newLunCom)] ## 3 concessions, small, all construction materials, all owned by Aurelian. Maybe too small, this is why they were left out?
+
+## any they found that I didn't? 
+
+newLunCom[~newLunCom.isin(aa['com'])] ## just one SOBERANO 3
 
 
+soberano = draftConcessions[draftConcessions['com'].str.contains("SOBERANO 3").astype('bool')]
+
+soberano[["com","nam", "ttm","ach"]] ## owner of this is now URENA QUEZADA CELSO AMABLE, nam=50001172
+
+## so we gained 3, lost 1, so I come out 2 ahead on this from their results:
+
+with fiona.Env():
+    aa.to_file(('kmls/NewCrestLundin.kml'), driver='KML') 
