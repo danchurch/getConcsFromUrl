@@ -3,6 +3,10 @@ git remote set-url origin git@github.com:danchurch/getConcsFromUrl.git
 ## Roo's Brother Marshall has found the url for the concession layer, probably.
 ## let's confirm.
 
+## the interactive gui is here:
+https://gis-sigde.maps.arcgis.com/apps/webappviewer/index.html?id=8b53f9388c034b5e8e3147f03583d7ec&fbclid=IwAR2XobS46Szpz4A7IGroPuLCZh5GSJC
+
+## the arcgis server RESTful access starts here
 https://geovisorm.controlrecursosyenergia.gob.ec/arcgis/rest/services/Concesiones/CatastroMineroNacional_PSAD56/MapServer/0
 
 ## the fear is that he has an old layer, leftover from the days when they were using the old 
@@ -960,6 +964,7 @@ aa['ttm']
 
 aa[['nam','ttm','com','tipo_mineral']]
 
+aa[['nam','ttm','com','tipo_mineral','ach']]
 
 ## huh, now we have the opposite problem. This is too big. 
 ## would some of these problems go away if we cleaned up the white space?
@@ -1040,7 +1045,7 @@ df.sort_values(by='com') ## concession names look right
 df.shape  ## nine concessions, right
 
 
-
-
-
 ## https://stackoverflow.com/questions/36222857/convert-geodataframe-polygons-to-kml-file
+
+
+
