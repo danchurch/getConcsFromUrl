@@ -1330,4 +1330,23 @@ df.shape
 with fiona.Env():
     df.to_file(('kmls/BHPLuminex.kml'), driver='KML') 
 
+###############################################
+
+## should be it. My notes:
+
+## 1 
+## occasionally one finds the same name repeated in concessions, 
+## with different owners.
+## at least in some cases they seem to be associated, in the same complex of 
+## concessions of a large project. 
+## for example: 
+## "PALMA REAL 4", is the name of concesions 40000431 and 40000171. 
+## 40000431 belongs to "CERRO QUEBRADO S.A"
+## 40000171 belongs to "PROYECTMIN S.A."
+## they are very close to each other, in the same cluster of concessions.
+
+## 2
+## PALMA REAL 1, 2, and 4 are duplicated in the RIC spreadsheet
+
+## 3
 
